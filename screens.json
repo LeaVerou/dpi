@@ -133,6 +133,13 @@
 		"ppi": 300
 	},
 	{
+		"name": "HTC Desire Z / T-Mobile G2",
+		"w": 480,
+		"h": 800,
+		"d": 3.7,
+		"ppi": 252
+	},
+		{
 		"name": "HTC One X",
 		"w": 720,
 		"h": 1280,
