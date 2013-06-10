@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<title>DPI.lv ♥ Easily find the DPI/PPI of any screen</title>
+<link rel="stylesheet" href="style.css" />
+<script src="prefixfree.min.js"></script>
+
+</head>
+<body>
+
+<header>
+	<h1>
+		<img src="img/logo.svg" />
+		<strong>dpi</strong>love	
+	</h1>
+</header>
+
+<fieldset>
+	Resolution:
+	<input id="width" pattern="\d+" />
+	×
+	<input id="height" pattern="\d+" />
+	
+	<p id="resolutions">Common: 
+		<a href="#" tabindex="-1">1920×1080</a>
+		<a href="#" tabindex="-1">1680×1050</a>
+		<a href="#" tabindex="-1">1440×900</a>
+		<a href="#" tabindex="-1">1366×768</a>
+		<a href="#" tabindex="-1">1280×800</a>
+		<a href="#" tabindex="-1">1386×768</a>
+		<a href="#" tabindex="-1">1024×768</a>
+		<a href="#" tabindex="-1">800×600</a>
+	</p>
+</fieldset>
+
+<fieldset>
+	<select id="dimension" title="Physical dimension (in inches)">
+		<option selected value="d">Diagonal</option>
+		<option value="w">Width</option>
+		<option value="h">Height</option>
+	</select>:
+	<input id="physical" value="13.3" pattern="\d*\.?\d+" />″
+	
+	<p id="diagonals">Common diagonals:
+		<a href="#" tabindex="-1">7″</a>
+		<a href="#" tabindex="-1">11.6″</a>
+		<a href="#" tabindex="-1">13.3″</a>
+		<a href="#" tabindex="-1">14″</a>
+		<a href="#" tabindex="-1">15.6″</a>
+		<a href="#" tabindex="-1">17.3″</a>
+		<a href="#" tabindex="-1">21″</a>
+		<a href="#" tabindex="-1">27″</a>
+	</p>
+</fieldset>
+
+<output>
+	<div>
+		<strong id="result"></strong>
+		pixels per inch
+	</div>
+</output>
+
+<section id="devices">
+	<h1>Known screens</h1>
+	
+	<input type="search" placeholder="Search…" id="search" />
+	
+	<div id="screens">
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Diagonal</th>
+					<th>Resolution</th>
+					<th>DPI</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="4">Loading…</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</section>
+
+<footer>Handmade by <a href="http://lea.verou.me">Lea Verou</a> with love</footer>
+
+<script src="utopia.js"></script>
+<script src="dpi.js"></script>
+
+<!-- AdPacks.com Ad Code -->
+<script src="http://s3.buysellads.com/ac/bsa.js" async></script>
+<!-- End AdPacks.com Ad Code -->
+<!-- AdPacks.com Zone Code -->
+<div id="bsap_1261373" class="bsarocks bsap_67e1f7efa5300630944c625f7975b9b3"></div>
+<a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a>
+<!-- End AdPacks.com Zone Code -->
+
+<a href="http://github.com/LeaVerou/dpilove"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="LeaVerou" data-count="vertical">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<script>var _gaq = [['_setAccount', 'UA-25106441-4'],['_trackPageview']];</script>
+<script src="http://www.google-analytics.com/ga.js" async></script>
+
+</body>
+</html>

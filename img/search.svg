@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<g opacity=".15">
+		<circle cx="45" cy="45" r="30" stroke="black" stroke-width="15" fill="none" />
+		<rect x="90" y="-5" width="40" height="15" fill="black" transform="rotate(45)" />
+	</g>
+</svg>
