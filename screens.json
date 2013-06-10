@@ -3,147 +3,126 @@
 		"name": "Apple iPhone 5",
 		"w": 640,
 		"h": 1136,
-		"d": 4,
-		"ppi": 326
+		"d": 4
 	},
 	{
 		"name": "Apple iPhone 4(S)",
 		"w": 960,
 		"h": 640,
-		"d": 3.5,
-		"ppi": 326
+		"d": 3.5
 	},
 	{
 		"name": "Apple iPhone 1 & 3G(S)",
 		"w": 320,
 		"h": 480,
-		"d": 3.5,
-		"ppi": 163
+		"d": 3.5
 	},
 	{
 		"name": "Apple iPad Mini",
 		"w": 1024,
 		"h": 768,
-		"d": 7.9,
-		"ppi": 163
+		"d": 7.9
 	},
 	{
 		"name": "Apple iPad 2",
 		"w": 1024,
 		"h": 768,
-		"d": 9.7,
-		"ppi": 132
+		"d": 9.7
 	},
 	{
 		"name": "Apple iPad Retina",
 		"w": 2048,
 		"h": 1536,
-		"d": 9.7,
-		"ppi": 264
+		"d": 9.7
 	},
 	{
 		"name": "Apple MacBook Air",
 		"w": 1366,
 		"h": 768,
-		"d": 11.6,
-		"ppi": 135
+		"d": 11.6
 	},
 	{
 		"name": "Apple MacBook Air",
 		"w": 1440,
 		"h": 900,
-		"d": 13.3,
-		"ppi": 128
+		"d": 13.3
 	},
 	{
 		"name": "Apple MacBook Pro Retina",
 		"w": 2560,
 		"h": 1600,
-		"d": 13.3,
-		"ppi": 227
+		"d": 13.3
 	},
 	{
 		"name": "Apple MacBook Pro Retina",
 		"w": 2880,
 		"h": 1800,
-		"d": 15.4,
-		"ppi": 220
+		"d": 15.4
 	},
 	{
 		"name": "Apple MacBook Pro",
 		"w": 1280,
 		"h": 800,
-		"d": 13.3,
-		"ppi": 113
+		"d": 13.3
 	},
 	{
 		"name": "Apple MacBook Pro",
 		"w": 1440,
 		"h": 900,
-		"d": 15.4,
-		"ppi": 110
+		"d": 15.4
 	},
 	{
 		"name": "Apple iMac",
 		"w": 1920,
 		"h": 1080,
-		"d": 21.5,
-		"ppi": 102
+		"d": 21.5
 	},
 	{
 		"name": "Apple iMac",
 		"w": 2560,
 		"h": 1440,
-		"d": 27,
-		"ppi": 109
+		"d": 27
 	},
 	{
 		"name": "Apple Thunderbolt Display",
 		"w": 2560,
 		"h": 1440,
-		"d": 27,
-		"ppi": 109
+		"d": 27
 	},
 	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
-		"d": 12.85,
-		"ppi": 239
+		"d": 12.85
 	},
 	{
 		"name": "Google Nexus 4",
 		"w": 1280,
 		"h": 768,
-		"d": 4.7,
-		"ppi": 318
+		"d": 4.7
 	},
 	{
 		"name": "Google Nexus 7",
 		"w": 1280,
 		"h": 800,
-		"d": 7,
-		"ppi": 216
+		"d": 7
 	},
 	{
 		"name": "Google Nexus 10",
 		"w": 2560,
 		"h": 1600,
-		"d": 10.055,
-		"ppi": 300
+		"d": 10.055
 	},
 	{
 		"name": "Microsoft Surface RT",
 		"w": 1366,
 		"h": 768,
-		"d": 10.6,
-		"ppi": 148
+		"d": 10.6
 	},
 	{
 		"name": "Microsoft Surface Pro",
 		"w": 1920,
 		"h": 1080,
-		"d": 10.6,
-		"ppi": 208
+		"d": 10.6
 	}
 ]
