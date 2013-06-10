@@ -133,6 +133,13 @@
 		"ppi": 300
 	},
 	{
+		"name": "HTC One X",
+		"w": 720,
+		"h": 1280,
+		"d": 4.7,
+		"ppi": 312
+	},
+	{
 		"name": "Microsoft Surface RT",
 		"w": 1366,
 		"h": 768,
