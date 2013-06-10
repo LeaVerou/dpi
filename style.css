@@ -255,8 +255,30 @@ footer {
 	position: fixed;
 	right: 20px;
 	bottom: 20px;
+	max-width: 300px;
+	text-align: left;
 }
 
 	.ad #bsap_aplink {
+		display: block;
 		font-size: 50%;
+		text-align: center;
 	}
+	
+@media (max-width: 1400px) {
+	.ad {
+		max-width: 170px;
+	}
+	
+	.ad .one .bsa_it_ad .bsa_it_i {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1132px) {
+	.ad {
+		display: none;
+	}
+}
