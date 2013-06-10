@@ -112,6 +112,34 @@
 		"ppi": 239
 	},
 	{
+		"name": "Google Nexus 4",
+		"w": 1280,
+		"h": 768,
+		"d": 4.7,
+		"ppi": 318
+	},
+	{
+		"name": "Google Nexus 7",
+		"w": 1280,
+		"h": 800,
+		"d": 7,
+		"ppi": 216
+	},
+	{
+		"name": "Google Nexus 10",
+		"w": 2560,
+		"h": 1600,
+		"d": 10.055,
+		"ppi": 300
+	},
+	{
+		"name": "HTC One X",
+		"w": 720,
+		"h": 1280,
+		"d": 4.7,
+		"ppi": 312
+	},
+	{
 		"name": "Microsoft Surface RT",
 		"w": 1366,
 		"h": 768,
@@ -124,5 +152,12 @@
 		"h": 1080,
 		"d": 10.6,
 		"ppi": 208
+	},
+	{
+		"name": "Samsung Galaxy S4",
+		"w": 1920,
+		"h": 1080,
+		"d": 5,
+		"ppi": 441
 	}
 ]
