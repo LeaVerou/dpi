@@ -257,8 +257,13 @@ fieldset + fieldset {
 		hyphens: auto;
 	}
 
-footer {
+body > footer {
+	padding-top: 1em;
+	border-top: 1px solid #eee;
 	margin-top: 2em;
+}
+
+footer {
 	font-size: 60%;
 }
 
