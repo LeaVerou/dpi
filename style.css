@@ -110,6 +110,10 @@ select {
 	border: 0;
 }
 
+strong {
+	font-weight:700;
+}
+
 output {
 	display: box; display: flexbox; display: flex;
 	box-align: center; flex-align: center; justify-content: center;
