@@ -112,6 +112,27 @@
 		"ppi": 239
 	},
 	{
+		"name": "Google Nexus 4",
+		"w": 1280,
+		"h": 768,
+		"d": 4.7,
+		"ppi": 318
+	},
+	{
+		"name": "Google Nexus 7",
+		"w": 1280,
+		"h": 800,
+		"d": 7,
+		"ppi": 216
+	},
+	{
+		"name": "Google Nexus 10",
+		"w": 2560,
+		"h": 1600,
+		"d": 10.055,
+		"ppi": 300
+	},
+	{
 		"name": "Microsoft Surface RT",
 		"w": 1366,
 		"h": 768,
