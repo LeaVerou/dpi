@@ -24,7 +24,7 @@ body {
 	padding: 1em 0;
 	margin: auto;
 	text-align: center;
-	font: 150% 'Open Sans', 'Myriad Pro', 'Helvetica Neue', sans-serif;
+	font: 150%/1.5 'Open Sans', 'Myriad Pro', 'Helvetica Neue', sans-serif;
 	color: #333;
 }
 
@@ -47,12 +47,19 @@ header h1 {
 
 	header h1 strong {
 		color: black;
+		font-weight: bold;
+		letter-spacing: -.05em;
 	}
 
 section h1 {
 	font-size: 200%;
 	font-weight: 300;
 }
+
+	section article h1 {
+		font-size: 120%;
+		font-weight: bold;
+	}
 
 input,select {
 	font: inherit;
@@ -239,6 +246,16 @@ fieldset + fieldset {
 			color: gray;
 			text-align: center;
 		}
+		
+#faq article {
+	font-size: 80%;
+}
+
+	#faq article p,
+	#faq article li {
+		text-align: justify;
+		hyphens: auto;
+	}
 
 footer {
 	margin-top: 2em;
