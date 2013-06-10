@@ -54,6 +54,7 @@ $u.xhr({
 		var fragment = document.createDocumentFragment();
 		
 		Devices.forEach(function (device) {
+			device.ppi = calcDpi(device.w,device.h,device.d);
 			deviceRow(device, fragment);
 		});
 		
