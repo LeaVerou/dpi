@@ -161,6 +161,13 @@
 		"ppi": 148
 	},
 	{
+		"name": "Lenovo ideapad U310",
+		"w": 1366,
+		"h": 768,
+		"d": 13.3,
+		"ppi": 768
+	},
+	{
 		"name": "Microsoft Surface Pro",
 		"w": 1920,
 		"h": 1080,
