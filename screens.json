@@ -175,6 +175,13 @@
 		"ppi": 208
 	},
 	{
+		"name": "Samsung Galaxy S III",
+		"w": 1280,
+		"h": 720,
+		"d": 4.8,
+		"ppi": 306
+	},
+	{
 		"name": "Samsung Galaxy S4",
 		"w": 1920,
 		"h": 1080,
