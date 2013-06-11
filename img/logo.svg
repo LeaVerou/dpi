@@ -1,92 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 270 250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 93">
 
-<defs>
-	<rect stroke="white" stroke-width="2" stroke-miterlimit="10" width="16" height="16" id="base-pixel" />
-	
-	<use xlink:href="#base-pixel" fill="white" id="glow-pixel" />
-	<use xlink:href="#base-pixel" fill="red" id="pixel" />
-	
-	<circle cx="102" cy="100" r="83" fill="none" id="magnifier" />
-</defs>
+<pattern id="grid" x="6" y="6" width="6" height="6" patternUnits="userSpaceOnUse">
+	<rect width="6" height="6" fill="white"/>
+	<rect x="1" y="1" width="5" height="5" fill="red"/>
+</pattern>
 
 <!-- Heart -->
-<path fill="red" d="M200.71,34.103c-9.912,0-19.285,2.294-27.624,6.376c10.402,15.617,16.47,34.371,16.47,54.542
-	c0,52.631-41.273,95.623-93.219,98.376l48.5,48.501l99.101-99.098c0.862-0.816,1.698-1.653,2.513-2.514l6.139-7.58
-	c6.979-10.137,11.074-22.413,11.074-35.648C263.663,62.289,235.479,34.103,200.71,34.103z"/>
+<path fill="red" d="
+	M33.5,70.65
+	L51.69,88.84
+	l37.16-37.16
+	c.32-.31,.64-.62,.94-.94
+	l2.3-2.84
+	c2.62-3.8,4.15-8.4,4.15-13.37
+	c0-13.04-10.57-23.61-23.61-23.61
+	c-3.72,0-7.23,.86-10.36,2.39
+	z"/>
 
-<use xlink:href="#pixel" x="40" y="69" />
-<use xlink:href="#pixel" x="40" y="85" />
-<use xlink:href="#pixel" x="40" y="101" />
-<use xlink:href="#pixel" x="40" y="117" />
+<path d="M12.5,24.5h6v-6h6v-6h18v6h6v6h6v-6h6
+	v6h6v24h-6v12h-12v6h-18v-6h-6v-6h-6v-6h-6z
+	m12,0v12h12v-12z" fill="url(#grid)"/>
 
-<use xlink:href="#pixel" x="56" y="53" />
-<use xlink:href="#pixel" x="56" y="69" />
-<use xlink:href="#pixel" x="56" y="85" />
-<use xlink:href="#pixel" x="56" y="101" />
-<use xlink:href="#pixel" x="56" y="117" />
-<use xlink:href="#pixel" x="56" y="133" />
+<circle fill="none" stroke="white" stroke-width="9" cx="36" cy="36" r="31"/>
+<circle fill="none" stroke="black" stroke-width="6" cx="36" cy="36" r="31"/>
 
-<use xlink:href="#pixel" x="72" y="37"/>
-<use xlink:href="#pixel" x="72" y="53" />
-<use xlink:href="#glow-pixel" x="72" y="69" />
-<use xlink:href="#glow-pixel" x="72" y="85" />
-<use xlink:href="#pixel" x="72" y="101" />
-<use xlink:href="#pixel" x="72" y="117" />
-<use xlink:href="#pixel" x="72" y="133" />
-<use xlink:href="#pixel" x="72" y="149" />
-
-
-<use xlink:href="#pixel" x="88" y="37"/>
-<use xlink:href="#pixel" x="88" y="53" />
-<use xlink:href="#glow-pixel" x="88" y="69" />
-<use xlink:href="#glow-pixel" x="88" y="85" />
-<use xlink:href="#pixel" x="88" y="101" />
-<use xlink:href="#pixel" x="88" y="117" />
-<use xlink:href="#pixel" x="88" y="133" />
-<use xlink:href="#pixel" x="88" y="149" />
-<use xlink:href="#pixel" x="88" y="165" />
-
-<use xlink:href="#pixel" x="104" y="37"/>
-<use xlink:href="#pixel" x="104" y="53" />
-<use xlink:href="#pixel" x="104" y="69" />
-<use xlink:href="#pixel" x="104" y="85" />
-<use xlink:href="#pixel" x="104" y="101" />
-<use xlink:href="#pixel" x="104" y="117" />
-<use xlink:href="#pixel" x="104" y="133" />
-<use xlink:href="#pixel" x="104" y="149" />
-<use xlink:href="#pixel" x="104" y="165" />
-
-<use xlink:href="#pixel" x="120" y="53" />
-<use xlink:href="#pixel" x="120" y="69" />
-<use xlink:href="#pixel" x="120" y="85" />
-<use xlink:href="#pixel" x="120" y="101" />
-<use xlink:href="#pixel" x="120" y="117" />
-<use xlink:href="#pixel" x="120" y="133" />
-<use xlink:href="#pixel" x="120" y="149" />
-<use xlink:href="#pixel" x="120" y="165" />
-
-<use xlink:href="#pixel" x="136" y="69" />
-<use xlink:href="#pixel" x="136" y="85" />
-<use xlink:href="#pixel" x="136" y="101" />
-<use xlink:href="#pixel" x="136" y="117" />
-<use xlink:href="#pixel" x="136" y="133" />
-<use xlink:href="#pixel" x="136" y="149" />
-
-<use xlink:href="#pixel" x="152" y="53" />
-<use xlink:href="#pixel" x="152" y="69" />
-<use xlink:href="#pixel" x="152" y="85" />
-<use xlink:href="#pixel" x="152" y="101" />
-<use xlink:href="#pixel" x="152" y="117" />
-<use xlink:href="#pixel" x="152" y="133" />
-<use xlink:href="#pixel" x="152" y="149" />
-
-<use xlink:href="#pixel" x="168" y="69" />
-<use xlink:href="#pixel" x="168" y="85" />
-<use xlink:href="#pixel" x="168" y="101" />
-<use xlink:href="#pixel" x="168" y="117" />
-
-<use xlink:href="#magnifier" stroke="white" stroke-width="24" />
-<use xlink:href="#magnifier" stroke="black" stroke-width="16" />
-		
 </svg>
