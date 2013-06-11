@@ -4,14 +4,16 @@
 		"w": 640,
 		"h": 1136,
 		"d": 4,
-		"ppi": 326
+		"ppi": 326,
+		"dppx": 2
 	},
 	{
 		"name": "Apple iPhone 4(S)",
 		"w": 960,
 		"h": 640,
 		"d": 3.5,
-		"ppi": 326
+		"ppi": 326,
+		"dppx": 2
 	},
 	{
 		"name": "Apple iPhone 1 & 3G(S)",
@@ -39,7 +41,8 @@
 		"w": 2048,
 		"h": 1536,
 		"d": 9.7,
-		"ppi": 264
+		"ppi": 264,
+		"dppx": 2
 	},
 	{
 		"name": "Apple MacBook Air",
@@ -60,14 +63,16 @@
 		"w": 2560,
 		"h": 1600,
 		"d": 13.3,
-		"ppi": 227
+		"ppi": 227,
+		"dppx": 2
 	},
 	{
 		"name": "Apple MacBook Pro Retina",
 		"w": 2880,
 		"h": 1800,
 		"d": 15.4,
-		"ppi": 220
+		"ppi": 220,
+		"dppx": 2
 	},
 	{
 		"name": "Apple MacBook Pro",
@@ -123,14 +128,16 @@
 		"w": 1280,
 		"h": 800,
 		"d": 7,
-		"ppi": 216
+		"ppi": 216,
+		"dppx": 1.325
 	},
 	{
 		"name": "Google Nexus 10",
 		"w": 2560,
 		"h": 1600,
 		"d": 10.055,
-		"ppi": 300
+		"ppi": 300,
+		"dppx": 2
 	},
 	{
 		"name": "HTC Desire Z / T-Mobile G2",
@@ -179,28 +186,32 @@
 		"w": 1280,
 		"h": 720,
 		"d": 4.8,
-		"ppi": 306
+		"ppi": 306,
+		"dppx": 2
 	},
 	{
 		"name": "Samsung Galaxy S4",
 		"w": 1920,
 		"h": 1080,
 		"d": 5,
-		"ppi": 441
+		"ppi": 441,
+		"dppx": 3
 	},
 	{
 		"name":"Nokia Lumia 920",
 		"w": 768,
 		"h": 1280,
 		"d": 4.5,
-		"ppi": 332
+		"ppi": 332,
+		"dppx": 1.6667
 	},
 	{
 		"name":"Nokia Lumia 928",
 		"w": 768,
 		"h": 1280,
 		"d": 4.5,
-		"ppi": 332
+		"ppi": 332,
+		"dppx": 1.6667
 	},
 	{
 		"name":"Nokia Lumia 820",
