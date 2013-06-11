@@ -1,7 +1,11 @@
 var hashRegex = /^#(\d+)[x×](\d+)(@(\d*\.?\d+)["″])?|(\d*\.?\d+)["″]$/;
 
-width.value = screen.width;
-height.value = screen.height;
+var dppx = window.devicePixelRatio ||
+    (window.matchMedia && window.matchMedia("(min-resolution: 2dppx), (-webkit-min-device-pixel-ratio: 1.5),(-moz-min-device-pixel-ratio: 1.5),(min-device-pixel-ratio: 1.5)").matches? 2 : 1) ||
+    1;
+
+width.value = screen.width * dppx;
+height.value = screen.height * dppx;
 
 var output = $('output');
 
