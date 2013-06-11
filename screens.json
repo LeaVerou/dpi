@@ -133,6 +133,20 @@
 		"ppi": 300
 	},
 	{
+		"name": "HTC Desire Z / T-Mobile G2",
+		"w": 480,
+		"h": 800,
+		"d": 3.7,
+		"ppi": 252
+	},
+		{
+		"name": "HTC One X",
+		"w": 720,
+		"h": 1280,
+		"d": 4.7,
+		"ppi": 312
+	},
+	{
 		"name": "Microsoft Surface RT",
 		"w": 1366,
 		"h": 768,
@@ -145,6 +159,13 @@
 		"h": 1080,
 		"d": 10.6,
 		"ppi": 208
+	},
+	{
+		"name": "Samsung Galaxy S4",
+		"w": 1920,
+		"h": 1080,
+		"d": 5,
+		"ppi": 441
 	},
 	{
 		"name":"Nokia Lumia 920",
