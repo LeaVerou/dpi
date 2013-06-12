@@ -131,6 +131,20 @@
 		"ppi": 254
 	},
 	{
+		"name": "BlackBerry PlayBook",
+		"w": 600,
+		"h": 1024,
+		"d": 7,
+		"ppi": 169
+	},
+	{
+		"name": "BlackBerry Z10",
+		"w": 768,
+		"h": 1280,
+		"d": 4.2,
+		"ppi": 356
+	},
+	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
@@ -161,25 +175,53 @@
 		"dppx": 2
 	},
 	{
+		"name": "HTC Evo",
+		"w": 480,
+		"h": 800,
+		"d": 4.3,
+		"ppi": 217
+	},
+	{
 		"name": "HTC Desire Z / T-Mobile G2",
 		"w": 480,
 		"h": 800,
 		"d": 3.7,
 		"ppi": 252
 	},
-		{
+	{
+		"name": "HTC Imagio",
+		"w": 480,
+		"h": 800,
+		"d": 3.6,
+		"ppi": 259
+	},
+	{
 		"name": "HTC One",
 		"w": 1080,
 		"h": 1920,
 		"d": 4.7,
 		"ppi": 469
 	},
-		{
+	{
+		"name": "HTC One V",
+		"w": 480,
+		"h": 800,
+		"d": 3.7,
+		"ppi": 252
+	},
+	{
 		"name": "HTC One X",
 		"w": 720,
 		"h": 1280,
 		"d": 4.7,
 		"ppi": 312
+	},
+	{
+		"name": "HTC Pure",
+		"w": 480,
+		"h": 800,
+		"d": 3.2,
+		"ppi": 292
 	},
 	{
 		"name": "Microsoft Surface RT",
@@ -201,6 +243,27 @@
 		"h": 1080,
 		"d": 10.6,
 		"ppi": 208
+	},
+	{
+		"name": "Samsung Galaxy Tab 7.0 Plus",
+		"w": 600,
+		"h": 1024,
+		"d": 7,
+		"ppi": 169
+	},
+	{
+		"name": "Samsung Galaxy Tab 8.9",
+		"w": 800,
+		"h": 1280,
+		"d": 8.9,
+		"ppi": 169
+	},
+	{
+		"name": "Samsung Galaxy Tab 10.1",
+		"w": 800,
+		"h": 1280,
+		"d": 10.1,
+		"ppi": 149
 	},
 	{
 		"name": "Samsung Galaxy S III",
