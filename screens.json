@@ -110,6 +110,27 @@
 		"ppi": 109
 	},
 	{
+		"name": "Amazon Kindle Fire",
+		"w": 1024,
+		"h": 600,
+		"d": 7,
+		"ppi": 169
+	},
+	{
+		"name": "Amazon Kindle Fire HD 7\"",
+		"w": 1280,
+		"h": 800,
+		"d": 7,
+		"ppi": 216
+	},
+	{
+		"name": "Amazon Kindle Fire HD 8.9\"",
+		"w": 1920,
+		"h": 1200,
+		"d": 8.9,
+		"ppi": 254
+	},
+	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
