@@ -9,9 +9,11 @@ height.value = screen.height * dppx;
 
 var output = $('output');
 
-function calcDpi(w,h,d,opt) {
+function calcDpi(w, h, d, opt) {
 	// Calculate PPI/DPI
-	w>0 || (w=1); h>0 || (h=1); opt || (opt='d');
+	w>0 || (w=1);
+	h>0 || (h=1);
+	opt || (opt='d');
 	var dpi = (opt=='d' ? Math.sqrt(w*w + h*h) : opt=='w' ? w : h) / d;
 	return dpi>0 ? Math.round(dpi) : 0;
 }
@@ -20,7 +22,7 @@ function update() {
 	var w = width.value,
 	    h = height.value;
 
-	result.textContent = calcDpi(w,h,physical.value,dimension.value);
+	result.textContent = calcDpi(w, h, physical.value, dimension.value);
 	
 	// Size the output to have the same aspect ratio as the screen
 	var ratio = w/h;
@@ -58,7 +60,7 @@ $u.xhr({
 		var fragment = document.createDocumentFragment();
 		
 		Devices.forEach(function (device) {
-			device.ppi = device.ppi || calcDpi(device.w,device.h,device.d);
+			device.ppi || ( device.ppi = calcDpi(device.w, device.h, device.d) );
 			deviceRow(device, fragment);
 		});
 		
