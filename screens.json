@@ -128,7 +128,16 @@
 		"w": 768,
 		"h": 1280,
 		"d": 4.2,
-		"ppi": 356
+		"ppi": 356,
+		"dppx": 2
+	},
+	{
+		"name": "BlackBerry Q series (Q10 & Q5)",
+		"w": 720,
+		"h": 720,
+		"d": 3.1,
+		"ppi": 330,
+		"dppx": 2
 	},
 	{
 		"name": "Google Chromebook Pixel",
