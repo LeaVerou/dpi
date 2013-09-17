@@ -105,6 +105,12 @@
 		"d": 27
 	},
 	{
+		"name": "Apple Cinema Display",
+		"w": 1680,
+		"h": 1050,
+		"d": 20.1
+	},
+	{
 		"name": "Amazon Kindle Fire",
 		"w": 1024,
 		"h": 600,
