@@ -239,6 +239,13 @@
 		"d": 10.6
 	},
 	{
+		"name": "Samsung Series 5 Chromebook 550",
+	    	"w": 1280,
+	    	"h": 800,
+	    	"d": 12.1,
+	    	"ppi": 125 
+  	},  
+	{
 		"name": "Samsung Galaxy Tab 7.0 Plus",
 		"w": 600,
 		"h": 1024,
