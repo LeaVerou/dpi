@@ -301,9 +301,45 @@
 		"dppx": 1.6667
 	},
 	{
+		"name":"Nokia Lumia 822",
+		"w": 480,
+		"h": 800,
+		"d": 4.3
+	},
+	{
 		"name":"Nokia Lumia 820",
 		"w": 480,
 		"h": 800,
 		"d": 4.3
+	},
+	{
+		"name":"Nokia Lumia 720",
+		"w": 480,
+		"h": 800,
+		"d": 4.3
+	},
+	{
+		"name":"Nokia Lumia 625",
+		"w": 480,
+		"h": 800,
+		"d": 4.7
+	},
+	{
+		"name":"Nokia Lumia 620",
+		"w": 480,
+		"h": 800,
+		"d": 3.8
+	},
+	{
+		"name":"Nokia Lumia 520",
+		"w": 480,
+		"h": 800,
+		"d": 4
+	},
+	{
+		"name":"Nokia Lumia 521",
+		"w": 480,
+		"h": 800,
+		"d": 4
 	}
 ]
