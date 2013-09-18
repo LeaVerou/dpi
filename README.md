@@ -30,7 +30,7 @@ Secondly, our eyes cannot discern the difference between pixel densities above a
 
 #### Adding devices to the 'Known Screens' list
 
-Just use json syntax
+Just add the device to the list in screens.json
 
 	{
 		"name": "Samsung Series 5 Chromebook 550",		// Device name
