@@ -104,8 +104,10 @@ function deviceRow(device, fragment) {
 
 
 (window.onhashchange = function() {
-	if (hashRegex.test(location.hash)) {
-		var matches = location.hash.match(hashRegex);
+	var hash = decodeURIComponent(location.hash);
+	
+	if (hashRegex.test(hash)) {
+		var matches = hash.match(hashRegex);
 		
 		if (matches[1]) {
 			width.value = matches[1]
