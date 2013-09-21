@@ -152,6 +152,13 @@
 		"dppx": 2
 	},
 	{
+		"name": "Dell Latitude 10 Windows 8 Tablet",
+		"w": 1336,
+		"h": 768,
+		"d": 10.1,
+		"ppi": 153,
+		"dppx": 1
+	},	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
