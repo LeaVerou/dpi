@@ -136,6 +136,14 @@
 		"d": 7
 	},
 	{
+		"name": "BlackBerry Z30",
+		"w": 720,
+		"h": 1280,
+		"d": 5.0,
+		"ppi": 295,
+		"dppx": 2
+	},
+	{
 		"name": "BlackBerry Z10",
 		"w": 768,
 		"h": 1280,
@@ -144,7 +152,15 @@
 		"dppx": 2
 	},
 	{
-		"name": "BlackBerry Q series (Q10 & Q5)",
+		"name": "BlackBerry Q10",
+		"w": 720,
+		"h": 720,
+		"d": 3.1,
+		"ppi": 330,
+		"dppx": 2
+	},
+	{
+		"name": "BlackBerry Q5",
 		"w": 720,
 		"h": 720,
 		"d": 3.1,
