@@ -1,0 +1,5 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+[*.json]
+indent_style = tab
+indent_size = 4
