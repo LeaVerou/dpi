@@ -180,6 +180,12 @@
 		"d": 4.7
 	},
 	{
+		"name": "Google Nexus 5",
+		"w": 1920,
+		"h": 1080,
+		"d": 4.95
+	},
+	{
 		"name": "Google Nexus 7 (2013)",
 		"w": 1920,
 		"h": 1200,
@@ -206,6 +212,12 @@
 		"d": 4.3
 	},
 	{
+		"name": "HTC Sensation",
+		"w": 540,
+		"h": 960,
+		"d": 4.3
+	},
+	{
 		"name": "HTC Desire Z / T-Mobile G2",
 		"w": 480,
 		"h": 800,
@@ -223,6 +235,18 @@
 		"h": 1920,
 		"d": 4.7,
 		"dppx": 3
+	},
+	{
+		"name": "HTC One Max",
+		"w": 1080,
+		"h": 1920,
+		"d": 5.9
+	},
+	{
+		"name": "HTC One Mini",
+		"w": 720,
+		"h": 1280,
+		"d": 4.3
 	},
 	{
 		"name": "HTC One V",
