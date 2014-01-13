@@ -291,6 +291,15 @@
 		"d": 10.6
 	},
 	{
+		"name": "Motorola Moto G",
+		"w": 720,
+		"h": 1280,
+		"d": 4.5,
+		"ppi": 326,
+		"dpi": 192,
+		"dppx": 2
+	},
+	{
 		"name": "Samsung Galaxy Tab 7.0 Plus",
 		"w": 600,
 		"h": 1024,
