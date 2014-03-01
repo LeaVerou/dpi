@@ -156,6 +156,18 @@
 		"d": 8.9
 	},
 	{
+		"name": "Amazon Kindle Fire HDX 7\"",
+		"w": 1920,
+		"h": 1200,
+		"d": 7
+	},
+	{
+		"name": "Amazon Kindle Fire HDX 8.9\"",
+		"w": 2560,
+		"h": 1600,
+		"d": 8.9
+	},
+	{
 		"name": "BlackBerry PlayBook",
 		"w": 600,
 		"h": 1024,
