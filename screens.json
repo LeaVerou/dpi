@@ -144,15 +144,27 @@
 		"ppi": 169
 	},
 	{
-		"name": "Amazon Kindle Fire HD 7\"",
+		"name": "Amazon Kindle Fire HD",
 		"w": 1280,
 		"h": 800,
 		"d": 7
 	},
 	{
-		"name": "Amazon Kindle Fire HD 8.9\"",
+		"name": "Amazon Kindle Fire HD",
 		"w": 1920,
 		"h": 1200,
+		"d": 8.9
+	},
+	{
+		"name": "Amazon Kindle Fire HDX",
+		"w": 1920,
+		"h": 1200,
+		"d": 7
+	},
+	{
+		"name": "Amazon Kindle Fire HDX",
+		"w": 2560,
+		"h": 1600,
 		"d": 8.9
 	},
 	{
