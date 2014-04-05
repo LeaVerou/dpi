@@ -171,7 +171,8 @@
 		"name": "Amazon Kindle Paperwhite",
 		"w": 1024,
 		"h": 758,
-		"d": 6
+		"d": 6,
+		"dppx": 1.33
 	},
 	{
 		"name": "Barnes & Noble Nook HD",
