@@ -43,6 +43,7 @@ dimension.onchange = update;
 
 $$('fieldset input').forEach(function(element) {
 	(element.oninput = function () {
+		this.style.width = this.value.length * .7 + 'em';
 		this.style.width = this.value.length + 'ch';
 		update();
 	}).call(element);
