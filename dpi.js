@@ -62,6 +62,13 @@ $u.xhr({
 		
 		Devices.forEach(function (device) {
 			device.ppi || ( device.ppi = calcDpi(device.w, device.h, device.d) );
+		});
+
+		window.Devices = Devices.sort(function (device1, device2) {
+			return (device2.ppi - device1.ppi);
+		});
+
+		Devices.forEach(function (device) {
 			deviceRow(device, fragment);
 		});
 		
