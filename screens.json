@@ -227,6 +227,12 @@
 		"dppx": 2
 	},
 	{
+		"name": "Dell UltraSharp UP2414Q",
+		"w": 3840,
+		"h": 2160 ,
+		"d": 23.8,
+	},
+	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
@@ -343,6 +349,12 @@
 		"w": 1920,
 		"h": 1080,
 		"d": 15.6
+	},
+	{
+		"name": "Lenovo Yoga 2 Pro",
+		"w": 3200,
+		"h": 1800,
+		"d": 13.3
 	},
 	{
 		"name": "Microsoft Surface",
