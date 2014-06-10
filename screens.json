@@ -229,8 +229,8 @@
 	{
 		"name": "Dell UltraSharp UP2414Q",
 		"w": 3840,
-		"h": 2160 ,
-		"d": 23.8,
+		"h": 2160,
+		"d": 23.8
 	},
 	{
 		"name": "Google Chromebook Pixel",
@@ -520,7 +520,7 @@
 		"h": 768,
 		"d": 12.1,
 		"ppi": 106
-	}
+	},
 	{
 		"name": "Micromax A110",
 		"w": 480,
