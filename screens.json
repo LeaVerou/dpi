@@ -432,6 +432,14 @@
 		"dppx": 3
 	},
 	{
+		"name": "Samsung Galaxy S5",
+		"w": 1920,
+		"h": 1080,
+		"d": 5.1,
+		"dppx": 3,
+		"ppi": 432
+	},
+	{
 		"name":"Nokia Lumia 1020",
 		"w": 768,
 		"h": 1280,
