@@ -233,6 +233,12 @@
 		"d": 23.8
 	},
 	{
+		"name": "Dell UltraSharp U2412M",
+		"w": 1920,
+		"h": 1200,
+		"d": 24
+	},
+	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
