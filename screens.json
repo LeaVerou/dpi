@@ -6,11 +6,11 @@
 		"d": 23
 	},
 	{
-		"name": "Apple iPhone 5",
-		"w": 640,
-		"h": 1136,
-		"d": 4,
-		"dppx": 2
+		"name": "Apple iPhone 1, 3G, 3GS",
+		"w": 320,
+		"h": 480,
+		"d": 3.5,
+		"ppi": 163
 	},
 	{
 		"name": "Apple iPhone 4, 4S",
@@ -21,12 +21,29 @@
 		"dppx": 2
 	},
 	{
-		"name": "Apple iPhone 1, 3G, 3GS",
-		"w": 320,
-		"h": 480,
-		"d": 3.5,
-		"ppi": 163
+		"name": "Apple iPhone 5",
+		"w": 640,
+		"h": 1136,
+		"d": 4,
+		"ppi": 326,
+		"dppx": 2
 	},
+	{
+		"name": "Apple iPhone 6",
+		"w": 750,
+		"h": 1334,
+		"d": 4.7,
+		"ppi": 326,		
+		"dppx": 2
+	},
+	{
+		"name": "Apple iPhone 6 Plus",
+		"w": 1080,
+		"h": 1980,
+		"d": 5.5,
+		"ppi": 401,		
+		"dppx": 2.46
+	},		
 	{
 		"name": "Apple iPad mini",
 		"w": 1024,
