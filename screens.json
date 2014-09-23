@@ -33,7 +33,7 @@
 		"w": 750,
 		"h": 1334,
 		"d": 4.7,
-		"ppi": 326,		
+		"ppi": 326,
 		"dppx": 2
 	},
 	{
@@ -41,7 +41,7 @@
 		"w": 1080,
 		"h": 1980,
 		"d": 5.5,
-		"ppi": 401,		
+		"ppi": 401,
 		"dppx": 2.46
 	},		
 	{
@@ -277,7 +277,8 @@
 		"name": "Google Nexus 5",
 		"w": 1920,
 		"h": 1080,
-		"d": 4.95
+		"d": 4.95,
+		"dppx": 3
 	},
 	{
 		"name": "Google Nexus 7 (2013)",
@@ -362,6 +363,12 @@
 		"d": 3.2
 	},
 	{
+		"name": "Jiayu G4S",
+		"w": 720,
+		"h": 1280,
+		"d": 4.7
+	},
+	{
 		"name": "Lenovo ideapad U310",
 		"w": 1366,
 		"h": 768,
@@ -421,6 +428,12 @@
 		"dppx": 2
 	},
 	{
+		"name": "Samsung Galaxy Mini 2",
+		"w": 320,
+		"h": 480,
+		"d": 3.27
+	},
+	{
 		"name": "Samsung Galaxy Tab 7.0 Plus",
 		"w": 600,
 		"h": 1024,
@@ -438,7 +451,8 @@
 		"name": "Samsung Galaxy Tab 10.1",
 		"w": 800,
 		"h": 1280,
-		"d": 10.1
+		"d": 10.1,
+		"ppi": 149.45
 	},
 	{
 		"name": "Samsung Galaxy S III",
