@@ -142,6 +142,12 @@
 		"d": 27
 	},
 	{
+		"name": "Apple iMac Retina",
+		"w": 5120,
+		"h": 2880,
+		"d": 27
+	},
+	{
 		"name": "Apple Thunderbolt Display",
 		"w": 2560,
 		"h": 1440,
