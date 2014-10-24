@@ -287,6 +287,12 @@
 		"dppx": 3
 	},
 	{
+		"name": "Google Nexus 6",
+		"w": 2560,
+		"h": 1440,
+		"d": 5.96
+	},
+	{
 		"name": "Google Nexus 7 (2013)",
 		"w": 1920,
 		"h": 1200,
@@ -299,6 +305,12 @@
 		"h": 800,
 		"d": 7,
 		"dppx": 1.325
+	},
+	{
+		"name": "Google Nexus 9",
+		"w": 2048,
+		"h": 1536,
+		"d": 8.9
 	},
 	{
 		"name": "Google Nexus 10",
