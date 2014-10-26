@@ -212,6 +212,13 @@
 		"ppi": 256
 	},
 	{
+		"name": "BlackBerry Passport",
+		"w": 1440,
+		"h": 1440,
+		"d": 4.5,
+		"ppi": 453,
+	},
+	{
 		"name": "BlackBerry PlayBook",
 		"w": 600,
 		"h": 1024,
