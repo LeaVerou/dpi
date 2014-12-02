@@ -18,24 +18,24 @@ function calcDpi(w, h, d, opt) {
 	return dpi>0 ? Math.round(dpi) : 0;
 }
 
-function update() {	
+function update() {
 	var w = width.value,
 	    h = height.value;
 
 	result.textContent = calcDpi(w, h, physical.value, dimension.value);
-	
+
 	// Size the output to have the same aspect ratio as the screen
 	var ratio = w/h;
-	
+
 	output.style.minWidth = result.parentNode.offsetWidth;
-	
+
 	if (ratio > 1) {
 		output.style.width = '';
 	}
 	else {
 		output.style.width = '10em';
 	}
-	
+
 	output.style.height = output.offsetWidth / ratio + 'px';
 }
 
@@ -57,16 +57,23 @@ $u.xhr({
 	url: 'screens.json',
 	callback: function (xhr) {
 		window.Devices = JSON.parse(xhr.responseText);
-		
+
 		var fragment = document.createDocumentFragment();
-		
+
 		Devices.forEach(function (device) {
 			device.ppi || ( device.ppi = calcDpi(device.w, device.h, device.d) );
+		});
+
+		window.Devices = Devices.sort(function (device1, device2) {
+			return (device2.ppi - device1.ppi);
+		});
+
+		Devices.forEach(function (device) {
 			deviceRow(device, fragment);
 		});
-		
+
 		var tbody = $('table tbody', devices);
-		
+
 		tbody.innerHTML = '';
 
 		tbody.appendChild(fragment);
@@ -106,29 +113,29 @@ function deviceRow(device, fragment) {
 
 (window.onhashchange = function() {
 	var hash = decodeURIComponent(location.hash);
-	
+
 	if (hashRegex.test(hash)) {
 		var matches = hash.match(hashRegex);
-		
+
 		if (matches[1]) {
 			width.value = matches[1]
 			width.oninput();
 		}
-		
+
 		if (matches[2]) {
 			height.value = matches[2];
 			height.oninput();
 		}
-		
+
 		if (matches[3] || matches[5]) {
 			if (matches[3]) {
 				physical.value = matches[4];
 			}
-			
+
 			if (matches[5]) {
 				physical.value = matches[5];
 			}
-			
+
 			dimension.value = 'd';
 			physical.oninput();
 		}
@@ -139,12 +146,12 @@ search.oninput = function() {
 	if (!window.Devices) {
 		return;
 	}
-	
+
 	var term = this.value;
-	
+
 	var fragment = document.createDocumentFragment(),
 	    results = 0;
-	
+
 	Devices.forEach(function (device) {
 		for (var i in device) {
 			if ((device[i] + '').toLowerCase().indexOf(term.toLowerCase()) > -1) {
@@ -154,10 +161,10 @@ search.oninput = function() {
 			}
 		}
 	});
-	
+
 	var tbody = $('table tbody', devices);
-	
+
 	tbody.innerHTML = results? '' : '<tr><td colspan="4">No results</td></tr>';
-	
+
 	tbody.appendChild(fragment);
 };
