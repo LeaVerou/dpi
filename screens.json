@@ -596,23 +596,72 @@
 		"ppi": 165
 	},
 	{
-		"name": "Apple PowerBook G4",
-		"w": 1024,
-		"h": 768,
-		"d": 12.1,
-		"ppi": 106
+	   "name": "Apple PowerBook G4",
+	   "w": 1024,
+	   "h": 768,
+	   "d": 12.1,
+	   "ppi": 106
 	},
 	{
-		"name": "Micromax A110",
-		"w": 480,
-		"h": 856,
-		"d": 4.9,
-		"ppi": 200
-	},
-		{
-		"name": "OnePlus One",
-		"w": 1080,
-		"h": 1920,
-		"d": 5.5
-	}
+	   "name": "Micromax A110",
+	   "w": 480,
+	   "h": 856,
+	   "d": 4.9,
+	   "ppi": 200
+    },
+    {
+        "name": "OnePlus One",
+        "w": 1080,
+        "h": 1920,
+        "d": 5.5
+    },
+    {
+        "name": "Asus Zenbook UX303LN",
+        "w": 3200,
+        "h": 1800,
+        "d": 13.3,
+        "ppi": 276
+    },
+    {
+        "name": "Nokia Lumia 1520",
+        "w": 1080,
+        "h": 1920,
+        "d": 6,
+        "ppi": 367
+    },
+    {
+        "name": "Nokia Lumia 925",
+        "w": 768,
+        "h": 1280,
+        "d": 4.5,
+        "ppi": 332
+    },
+    {
+        "name": "Nokia Lumia 638",
+        "w": 480,
+        "h": 854,
+        "d": 4.5,
+        "ppi": 218
+    },
+    {
+        "name": "Nokia N1",
+        "w": 1536,
+        "h": 2048,
+        "d": 7.9,
+        "ppi": 324
+    },
+    {
+        "name": "Samsung Gear S",
+        "w": 360,
+        "h": 480,
+        "d": 2,
+        "ppi": 300
+    },
+    {
+        "name": "Microsoft Lumia 535",
+        "w": 540,
+        "h": 960,
+        "d": 5,
+        "ppi": 220
+    }
 ]
