@@ -621,10 +621,10 @@
 		"h": 480,
 		"d": 3.5
 	},
-        {
-                "name": "Samsung Galaxy Young",
-                "w": 320,
-                "h": 480,
-                "d": 3.27
-    	}
+	{
+		"name": "Samsung Galaxy Young",
+		"w": 320,
+		"h": 480,
+		"d": 3.27
+	}
 ]
