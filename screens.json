@@ -609,10 +609,22 @@
 		"d": 4.9,
 		"ppi": 200
 	},
-		{
+	{
 		"name": "OnePlus One",
 		"w": 1080,
 		"h": 1920,
 		"d": 5.5
-	}
+	},
+	{
+		"name": "Sony Xperia Miro",
+		"w": 320,
+		"h": 480,
+		"d": 3.5
+	},
+        {
+                "name": "Samsung Galaxy Young",
+                "w": 320,
+                "h": 480,
+                "d": 3.27
+    	}
 ]
