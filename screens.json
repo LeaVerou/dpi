@@ -338,6 +338,12 @@
 		"d": 4.3
 	},
 	{
+		"name": "HTC Desire C",
+		"w": 320,
+		"h": 480,
+		"d": 3.5
+	},
+	{
 		"name": "HTC Sensation",
 		"w": 540,
 		"h": 960,
