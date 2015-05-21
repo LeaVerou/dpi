@@ -103,7 +103,7 @@ function deviceRow(device, fragment) {
 				contents: device.ppi
 			}, {
 				tag: 'td',
-				contents: device.dppx || 1
+				contents: device.dppx || ' '
 			}
 		],
 		inside: fragment
