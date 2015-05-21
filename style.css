@@ -141,14 +141,14 @@ output {
 		font-size: 400%;
 		letter-spacing: -1px;
 	}
-	
+
 	output div {
 		display: inline-block;
 		vertical-align: middle;
 		line-height: 1.1;
 		margin-top: -1em;
 	}
-	
+
 fieldset {
 	display: inline-block;
 	vertical-align: top;
@@ -170,29 +170,29 @@ fieldset + fieldset {
 	padding-left: 3%;
 	margin-left: -.25em;
 }
-	
+
 	fieldset p {
 		font-size: 50%;
 		opacity: .5;
 		transition: .3s opacity;
 		font-weight: normal;
 	}
-	
+
 	fieldset:hover p,
 	fieldset input:focus ~ p {
 		opacity: 1;
 	}
-	
+
 #screens {
 	max-height: 19.8em;
 	margin-top: 1em;
 	overflow: auto;
-	
+
 	background:
 		/* Shadow covers */
 		linear-gradient(white 30%, rgba(255,255,255,0)),
 		linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
-		
+
 		/* Shadows */
 		radial-gradient(50% 0, farthest-side, rgba(0,0,0,.1), rgba(0,0,0,0)),
 		radial-gradient(50% 100%, farthest-side, rgba(0,0,0,.1), rgba(0,0,0,0)) 0 100%;
@@ -200,7 +200,7 @@ fieldset + fieldset {
 		/* Shadow covers */
 		linear-gradient(white 30%, rgba(255,255,255,0)),
 		linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
-		
+
 		/* Shadows */
 		radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.1), rgba(0,0,0,0)),
 		radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.1), rgba(0,0,0,0)) 0 100%;
@@ -215,41 +215,41 @@ fieldset + fieldset {
 		font-size: 80%;
 		border-spacing: 0;
 	}
-	
+
 		table th:first-child {
 			text-align: right;
 		}
-		
+
 		table tbody th {
 			font-weight: normal;
 			font-size: 80%;
 		}
-		
+
 		td,
 		th {
 			padding: .3em;
 		}
-		
+
 		thead th:nth-child(4) {
 			border-radius: .3em .3em 0 0;
 		}
-		
+
 		tbody tr:last-child td:nth-child(4) {
 			border-radius: 0 0 .3em .3em;
 		}
-		
+
 		th:nth-child(4),
 		td:nth-child(4) {
 			background: #fdd;
 			text-shadow: 0 1px 1px white;
 		}
-		
+
 		td:only-child {
 			font-weight: 300;
 			color: gray;
 			text-align: center;
 		}
-		
+
 #faq article {
 	font-size: 80%;
 }
@@ -289,12 +289,12 @@ footer {
 		font-size: 50%;
 		text-align: center;
 	}
-	
+
 @media (max-width: 1400px) {
 	.ad {
 		max-width: 170px;
 	}
-	
+
 	.ad .one .bsa_it_ad .bsa_it_i {
 		float: none;
 		display: block;

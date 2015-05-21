@@ -4,7 +4,7 @@
  * MIT license (http://www.opensource.org/licenses/mit-license.php)
  * Last update: 2012-4-29
  */
- 
+
 function $(expr, con) {
 	return typeof expr === 'string'? (con || document).querySelector(expr) : expr;
 }
@@ -21,7 +21,7 @@ $$('[id]').forEach(function(element) { window[element.id] = element; });
 String.prototype.splice = function(i, remove, add) {
 	remove = +remove || 0;
 	add = add || '';
-	
+
 	return this.slice(0,i) + add + this.slice(i + remove);
 };
 
@@ -54,7 +54,7 @@ var _ = window.Utopia = {
 	/**
 	 * Iterate over the properties of an object. Checks whether the properties actually belong to it.
 	 * Can be stopped if the function explicitly returns a value that isn't null, undefined or NaN.
-	 * 
+	 *
 	 * @param obj {Object} The object to iterate over
 	 * @param func {Function} The function used in the iteration. Can accept 2 parameters: one of the
 	 * 							value of the object and one for its name.
@@ -90,18 +90,18 @@ var _ = window.Utopia = {
 	 */
 	merge: function(objects) {
 		var ret = {};
-		
+
 		for(var i=0; i<arguments.length; i++) {
 			var o = arguments[i];
-			
+
 			for(var j in o) {
 				ret[j] = o[j];
 			}
 		}
-		
+
 		return ret;
 	},
-	
+
 	/**
 	 * Copies the properties of one or more objects onto the first one
 	 * When there is a collision, the first object wins
@@ -109,17 +109,17 @@ var _ = window.Utopia = {
 	attach: function(object, objects) {
 		for(var i=0; i<arguments.length; i++) {
 			var o = arguments[i];
-			
+
 			for(var j in o) {
 				if(!(j in object)) {
 					object[j] = o[j];
 				}
 			}
 		}
-		
+
 		return object;
 	},
-	
+
 	element: {
 		/**
 		 * Creates a new DOM element
@@ -140,7 +140,7 @@ var _ = window.Utopia = {
 					options = {
 						tag: arguments[0]
 					};
-					
+
 					// Utopia.element.create('div', [contents]);
 					if(_.type(arguments[1]) === 'array') {
 						options.contents = arguments[1];
@@ -154,24 +154,24 @@ var _ = window.Utopia = {
 			else {
 				options = arguments[0];
 			}
-			
+
 			var namespace = options.namespace || '', element;
-			
+
 			if(namespace) {
 				element = document.createElementNS(namespace, options.tag);
 			}
 			else {
 				element = document.createElement(options.tag);
 			}
-			
+
 			if(options.className) {
 				options.properties = options.properties || {};
 				options.properties.className = options.className;
 			}
-			
+
 			// Set properties, attributes and contents
 			_.element.set(element, options);
-			
+
 			// Place the element in the DOM (inside, before or after an existing element)
 			// This could be a selector
 			if(options.inside) {
@@ -179,28 +179,28 @@ var _ = window.Utopia = {
 			}
 			else if(options.before) {
 				var before = $(options.before);
-				
+
 				before.parentNode.insertBefore(element, before)
 			}
 			else if(options.after) {
 				var after = $(options.after);
-				
+
 				after.parentNode.insertBefore(element, after.nextSibling)
 			}
-			
+
 			return element;
 		},
-		
+
 		set: function(element, options) {
 			_.element.prop(element, options.properties || options.prop);
-					
+
 			_.element.attr(element, options.attributes || options.attr);
-			
+
 			_.element.contents(element, options.contents);
-	
+
 			return element;
 		},
-		
+
 		prop: function (element, properties) {
 			if (properties) {
 				for (var prop in properties) {
@@ -210,20 +210,20 @@ var _ = window.Utopia = {
 					catch(e) {}
 				}
 			}
-			
+
 			return element;
 		},
-		
+
 		attr: function (element, attributes) {
 			if (attributes) {
 				for (attr in attributes) {
 					element.setAttribute(attr, attributes[attr]);
 				}
 			}
-			
+
 			return element;
 		},
-		
+
 		/**
 		 * Sets an element’s contents
 		 * Contents could be: One or multiple (as an array) of the following:
@@ -236,12 +236,12 @@ var _ = window.Utopia = {
 				if (_.type(contents) !== 'array') {
 					contents = [contents];
 				}
-				
+
 				var firstChild = element.firstChild;
-				
+
 				for (var i=0; i<contents.length; i++) {
 					var content = contents[i], child;
-					
+
 					switch(_.type(content)) {
 						case 'string':
 							if(content === '') {
@@ -258,7 +258,7 @@ var _ = window.Utopia = {
 							child = content;
 
 					}
-					
+
 					if(child) {
 						if (!where || where === 'end') {
 							element.appendChild(child);
@@ -267,17 +267,17 @@ var _ = window.Utopia = {
 							element.insertBefore(child, firstChild);
 						}
 					}
-				}	
+				}
 			}
-			
+
 			return element;
 		}
 	},
-	
+
 	elements: {
 		// set, attr, prop, contents functions from Utopia.element, but for multiple elements
 	},
-	
+
 	event: {
 		/**
 		 * Binds one or more events to one or more elements
@@ -285,7 +285,7 @@ var _ = window.Utopia = {
 		bind: function(target, event, callback, traditional) {
 			if(_.type(target) === 'string' || _.type(target) === 'array') {
 				var elements = _.type(target) === 'string'? $$(target) : target;
-				
+
 				elements.forEach(function(element) {
 					_.event.bind(element, event, callback, traditional);
 				});
@@ -309,24 +309,24 @@ var _ = window.Utopia = {
 				}
 			}
 		},
-		
+
 		/**
 		 * Fire a custom event
 		 */
 		fire: function(target, type, properties) {
 			if(_.type(target) === 'string' || _.type(target) === 'array') {
 				var elements = _.type(target) === 'string'? $$(target) : target;
-				
+
 				elements.forEach(function(element) {
 					_.event.fire(element, type, properties);
 				});
 			}
 			else {
 				var evt = document.createEvent("HTMLEvents");
-		
+
 				evt.initEvent(type, true, true );
 				evt.custom = true;
-		
+
 				if(properties) {
 					_.attach(evt, properties);
 				}
@@ -335,52 +335,52 @@ var _ = window.Utopia = {
 			}
 		}
 	},
-	
+
 	/**
 	 * Helper for XHR requests
 	 */
 	xhr: function(o) {
 		document.body.setAttribute('data-loading', '');
-		
+
 		var xhr = new XMLHttpRequest(),
 			method = o.method || 'GET',
 			data = o.data || '';
-		
+
 		o.headers = o.headers || {};
-		
+
 		xhr.open(method, o.url + (method === 'GET' && data? '?' + data : ''), !o.sync);
-		
+
 		if (method !== 'GET' && !o.headers['Content-type'] && !o.headers['Content-Type']) {
 			xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 		}
-		
+
 		for (var header in o.headers) {
 			xhr.setRequestHeader(header, o.headers[header]);
 		}
-		
+
 		var callback = function() {
 			document.body.removeAttribute('data-loading');
-			
+
 			o.callback(xhr);
 		};
-		
+
 		xhr.onreadystatechange = function(){
 			if (xhr.readyState === 4) {
 				callback();
 			}
 		};
-		
+
 		xhr.send(method === 'GET'? null : data);
-		
+
 		return xhr;
 	},
-	
+
 	/**
 	 * Lazy loads an external script
 	 */
 	script: function(url, callback, doc) {
 		doc = doc || document;
-		
+
 		return _.element.create('script', {
 			properties: {
 				src: url,
@@ -390,27 +390,27 @@ var _ = window.Utopia = {
 			inside: doc.documentElement
 		});
 	},
-	
+
 	/**
 	 * Returns the absolute X, Y offsets for an element
 	 */
 	offset: function(element) {
 	    var left = 0, top = 0, el = element;
-	    
+
 	    if (el.parentNode) {
 			do {
 				left += el.offsetLeft;
 				top += el.offsetTop;
 			} while ((el = el.offsetParent) && el.nodeType < 9);
-			
+
 			el = element;
-			
+
 			do {
 				left -= el.scrollLeft;
 				top -= el.scrollTop;
 			} while ((el = el.parentNode) && !/body/i.test(el.nodeName));
 		}
-	
+
 	    return {
 			top: top,
 	    	right: innerWidth - left - element.offsetWidth,
@@ -423,14 +423,14 @@ var _ = window.Utopia = {
 ['set', 'prop', 'attr', 'contents'].forEach(function(method) {
 	_.elements[method] = function(elements) {
 		elements = _.type(elements) === 'string'? $$(elements) : Array.prototype.slice.call(elements);
-		
+
 		var args = Array.prototype.slice.call(arguments);
 		args.shift(); // Remove the elements argument
-		
+
 		elements = elements.map(function(element) {
 			return _.element[method](element, args);
 		});
-		
+
 		return elements;
 	}
 });
