@@ -19,6 +19,16 @@
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/open-sans-bold.woff) format('woff');
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
 body {
   max-width: 30em;
   padding: 1em 0;
@@ -150,25 +160,26 @@ output {
   }
 
 fieldset {
-  display: inline-block;
-  vertical-align: top;
-  width: 40%;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
   padding: 0;
-  border: none;
   margin: 0;
+  border: none;
+  vertical-align: top;
   font-weight: 300;
 }
 
 fieldset:first-of-type {
   text-align: right;
-  padding-right: 3%;
+  padding-right: 1.1em;
   border-right: 1px solid #eee;
 }
 
 fieldset + fieldset {
   text-align: left;
-  padding-left: 3%;
-  margin-left: -.25em;
+  padding-left: 0.9em;
 }
 
   fieldset p {
