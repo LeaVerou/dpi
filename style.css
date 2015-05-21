@@ -19,291 +19,302 @@
   src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/open-sans-bold.woff) format('woff');
 }
 
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
 body {
-	max-width: 30em;
-	padding: 1em 0;
-	margin: auto;
-	text-align: center;
-	font: 150%/1.5 'Open Sans', 'Myriad Pro', 'Helvetica Neue', sans-serif;
-	color: #333;
-	background-color: #fff;
+  max-width: 30em;
+  padding: 1em 0;
+  margin: auto;
+  text-align: center;
+  font: 150%/1.5 'Open Sans', 'Myriad Pro', 'Helvetica Neue', sans-serif;
+  color: #333;
+  background-color: #fff;
 }
 
 a {
-	color: slategray;
+  color: slategray;
 }
 
 header h1 {
-	margin-top: 0;
-	font-size: 300%;
-	font-weight: 300;
-	color: red;
+  margin-top: 0;
+  font-size: 300%;
+  font-weight: 300;
+  color: red;
 }
 
-	header h1 img {
-		width: 100px;
-		height: 93px;
-		margin-right: -25px;
-		vertical-align: 10px;
-	}
+  header h1 img {
+    width: 100px;
+    height: 93px;
+    margin-right: -25px;
+    vertical-align: 10px;
+  }
 
-	header h1 strong {
-		color: black;
-		font-weight: bold;
-		letter-spacing: -.05em;
-	}
+  header h1 strong {
+    color: black;
+    font-weight: bold;
+    letter-spacing: -.05em;
+  }
 
 section h1 {
-	font-size: 200%;
-	font-weight: 300;
+  font-size: 200%;
+  font-weight: 300;
 }
 
-	section article h1 {
-		font-size: 120%;
-		font-weight: bold;
-	}
+  section article h1 {
+    font-size: 120%;
+    font-weight: bold;
+  }
 
 input,select {
-	font: inherit;
-	color: inherit;
+  font: inherit;
+  color: inherit;
 }
 
 input {
-	padding: .1em .2em 0;
-	border: 1px solid #ddd;
-	border-radius: .2em;
-	margin: 0;
-	outline: none;
-	font-family: Consolas, Monaco, 'Andale Mono', monospace;
-	transition: .2s box-shadow, .2s border;
+  padding: .1em .2em 0;
+  border: 1px solid #ddd;
+  border-radius: .2em;
+  margin: 0;
+  outline: none;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
+  transition: .2s box-shadow, .2s border;
 }
 
-	input:focus {
-		border-color: silver;
-		box-shadow: 1px 1px .1em silver inset;
-	}
+  input:focus {
+    border-color: silver;
+    box-shadow: 1px 1px .1em silver inset;
+  }
 
 input#width {
-	width: 4em;
+  width: 4em;
 }
 
 input#height {
-	width: 3em;
+  width: 3em;
 }
 
 input#physical {
-	width: 4em;
+  width: 4em;
 }
 
 input#search {
-	appearance: none;
-	display: block;
-	width: 100%;
-	padding: .1em 0 0 1.3em;
-	box-sizing: border-box;
-	border-radius: 999px;
-	font: inherit;
-	background: url(img/search.svg) no-repeat .3em 50% / 1em auto;
+  appearance: none;
+  display: block;
+  width: 100%;
+  padding: .1em 0 0 1.3em;
+  box-sizing: border-box;
+  border-radius: 999px;
+  font: inherit;
+  background: url(img/search.svg) no-repeat .3em 50% / 1em auto;
 }
 
 select {
-	appearance: none;
-	background: transparent;
-	border: 0;
+  appearance: none;
+  background: transparent;
+  border: 0;
 }
 
 output {
-	display: box; display: flexbox; display: flex;
-	box-align: center; flex-align: center; justify-content: center;
-	box-pack: center; flex-pack: center; align-items: center;
-	min-width: 10em;
-	max-width: 100%;
-	width: 15em;
-	min-height: 8em;
-	max-height: 20em;
-	border: 15px solid transparent;
-	border-radius: 12px;
-	margin: 1em auto 0;
-	background: #333;
-	background: linear-gradient(to bottom right, gray, black), url(img/noise.png), linear-gradient(to bottom right, #eee, #ccc);
-	background-origin: padding-box, border-box, border-box;
-	background-clip: padding-box, border-box, border-box;
-	box-shadow: 1px 1px 3px black inset, 0 -1px white, 0 -1px 0 1px #bbb, 0 2px 0 1px #aaa, 0 2px 10px 1px rgba(0,0,0,.2);
-	color: white;
-	text-shadow: 0 -1px 2px black;
-	text-align: center;
-	transition-duration: .3s;
-	transition-property: width, height, line-height;
+  display: box; display: flexbox; display: flex;
+  box-align: center; flex-align: center; justify-content: center;
+  box-pack: center; flex-pack: center; align-items: center;
+  min-width: 10em;
+  max-width: 100%;
+  width: 15em;
+  min-height: 8em;
+  max-height: 20em;
+  border: 15px solid transparent;
+  border-radius: 12px;
+  margin: 1em auto 0;
+  background: #333;
+  background: linear-gradient(to bottom right, gray, black), url(img/noise.png), linear-gradient(to bottom right, #eee, #ccc);
+  background-origin: padding-box, border-box, border-box;
+  background-clip: padding-box, border-box, border-box;
+  box-shadow: 1px 1px 3px black inset, 0 -1px white, 0 -1px 0 1px #bbb, 0 2px 0 1px #aaa, 0 2px 10px 1px rgba(0,0,0,.2);
+  color: white;
+  text-shadow: 0 -1px 2px black;
+  text-align: center;
+  transition-duration: .3s;
+  transition-property: width, height, line-height;
 }
 
-	output strong {
-		display: block;
-		font-size: 400%;
-		letter-spacing: -1px;
-	}
-	
-	output div {
-		display: inline-block;
-		vertical-align: middle;
-		line-height: 1.1;
-		margin-top: -1em;
-	}
-	
+  output strong {
+    display: block;
+    font-size: 400%;
+    letter-spacing: -1px;
+  }
+
+  output div {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-top: -1em;
+  }
+
 fieldset {
-	display: inline-block;
-	vertical-align: top;
-	width: 40%;
-	padding: 0;
-	border: none;
-	margin: 0;
-	font-weight: 300;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  border: none;
+  vertical-align: top;
+  font-weight: 300;
 }
 
 fieldset:first-of-type {
-	text-align: right;
-	padding-right: 3%;
-	border-right: 1px solid #eee;
+  text-align: right;
+  padding-right: 1.1em;
+  border-right: 1px solid #eee;
 }
 
 fieldset + fieldset {
-	text-align: left;
-	padding-left: 3%;
-	margin-left: -.25em;
+  text-align: left;
+  padding-left: 0.9em;
 }
-	
-	fieldset p {
-		font-size: 50%;
-		opacity: .5;
-		transition: .3s opacity;
-		font-weight: normal;
-	}
-	
-	fieldset:hover p,
-	fieldset input:focus ~ p {
-		opacity: 1;
-	}
-	
+
+  fieldset p {
+    font-size: 50%;
+    opacity: .5;
+    transition: .3s opacity;
+    font-weight: normal;
+  }
+
+  fieldset:hover p,
+  fieldset input:focus ~ p {
+    opacity: 1;
+  }
+
 #screens {
-	max-height: 19.8em;
-	margin-top: 1em;
-	overflow: auto;
-	
-	background:
-		/* Shadow covers */
-		linear-gradient(white 30%, rgba(255,255,255,0)),
-		linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
-		
-		/* Shadows */
-		radial-gradient(50% 0, farthest-side, rgba(0,0,0,.1), rgba(0,0,0,0)),
-		radial-gradient(50% 100%, farthest-side, rgba(0,0,0,.1), rgba(0,0,0,0)) 0 100%;
-	background:
-		/* Shadow covers */
-		linear-gradient(white 30%, rgba(255,255,255,0)),
-		linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
-		
-		/* Shadows */
-		radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.1), rgba(0,0,0,0)),
-		radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.1), rgba(0,0,0,0)) 0 100%;
-	background-repeat: no-repeat;
-	background-color: white;
-	background-size: 100% 40px, 100% 40px, 100% 10px, 100% 10px;
-	background-attachment: local, local, scroll, scroll;
+  max-height: 19.8em;
+  margin-top: 1em;
+  overflow: auto;
+
+  background:
+    /* Shadow covers */
+    linear-gradient(white 30%, rgba(255,255,255,0)),
+    linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+
+    /* Shadows */
+    radial-gradient(50% 0, farthest-side, rgba(0,0,0,.1), rgba(0,0,0,0)),
+    radial-gradient(50% 100%, farthest-side, rgba(0,0,0,.1), rgba(0,0,0,0)) 0 100%;
+  background:
+    /* Shadow covers */
+    linear-gradient(white 30%, rgba(255,255,255,0)),
+    linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+
+    /* Shadows */
+    radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.1), rgba(0,0,0,0)),
+    radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.1), rgba(0,0,0,0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 10px, 100% 10px;
+  background-attachment: local, local, scroll, scroll;
 }
 
-	table {
-		width: 100%;
-		font-size: 80%;
-		border-spacing: 0;
-	}
-	
-		table th:first-child {
-			text-align: right;
-		}
-		
-		table tbody th {
-			font-weight: normal;
-			font-size: 80%;
-		}
-		
-		td,
-		th {
-			padding: .3em;
-		}
-		
-		thead th:nth-child(4) {
-			border-radius: .3em .3em 0 0;
-		}
-		
-		tbody tr:last-child td:nth-child(4) {
-			border-radius: 0 0 .3em .3em;
-		}
-		
-		th:nth-child(4),
-		td:nth-child(4) {
-			background: #fdd;
-			text-shadow: 0 1px 1px white;
-		}
-		
-		td:only-child {
-			font-weight: 300;
-			color: gray;
-			text-align: center;
-		}
-		
+  table {
+    width: 100%;
+    font-size: 80%;
+    border-spacing: 0;
+  }
+
+    table th:first-child {
+      text-align: right;
+    }
+
+    table tbody th {
+      font-weight: normal;
+      font-size: 80%;
+    }
+
+    td,
+    th {
+      padding: .3em;
+    }
+
+    thead th:nth-child(4) {
+      border-radius: .3em .3em 0 0;
+    }
+
+    tbody tr:last-child td:nth-child(4) {
+      border-radius: 0 0 .3em .3em;
+    }
+
+    th:nth-child(4),
+    td:nth-child(4) {
+      background: #fdd;
+      text-shadow: 0 1px 1px white;
+    }
+
+    td:only-child {
+      font-weight: 300;
+      color: gray;
+      text-align: center;
+    }
+
 #faq article {
-	font-size: 80%;
+  font-size: 80%;
 }
 
-	#faq article p,
-	#faq article li {
-		text-align: justify;
-		hyphens: auto;
-	}
+  #faq article p,
+  #faq article li {
+    text-align: justify;
+    hyphens: auto;
+  }
 
 body > footer {
-	padding-top: 1em;
-	border-top: 1px solid #eee;
-	margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+  margin-top: 2em;
 }
 
 footer {
-	font-size: 60%;
+  font-size: 60%;
 }
 
 .twitter-share-button {
-	position: absolute;
-	top: 20px;
-	right: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .ad {
-	position: fixed;
-	right: 20px;
-	bottom: 20px;
-	max-width: 300px;
-	text-align: left;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  max-width: 300px;
+  text-align: left;
 }
 
-	.ad #bsap_aplink {
-		display: block;
-		font-size: 50%;
-		text-align: center;
-	}
-	
+  .ad #bsap_aplink {
+    display: block;
+    font-size: 50%;
+    text-align: center;
+  }
+
 @media (max-width: 1400px) {
-	.ad {
-		max-width: 170px;
-	}
-	
-	.ad .one .bsa_it_ad .bsa_it_i {
-		float: none;
-		display: block;
-		text-align: center;
-	}
+  .ad {
+    max-width: 170px;
+  }
+
+  .ad .one .bsa_it_ad .bsa_it_i {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 }
 
 @media (max-width: 1132px) {
-	.ad {
-		display: none;
-	}
+  .ad {
+    display: none;
+  }
 }

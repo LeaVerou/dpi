@@ -1,652 +1,652 @@
 [
-	{
-		"name": "AOC i2352Vh",
-		"w": 1920,
-		"h": 1080,
-		"d": 23
-	},
-	{
-		"name": "Apple iPhone 1, 3G, 3GS",
-		"w": 320,
-		"h": 480,
-		"d": 3.5,
-		"ppi": 163
-	},
-	{
-		"name": "Apple iPhone 4, 4S",
-		"w": 640,
-		"h": 960,
-		"d": 3.5,
-		"ppi": 326,
-		"dppx": 2
-	},
-	{
-		"name": "Apple iPhone 5",
-		"w": 640,
-		"h": 1136,
-		"d": 4,
-		"ppi": 326,
-		"dppx": 2
-	},
-	{
-		"name": "Apple iPhone 6",
-		"w": 750,
-		"h": 1334,
-		"d": 4.7,
-		"ppi": 326,
-		"dppx": 2
-	},
-	{
-		"name": "Apple iPhone 6 Plus",
-		"w": 1080,
-		"h": 1980,
-		"d": 5.5,
-		"ppi": 401,
-		"dppx": 2.46
-	},		
-	{
-		"name": "Apple iPad mini",
-		"w": 1024,
-		"h": 768,
-		"d": 7.9,
-		"ppi": 163
-	},
-	{
-		"name": "Apple iPad mini Retina",
-		"w": 2048,
-		"h": 1536,
-		"d": 7.9
-	},
-	{
-		"name": "Apple iPad 1, 2",
-		"w": 1024,
-		"h": 768,
-		"d": 9.7
-	},
-	{
-		"name": "Apple iPad 3",
-		"w": 2048,
-		"h": 1536,
-		"d": 9.7,
-		"dppx": 2
-	},
-	{
-		"name": "Apple iPad Retina",
-		"w": 2048,
-		"h": 1536,
-		"d": 9.7,
-		"dppx": 2
-	},
-	{
-		"name": "Apple iPad Air",
-		"w": 2048,
-		"h": 1536,
-		"d": 9.7,
-		"dppx": 2
-	},
-	{
-		"name": "Apple MacBook Air",
-		"w": 1366,
-		"h": 768,
-		"d": 11.6
-	},
-	{
-		"name": "Apple MacBook Air",
-		"w": 1440,
-		"h": 900,
-		"d": 13.3
-	},
-	{
-		"name": "Apple MacBook Pro Retina",
-		"w": 2560,
-		"h": 1600,
-		"d": 13.3,
-		"dppx": 2
-	},
-	{
-		"name": "Apple MacBook Pro Retina",
-		"w": 2880,
-		"h": 1800,
-		"d": 15.4,
-		"ppi": 220,
-		"dppx": 2
-	},
-	{
-		"name": "Apple MacBook Pro",
-		"w": 1280,
-		"h": 800,
-		"d": 13.3
-	},
-	{
-		"name": "Apple MacBook Pro",
-		"w": 1440,
-		"h": 900,
-		"d": 15.4
-	},
-	{
-		"name": "Apple MacBook Pro",
-		"w": 1680,
-		"h": 1050,
-		"d": 15.4
-	},
-	{
-		"name": "Apple iMac",
-		"w": 1920,
-		"h": 1080,
-		"d": 21.5
-	},
-	{
-		"name": "Apple iMac",
-		"w": 2560,
-		"h": 1440,
-		"d": 27
-	},
-	{
-		"name": "Apple iMac Retina",
-		"w": 5120,
-		"h": 2880,
-		"d": 27
-	},
-	{
-		"name": "Apple Thunderbolt Display",
-		"w": 2560,
-		"h": 1440,
-		"d": 27
-	},
-	{
-		"name": "Apple Cinema Display",
-		"w": 1680,
-		"h": 1050,
-		"d": 20.1
-	},
-	{
-		"name": "Amazon Kindle Fire",
-		"w": 1024,
-		"h": 600,
-		"d": 7,
-		"ppi": 169
-	},
-	{
-		"name": "Amazon Kindle Fire HD",
-		"w": 1280,
-		"h": 800,
-		"d": 7
-	},
-	{
-		"name": "Amazon Kindle Fire HD",
-		"w": 1920,
-		"h": 1200,
-		"d": 8.9
-	},
-	{
-		"name": "Amazon Kindle Fire HDX",
-		"w": 1920,
-		"h": 1200,
-		"d": 7
-	},
-	{
-		"name": "Amazon Kindle Fire HDX",
-		"w": 2560,
-		"h": 1600,
-		"d": 8.9
-	},
-	{
-		"name": "Amazon Kindle Paperwhite",
-		"w": 1024,
-		"h": 758,
-		"d": 6,
-		"dppx": 1.33
-	},
-	{
-		"name": "Barnes & Noble Nook HD",
-		"w": 1440,
-		"h": 900,
-		"d": 7,
-		"ppi": 243
-	},
-	{
-		"name": "Barnes & Noble Nook HD+",
-		"w": 1920,
-		"h": 1280,
-		"d": 9,
-		"ppi": 256
-	},
-	{
-		"name": "BlackBerry Passport",
-		"w": 1440,
-		"h": 1440,
-		"d": 4.5
-	},
-	{
-		"name": "BlackBerry PlayBook",
-		"w": 600,
-		"h": 1024,
-		"d": 7
-	},
-	{
-		"name": "BlackBerry Z30",
-		"w": 720,
-		"h": 1280,
-		"d": 5.0,
-		"ppi": 295,
-		"dppx": 2
-	},
-	{
-		"name": "BlackBerry Z10",
-		"w": 768,
-		"h": 1280,
-		"d": 4.2,
-		"ppi": 356,
-		"dppx": 2
-	},
-	{
-		"name": "BlackBerry Q10",
-		"w": 720,
-		"h": 720,
-		"d": 3.1,
-		"ppi": 330,
-		"dppx": 2
-	},
-	{
-		"name": "BlackBerry Q5",
-		"w": 720,
-		"h": 720,
-		"d": 3.1,
-		"ppi": 330,
-		"dppx": 2
-	},
-	{
-		"name": "Dell UltraSharp UP2414Q",
-		"w": 3840,
-		"h": 2160,
-		"d": 23.8
-	},
-	{
-		"name": "Dell UltraSharp U2412M",
-		"w": 1920,
-		"h": 1200,
-		"d": 24
-	},
-	{
-		"name": "Dell UltraSharp U2414H",
-		"w": 1920,
-		"h": 1080,
-		"d": 23.8
-	},
-	{
-		"name": "Google Chromebook Pixel",
-		"w": 2560,
-		"h": 1700,
-		"d": 12.85
-	},
-	{
-		"name": "Galaxy Nexus",
-		"w": 1280,
-		"h": 720,
-		"d": 4.65
-	},
-	{
-		"name": "Google Nexus 4",
-		"w": 1280,
-		"h": 768,
-		"d": 4.7
-	},
-	{
-		"name": "Google Nexus 5",
-		"w": 1920,
-		"h": 1080,
-		"d": 4.95,
-		"dppx": 3
-	},
-	{
-		"name": "Google Nexus 6",
-		"w": 2560,
-		"h": 1440,
-		"d": 5.96
-	},
-	{
-		"name": "Google Nexus 7 (2013)",
-		"w": 1920,
-		"h": 1200,
-		"d": 7,
-		"dppx": 2
-	},
-	{
-		"name": "Google Nexus 7",
-		"w": 1280,
-		"h": 800,
-		"d": 7,
-		"dppx": 1.325
-	},
-	{
-		"name": "Google Nexus 9",
-		"w": 2048,
-		"h": 1536,
-		"d": 8.9
-	},
-	{
-		"name": "Google Nexus 10",
-		"w": 2560,
-		"h": 1600,
-		"d": 10.055,
-		"dppx": 2
-	},
-	{
-		"name": "HTC Evo",
-		"w": 480,
-		"h": 800,
-		"d": 4.3
-	},
-	{
-		"name": "HTC Desire C",
-		"w": 320,
-		"h": 480,
-		"d": 3.5
-	},
-	{
-		"name": "HTC Sensation",
-		"w": 540,
-		"h": 960,
-		"d": 4.3
-	},
-	{
-		"name": "HTC Desire Z / T-Mobile G2",
-		"w": 480,
-		"h": 800,
-		"d": 3.7
-	},
-	{
-		"name": "HTC Imagio",
-		"w": 480,
-		"h": 800,
-		"d": 3.6
-	},
-	{
-		"name": "HTC One",
-		"w": 1080,
-		"h": 1920,
-		"d": 4.7,
-		"dppx": 3
-	},
-	{
-		"name": "HTC One Max",
-		"w": 1080,
-		"h": 1920,
-		"d": 5.9
-	},
-	{
-		"name": "HTC One Mini",
-		"w": 720,
-		"h": 1280,
-		"d": 4.3
-	},
-	{
-		"name": "HTC One V",
-		"w": 480,
-		"h": 800,
-		"d": 3.7
-	},
-	{
-		"name": "HTC One X",
-		"w": 720,
-		"h": 1280,
-		"d": 4.7
-	},
-	{
-		"name": "HTC Pure",
-		"w": 480,
-		"h": 800,
-		"d": 3.2
-	},
-	{
-		"name": "Jiayu G4S",
-		"w": 720,
-		"h": 1280,
-		"d": 4.7
-	},
-	{
-		"name": "Lenovo ideapad U310",
-		"w": 1366,
-		"h": 768,
-		"d": 13.3
-	},
-	{
-		"name": "Lenovo ThinkPad Edge E531 N4IBPGE",
-		"w": 1920,
-		"h": 1080,
-		"d": 15.6
-	},
-	{
-		"name": "Lenovo Yoga 2 Pro",
-		"w": 3200,
-		"h": 1800,
-		"d": 13.3
-	},
-	{
-		"name": "Microsoft Surface",
-		"w": 1366,
-		"h": 768,
-		"d": 10.6
-	},
-	{
-		"name": "Microsoft Surface 2",
-		"w": 1920,
-		"h": 1080,
-		"d": 10.6
-	},
-	{
-		"name": "Microsoft Surface Pro",
-		"w": 1920,
-		"h": 1080,
-		"d": 10.6
-	},
-	{
-		"name": "Microsoft Surface Pro 2",
-		"w": 1920,
-		"h": 1080,
-		"d": 10.6
-	},
-	{
-		"name": "Microsoft Surface Pro 3",
-		"w": 2160,
-		"h": 1440,
-		"d": 12
-	},	
-	{
-		"name": "Motorola Moto G",
-		"w": 720,
-		"h": 1280,
-		"d": 4.5,
-		"ppi": 326,
-		"dpi": 192,
-		"dppx": 2
-	},
-	{
-		"name": "Motorola Moto X",
-		"w": 720,
-		"h": 1280,
-		"d": 4.7,
-		"ppi": 312,
-		"dppx": 2
-	},
-	{
-		"name": "Samsung Galaxy Mini 2",
-		"w": 320,
-		"h": 480,
-		"d": 3.27
-	},
-	{
-		"name": "Samsung Galaxy Tab 7.0 Plus",
-		"w": 600,
-		"h": 1024,
-		"d": 7,
-		"ppi": 169
-	},
-	{
-		"name": "Samsung Galaxy Tab 8.9",
-		"w": 800,
-		"h": 1280,
-		"d": 8.9,
-		"ppi": 169
-	},
-	{
-		"name": "Samsung Galaxy Tab 10.1",
-		"w": 800,
-		"h": 1280,
-		"d": 10.1,
-		"ppi": 149.45
-	},
-	{
-		"name": "Samsung Galaxy S III",
-		"w": 1280,
-		"h": 720,
-		"d": 4.8,
-		"dppx": 2
-	},
-	{
-		"name": "Samsung Galaxy S4",
-		"w": 1920,
-		"h": 1080,
-		"d": 5,
-		"dppx": 3
-	},
-	{
-		"name": "Samsung Galaxy S5",
-		"w": 1920,
-		"h": 1080,
-		"d": 5.1,
-		"dppx": 3,
-		"ppi": 432
-	},
-	{
-		"name":"Nokia Lumia 1020",
-		"w": 768,
-		"h": 1280,
-		"d": 4.5,
-		"dppx": 1.6667
-	},
-	{
-		"name":"Nokia Lumia 920",
-		"w": 768,
-		"h": 1280,
-		"d": 4.5,
-		"dppx": 1.6667
-	},
-	{
-		"name":"Nokia Lumia 920",
-		"w": 768,
-		"h": 1280,
-		"d": 4.5,
-		"dppx": 1.6667
-	},
-	{
-		"name":"Nokia Lumia 928",
-		"w": 768,
-		"h": 1280,
-		"d": 4.5,
-		"dppx": 1.6667
-	},
-	{
-		"name":"Nokia Lumia 822",
-		"w": 480,
-		"h": 800,
-		"d": 4.3
-	},
-	{
-		"name":"Nokia Lumia 820",
-		"w": 480,
-		"h": 800,
-		"d": 4.3
-	},
-	{
-		"name":"Nokia Lumia 720",
-		"w": 480,
-		"h": 800,
-		"d": 4.3
-	},
-	{
-		"name":"Nokia Lumia 625",
-		"w": 480,
-		"h": 800,
-		"d": 4.7
-	},
-	{
-		"name":"Nokia Lumia 620",
-		"w": 480,
-		"h": 800,
-		"d": 3.8
-	},
-	{
-		"name":"Nokia Lumia 520",
-		"w": 480,
-		"h": 800,
-		"d": 4
-	},
-	{
-		"name":"Nokia Lumia 521",
-		"w": 480,
-		"h": 800,
-		"d": 4
-	},
-	{
-		"name":"Sony Xperia SP",
-		"w": 720,
-		"h": 1080,
-		"d": 4.6
-	},
-	{
-		"name":"ZTE Open",
-		"w": 320,
-		"h": 480,
-		"d": 3.5,
-		"ppi": 165
-	},
-	{
-		"name": "Apple PowerBook G4",
-		"w": 1024,
-		"h": 768,
-		"d": 12.1,
-		"ppi": 106
-	},
-	{
-		"name": "Micromax A110",
-		"w": 480,
-		"h": 856,
-		"d": 4.9,
-		"ppi": 200
-	},
-		{
-		"name": "OnePlus One",
-		"w": 1080,
-		"h": 1920,
-		"d": 5.5
-	},
-	{
-		"name": "Samsung Galaxy S6, S6 Edge",
-		"w": 1440,
-		"h": 2560,
-		"d": 5.1,
-		"ppi": 577
-	},
-	{
-		"name": "Samsung Galaxy S3",
-		"w": 720,
-		"h": 1280,
-		"d": 4.8,
-		"ppi": 306
-	},
-	{
-		"name": "Samsung Galaxy S2",
-		"w": 480,
-		"h": 800,
-		"d": 4.3,
-		"ppi": 217
-	},
-	{
-		"name": "Samsung Galaxy S",
-		"w": 480,
-		"h": 800,
-		"d": 4.0,
-		"ppi": 233
-	}
+  {
+    "name": "AOC i2352Vh",
+    "w": 1920,
+    "h": 1080,
+    "d": 23
+  },
+  {
+    "name": "Apple iPhone 1, 3G, 3GS",
+    "w": 320,
+    "h": 480,
+    "d": 3.5,
+    "ppi": 163
+  },
+  {
+    "name": "Apple iPhone 4, 4S",
+    "w": 640,
+    "h": 960,
+    "d": 3.5,
+    "ppi": 326,
+    "dppx": 2
+  },
+  {
+    "name": "Apple iPhone 5",
+    "w": 640,
+    "h": 1136,
+    "d": 4,
+    "ppi": 326,
+    "dppx": 2
+  },
+  {
+    "name": "Apple iPhone 6",
+    "w": 750,
+    "h": 1334,
+    "d": 4.7,
+    "ppi": 326,
+    "dppx": 2
+  },
+  {
+    "name": "Apple iPhone 6 Plus",
+    "w": 1080,
+    "h": 1980,
+    "d": 5.5,
+    "ppi": 401,
+    "dppx": 2.46
+  },
+  {
+    "name": "Apple iPad mini",
+    "w": 1024,
+    "h": 768,
+    "d": 7.9,
+    "ppi": 163
+  },
+  {
+    "name": "Apple iPad mini Retina",
+    "w": 2048,
+    "h": 1536,
+    "d": 7.9
+  },
+  {
+    "name": "Apple iPad 1, 2",
+    "w": 1024,
+    "h": 768,
+    "d": 9.7
+  },
+  {
+    "name": "Apple iPad 3",
+    "w": 2048,
+    "h": 1536,
+    "d": 9.7,
+    "dppx": 2
+  },
+  {
+    "name": "Apple iPad Retina",
+    "w": 2048,
+    "h": 1536,
+    "d": 9.7,
+    "dppx": 2
+  },
+  {
+    "name": "Apple iPad Air",
+    "w": 2048,
+    "h": 1536,
+    "d": 9.7,
+    "dppx": 2
+  },
+  {
+    "name": "Apple MacBook Air",
+    "w": 1366,
+    "h": 768,
+    "d": 11.6
+  },
+  {
+    "name": "Apple MacBook Air",
+    "w": 1440,
+    "h": 900,
+    "d": 13.3
+  },
+  {
+    "name": "Apple MacBook Pro Retina",
+    "w": 2560,
+    "h": 1600,
+    "d": 13.3,
+    "dppx": 2
+  },
+  {
+    "name": "Apple MacBook Pro Retina",
+    "w": 2880,
+    "h": 1800,
+    "d": 15.4,
+    "ppi": 220,
+    "dppx": 2
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "w": 1280,
+    "h": 800,
+    "d": 13.3
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "w": 1440,
+    "h": 900,
+    "d": 15.4
+  },
+  {
+    "name": "Apple MacBook Pro",
+    "w": 1680,
+    "h": 1050,
+    "d": 15.4
+  },
+  {
+    "name": "Apple iMac",
+    "w": 1920,
+    "h": 1080,
+    "d": 21.5
+  },
+  {
+    "name": "Apple iMac",
+    "w": 2560,
+    "h": 1440,
+    "d": 27
+  },
+  {
+    "name": "Apple iMac Retina",
+    "w": 5120,
+    "h": 2880,
+    "d": 27
+  },
+  {
+    "name": "Apple Thunderbolt Display",
+    "w": 2560,
+    "h": 1440,
+    "d": 27
+  },
+  {
+    "name": "Apple Cinema Display",
+    "w": 1680,
+    "h": 1050,
+    "d": 20.1
+  },
+  {
+    "name": "Amazon Kindle Fire",
+    "w": 1024,
+    "h": 600,
+    "d": 7,
+    "ppi": 169
+  },
+  {
+    "name": "Amazon Kindle Fire HD",
+    "w": 1280,
+    "h": 800,
+    "d": 7
+  },
+  {
+    "name": "Amazon Kindle Fire HD",
+    "w": 1920,
+    "h": 1200,
+    "d": 8.9
+  },
+  {
+    "name": "Amazon Kindle Fire HDX",
+    "w": 1920,
+    "h": 1200,
+    "d": 7
+  },
+  {
+    "name": "Amazon Kindle Fire HDX",
+    "w": 2560,
+    "h": 1600,
+    "d": 8.9
+  },
+  {
+    "name": "Amazon Kindle Paperwhite",
+    "w": 1024,
+    "h": 758,
+    "d": 6,
+    "dppx": 1.33
+  },
+  {
+    "name": "Barnes & Noble Nook HD",
+    "w": 1440,
+    "h": 900,
+    "d": 7,
+    "ppi": 243
+  },
+  {
+    "name": "Barnes & Noble Nook HD+",
+    "w": 1920,
+    "h": 1280,
+    "d": 9,
+    "ppi": 256
+  },
+  {
+    "name": "BlackBerry Passport",
+    "w": 1440,
+    "h": 1440,
+    "d": 4.5
+  },
+  {
+    "name": "BlackBerry PlayBook",
+    "w": 600,
+    "h": 1024,
+    "d": 7
+  },
+  {
+    "name": "BlackBerry Z30",
+    "w": 720,
+    "h": 1280,
+    "d": 5.0,
+    "ppi": 295,
+    "dppx": 2
+  },
+  {
+    "name": "BlackBerry Z10",
+    "w": 768,
+    "h": 1280,
+    "d": 4.2,
+    "ppi": 356,
+    "dppx": 2
+  },
+  {
+    "name": "BlackBerry Q10",
+    "w": 720,
+    "h": 720,
+    "d": 3.1,
+    "ppi": 330,
+    "dppx": 2
+  },
+  {
+    "name": "BlackBerry Q5",
+    "w": 720,
+    "h": 720,
+    "d": 3.1,
+    "ppi": 330,
+    "dppx": 2
+  },
+  {
+    "name": "Dell UltraSharp UP2414Q",
+    "w": 3840,
+    "h": 2160,
+    "d": 23.8
+  },
+  {
+    "name": "Dell UltraSharp U2412M",
+    "w": 1920,
+    "h": 1200,
+    "d": 24
+  },
+  {
+    "name": "Dell UltraSharp U2414H",
+    "w": 1920,
+    "h": 1080,
+    "d": 23.8
+  },
+  {
+    "name": "Google Chromebook Pixel",
+    "w": 2560,
+    "h": 1700,
+    "d": 12.85
+  },
+  {
+    "name": "Galaxy Nexus",
+    "w": 1280,
+    "h": 720,
+    "d": 4.65
+  },
+  {
+    "name": "Google Nexus 4",
+    "w": 1280,
+    "h": 768,
+    "d": 4.7
+  },
+  {
+    "name": "Google Nexus 5",
+    "w": 1920,
+    "h": 1080,
+    "d": 4.95,
+    "dppx": 3
+  },
+  {
+    "name": "Google Nexus 6",
+    "w": 2560,
+    "h": 1440,
+    "d": 5.96
+  },
+  {
+    "name": "Google Nexus 7 (2013)",
+    "w": 1920,
+    "h": 1200,
+    "d": 7,
+    "dppx": 2
+  },
+  {
+    "name": "Google Nexus 7",
+    "w": 1280,
+    "h": 800,
+    "d": 7,
+    "dppx": 1.325
+  },
+  {
+    "name": "Google Nexus 9",
+    "w": 2048,
+    "h": 1536,
+    "d": 8.9
+  },
+  {
+    "name": "Google Nexus 10",
+    "w": 2560,
+    "h": 1600,
+    "d": 10.055,
+    "dppx": 2
+  },
+  {
+    "name": "HTC Evo",
+    "w": 480,
+    "h": 800,
+    "d": 4.3
+  },
+  {
+    "name": "HTC Desire C",
+    "w": 320,
+    "h": 480,
+    "d": 3.5
+  },
+  {
+    "name": "HTC Sensation",
+    "w": 540,
+    "h": 960,
+    "d": 4.3
+  },
+  {
+    "name": "HTC Desire Z / T-Mobile G2",
+    "w": 480,
+    "h": 800,
+    "d": 3.7
+  },
+  {
+    "name": "HTC Imagio",
+    "w": 480,
+    "h": 800,
+    "d": 3.6
+  },
+  {
+    "name": "HTC One",
+    "w": 1080,
+    "h": 1920,
+    "d": 4.7,
+    "dppx": 3
+  },
+  {
+    "name": "HTC One Max",
+    "w": 1080,
+    "h": 1920,
+    "d": 5.9
+  },
+  {
+    "name": "HTC One Mini",
+    "w": 720,
+    "h": 1280,
+    "d": 4.3
+  },
+  {
+    "name": "HTC One V",
+    "w": 480,
+    "h": 800,
+    "d": 3.7
+  },
+  {
+    "name": "HTC One X",
+    "w": 720,
+    "h": 1280,
+    "d": 4.7
+  },
+  {
+    "name": "HTC Pure",
+    "w": 480,
+    "h": 800,
+    "d": 3.2
+  },
+  {
+    "name": "Jiayu G4S",
+    "w": 720,
+    "h": 1280,
+    "d": 4.7
+  },
+  {
+    "name": "Lenovo ideapad U310",
+    "w": 1366,
+    "h": 768,
+    "d": 13.3
+  },
+  {
+    "name": "Lenovo ThinkPad Edge E531 N4IBPGE",
+    "w": 1920,
+    "h": 1080,
+    "d": 15.6
+  },
+  {
+    "name": "Lenovo Yoga 2 Pro",
+    "w": 3200,
+    "h": 1800,
+    "d": 13.3
+  },
+  {
+    "name": "Microsoft Surface",
+    "w": 1366,
+    "h": 768,
+    "d": 10.6
+  },
+  {
+    "name": "Microsoft Surface 2",
+    "w": 1920,
+    "h": 1080,
+    "d": 10.6
+  },
+  {
+    "name": "Microsoft Surface Pro",
+    "w": 1920,
+    "h": 1080,
+    "d": 10.6
+  },
+  {
+    "name": "Microsoft Surface Pro 2",
+    "w": 1920,
+    "h": 1080,
+    "d": 10.6
+  },
+  {
+    "name": "Microsoft Surface Pro 3",
+    "w": 2160,
+    "h": 1440,
+    "d": 12
+  },
+  {
+    "name": "Motorola Moto G",
+    "w": 720,
+    "h": 1280,
+    "d": 4.5,
+    "ppi": 326,
+    "dpi": 192,
+    "dppx": 2
+  },
+  {
+    "name": "Motorola Moto X",
+    "w": 720,
+    "h": 1280,
+    "d": 4.7,
+    "ppi": 312,
+    "dppx": 2
+  },
+  {
+    "name": "Samsung Galaxy Mini 2",
+    "w": 320,
+    "h": 480,
+    "d": 3.27
+  },
+  {
+    "name": "Samsung Galaxy Tab 7.0 Plus",
+    "w": 600,
+    "h": 1024,
+    "d": 7,
+    "ppi": 169
+  },
+  {
+    "name": "Samsung Galaxy Tab 8.9",
+    "w": 800,
+    "h": 1280,
+    "d": 8.9,
+    "ppi": 169
+  },
+  {
+    "name": "Samsung Galaxy Tab 10.1",
+    "w": 800,
+    "h": 1280,
+    "d": 10.1,
+    "ppi": 149.45
+  },
+  {
+    "name": "Samsung Galaxy S III",
+    "w": 1280,
+    "h": 720,
+    "d": 4.8,
+    "dppx": 2
+  },
+  {
+    "name": "Samsung Galaxy S4",
+    "w": 1920,
+    "h": 1080,
+    "d": 5,
+    "dppx": 3
+  },
+  {
+    "name": "Samsung Galaxy S5",
+    "w": 1920,
+    "h": 1080,
+    "d": 5.1,
+    "dppx": 3,
+    "ppi": 432
+  },
+  {
+    "name":"Nokia Lumia 1020",
+    "w": 768,
+    "h": 1280,
+    "d": 4.5,
+    "dppx": 1.6667
+  },
+  {
+    "name":"Nokia Lumia 920",
+    "w": 768,
+    "h": 1280,
+    "d": 4.5,
+    "dppx": 1.6667
+  },
+  {
+    "name":"Nokia Lumia 920",
+    "w": 768,
+    "h": 1280,
+    "d": 4.5,
+    "dppx": 1.6667
+  },
+  {
+    "name":"Nokia Lumia 928",
+    "w": 768,
+    "h": 1280,
+    "d": 4.5,
+    "dppx": 1.6667
+  },
+  {
+    "name":"Nokia Lumia 822",
+    "w": 480,
+    "h": 800,
+    "d": 4.3
+  },
+  {
+    "name":"Nokia Lumia 820",
+    "w": 480,
+    "h": 800,
+    "d": 4.3
+  },
+  {
+    "name":"Nokia Lumia 720",
+    "w": 480,
+    "h": 800,
+    "d": 4.3
+  },
+  {
+    "name":"Nokia Lumia 625",
+    "w": 480,
+    "h": 800,
+    "d": 4.7
+  },
+  {
+    "name":"Nokia Lumia 620",
+    "w": 480,
+    "h": 800,
+    "d": 3.8
+  },
+  {
+    "name":"Nokia Lumia 520",
+    "w": 480,
+    "h": 800,
+    "d": 4
+  },
+  {
+    "name":"Nokia Lumia 521",
+    "w": 480,
+    "h": 800,
+    "d": 4
+  },
+  {
+    "name":"Sony Xperia SP",
+    "w": 720,
+    "h": 1080,
+    "d": 4.6
+  },
+  {
+    "name":"ZTE Open",
+    "w": 320,
+    "h": 480,
+    "d": 3.5,
+    "ppi": 165
+  },
+  {
+    "name": "Apple PowerBook G4",
+    "w": 1024,
+    "h": 768,
+    "d": 12.1,
+    "ppi": 106
+  },
+  {
+    "name": "Micromax A110",
+    "w": 480,
+    "h": 856,
+    "d": 4.9,
+    "ppi": 200
+  },
+    {
+    "name": "OnePlus One",
+    "w": 1080,
+    "h": 1920,
+    "d": 5.5
+  },
+  {
+    "name": "Samsung Galaxy S6, S6 Edge",
+    "w": 1440,
+    "h": 2560,
+    "d": 5.1,
+    "ppi": 577
+  },
+  {
+    "name": "Samsung Galaxy S3",
+    "w": 720,
+    "h": 1280,
+    "d": 4.8,
+    "ppi": 306
+  },
+  {
+    "name": "Samsung Galaxy S2",
+    "w": 480,
+    "h": 800,
+    "d": 4.3,
+    "ppi": 217
+  },
+  {
+    "name": "Samsung Galaxy S",
+    "w": 480,
+    "h": 800,
+    "d": 4.0,
+    "ppi": 233
+  }
 ]
