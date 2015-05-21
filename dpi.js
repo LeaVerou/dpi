@@ -10,161 +10,161 @@ height.value = screen.height * dppx;
 var output = $('output');
 
 function calcDpi(w, h, d, opt) {
-	// Calculate PPI/DPI
-	w>0 || (w=1);
-	h>0 || (h=1);
-	opt || (opt='d');
-	var dpi = (opt=='d' ? Math.sqrt(w*w + h*h) : opt=='w' ? w : h) / d;
-	return dpi>0 ? Math.round(dpi) : 0;
+  // Calculate PPI/DPI
+  w>0 || (w=1);
+  h>0 || (h=1);
+  opt || (opt='d');
+  var dpi = (opt=='d' ? Math.sqrt(w*w + h*h) : opt=='w' ? w : h) / d;
+  return dpi>0 ? Math.round(dpi) : 0;
 }
 
 function update() {
-	var w = width.value,
-	    h = height.value;
+  var w = width.value,
+      h = height.value;
 
-	result.textContent = calcDpi(w, h, physical.value, dimension.value);
+  result.textContent = calcDpi(w, h, physical.value, dimension.value);
 
-	// Size the output to have the same aspect ratio as the screen
-	var ratio = w/h;
+  // Size the output to have the same aspect ratio as the screen
+  var ratio = w/h;
 
-	output.style.minWidth = result.parentNode.offsetWidth;
+  output.style.minWidth = result.parentNode.offsetWidth;
 
-	if (ratio > 1) {
-		output.style.width = '';
-	}
-	else {
-		output.style.width = '10em';
-	}
+  if (ratio > 1) {
+    output.style.width = '';
+  }
+  else {
+    output.style.width = '10em';
+  }
 
-	output.style.height = output.offsetWidth / ratio + 'px';
+  output.style.height = output.offsetWidth / ratio + 'px';
 }
 
 dimension.onchange = update;
 
 $$('fieldset input').forEach(function(element) {
-	(element.oninput = function () {
-		this.style.width = this.value.length * .7 + 'em';
-		this.style.width = this.value.length + 'ch';
-		update();
-	}).call(element);
+  (element.oninput = function () {
+    this.style.width = this.value.length * .7 + 'em';
+    this.style.width = this.value.length + 'ch';
+    update();
+  }).call(element);
 });
 
 $$('#resolutions a, #diagonals a').forEach(function(a) {
-	a.href = '#' + a.textContent;
+  a.href = '#' + a.textContent;
 });
 
 $u.xhr({
-	url: 'screens.json',
-	callback: function (xhr) {
-		window.Devices = JSON.parse(xhr.responseText);
+  url: 'screens.json',
+  callback: function (xhr) {
+    window.Devices = JSON.parse(xhr.responseText);
 
-		var fragment = document.createDocumentFragment();
+    var fragment = document.createDocumentFragment();
 
-		Devices.forEach(function (device) {
-			device.ppi || ( device.ppi = calcDpi(device.w, device.h, device.d) );
-		});
+    Devices.forEach(function (device) {
+      device.ppi || ( device.ppi = calcDpi(device.w, device.h, device.d) );
+    });
 
-		window.Devices = Devices.sort(function (device1, device2) {
-			return (device2.ppi - device1.ppi);
-		});
+    window.Devices = Devices.sort(function (device1, device2) {
+      return (device2.ppi - device1.ppi);
+    });
 
-		Devices.forEach(function (device) {
-			deviceRow(device, fragment);
-		});
+    Devices.forEach(function (device) {
+      deviceRow(device, fragment);
+    });
 
-		var tbody = $('table tbody', devices);
+    var tbody = $('table tbody', devices);
 
-		tbody.innerHTML = '';
+    tbody.innerHTML = '';
 
-		tbody.appendChild(fragment);
-	}
+    tbody.appendChild(fragment);
+  }
 });
 
 function deviceRow(device, fragment) {
-	return $u.element.create('tr', {
-		contents: [
-			{
-				tag: 'th',
-				contents: {
-					tag: 'a',
-					properties: {
-						href: '#' + device.w + '×' + device.h + '@' + device.d + '″'
-					},
-					contents: device.name
-				}
-			}, {
-				tag: 'td',
-				contents: device.d + '″'
-			}, {
-				tag: 'td',
-				contents: device.w + '×' + device.h
-			}, {
-				tag: 'td',
-				contents: device.ppi
-			}, {
-				tag: 'td',
-				contents: device.dppx || ' '
-			}
-		],
-		inside: fragment
-	});
+  return $u.element.create('tr', {
+    contents: [
+      {
+        tag: 'th',
+        contents: {
+          tag: 'a',
+          properties: {
+            href: '#' + device.w + '×' + device.h + '@' + device.d + '″'
+          },
+          contents: device.name
+        }
+      }, {
+        tag: 'td',
+        contents: device.d + '″'
+      }, {
+        tag: 'td',
+        contents: device.w + '×' + device.h
+      }, {
+        tag: 'td',
+        contents: device.ppi
+      }, {
+        tag: 'td',
+        contents: device.dppx || ' '
+      }
+    ],
+    inside: fragment
+  });
 }
 
 
 (window.onhashchange = function() {
-	var hash = decodeURIComponent(location.hash);
+  var hash = decodeURIComponent(location.hash);
 
-	if (hashRegex.test(hash)) {
-		var matches = hash.match(hashRegex);
+  if (hashRegex.test(hash)) {
+    var matches = hash.match(hashRegex);
 
-		if (matches[1]) {
-			width.value = matches[1]
-			width.oninput();
-		}
+    if (matches[1]) {
+      width.value = matches[1]
+      width.oninput();
+    }
 
-		if (matches[2]) {
-			height.value = matches[2];
-			height.oninput();
-		}
+    if (matches[2]) {
+      height.value = matches[2];
+      height.oninput();
+    }
 
-		if (matches[3] || matches[5]) {
-			if (matches[3]) {
-				physical.value = matches[4];
-			}
+    if (matches[3] || matches[5]) {
+      if (matches[3]) {
+        physical.value = matches[4];
+      }
 
-			if (matches[5]) {
-				physical.value = matches[5];
-			}
+      if (matches[5]) {
+        physical.value = matches[5];
+      }
 
-			dimension.value = 'd';
-			physical.oninput();
-		}
-	}
+      dimension.value = 'd';
+      physical.oninput();
+    }
+  }
 })();
 
 search.oninput = function() {
-	if (!window.Devices) {
-		return;
-	}
+  if (!window.Devices) {
+    return;
+  }
 
-	var term = this.value;
+  var term = this.value;
 
-	var fragment = document.createDocumentFragment(),
-	    results = 0;
+  var fragment = document.createDocumentFragment(),
+      results = 0;
 
-	Devices.forEach(function (device) {
-		for (var i in device) {
-			if ((device[i] + '').toLowerCase().indexOf(term.toLowerCase()) > -1) {
-				deviceRow(device, fragment);
-				results++;
-				return;
-			}
-		}
-	});
+  Devices.forEach(function (device) {
+    for (var i in device) {
+      if ((device[i] + '').toLowerCase().indexOf(term.toLowerCase()) > -1) {
+        deviceRow(device, fragment);
+        results++;
+        return;
+      }
+    }
+  });
 
-	var tbody = $('table tbody', devices);
+  var tbody = $('table tbody', devices);
 
-	tbody.innerHTML = results? '' : '<tr><td colspan="4">No results</td></tr>';
+  tbody.innerHTML = results? '' : '<tr><td colspan="4">No results</td></tr>';
 
-	tbody.appendChild(fragment);
+  tbody.appendChild(fragment);
 };
