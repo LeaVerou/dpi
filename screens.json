@@ -212,6 +212,12 @@
 		"ppi": 256
 	},
 	{
+		"name": "Ben NanoNote",
+		"w": 320,
+		"h": 240,
+		"d": 3.0
+	},
+	{
 		"name": "BlackBerry Passport",
 		"w": 1440,
 		"h": 1440,
@@ -470,6 +476,18 @@
 		"dppx": 2
 	},
 	{
+		"name": "Openmoko Neo1973, Neo FreeRunner",
+		"w": 480,
+		"h": 640,
+		"d": 2.84
+	},
+	{
+		"name": "OpenPhoenux GTA04",
+		"w": 480,
+		"h": 640,
+		"d": 2.84
+	},
+	{
 		"name": "Samsung Galaxy Mini 2",
 		"w": 320,
 		"h": 480,
@@ -587,6 +605,24 @@
 		"w": 480,
 		"h": 800,
 		"d": 4
+	},
+	{
+		"name": "Nokia N9",
+		"w": 480,
+		"h": 854,
+		"d": 3.9
+	},
+	{
+		"name": "Nokia N900",
+		"w": 800,
+		"h": 480,
+		"d": 3.5
+	},
+	{
+		"name": "Nokia N950",
+		"w": 480,
+		"h": 854,
+		"d": 4.0
 	},
 	{
 		"name":"Sony Xperia SP",
