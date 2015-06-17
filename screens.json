@@ -619,7 +619,8 @@
 		"name": "OnePlus One",
 		"w": 1080,
 		"h": 1920,
-		"d": 5.5
+		"d": 5.5,
+		"dppx": 3
 	},
 	{
 		"name": "Samsung Galaxy S6, S6 Edge",
