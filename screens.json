@@ -299,6 +299,12 @@
 		"dppx": 3
 	},
 	{
+		"name": "Google Nexus 5X",
+		"w": 1920,
+		"h": 1080,
+		"d": 5.2
+	},
+	{
 		"name": "Google Nexus 6",
 		"w": 2560,
 		"h": 1440,
