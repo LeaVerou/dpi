@@ -85,6 +85,12 @@
 		"dppx": 2
 	},
 	{
+		"name": "Apple MacBook (Mid-2009)",
+		"w": 1280,
+		"h": 800,
+		"d": 13.3
+	},
+	{
 		"name": "Apple MacBook Air",
 		"w": 1366,
 		"h": 768,
@@ -641,6 +647,13 @@
 		"h": 800,
 		"d": 4.3,
 		"ppi": 217
+	},
+	{
+		"name": "Samsung Galaxy S2 Skyrocket"
+		"w": 480,
+		"h": 800,
+		"d": 4.5,
+		"ppi": 207
 	},
 	{
 		"name": "Samsung Galaxy S",
