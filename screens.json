@@ -718,7 +718,8 @@
 		"w": 480,
 		"h": 800,
 		"d": 4.3,
-		"ppi": 217
+		"ppi": 217,
+		"dppx": 1.5
 	},
 	{
 		"name": "Samsung Galaxy S",
