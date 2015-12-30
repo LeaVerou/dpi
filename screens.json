@@ -43,7 +43,7 @@
 		"d": 5.5,
 		"ppi": 401,
 		"dppx": 2.46
-	},		
+	},
 	{
 		"name": "Apple iPad mini",
 		"w": 1024,
@@ -55,7 +55,8 @@
 		"name": "Apple iPad mini Retina",
 		"w": 2048,
 		"h": 1536,
-		"d": 7.9
+		"d": 7.9,
+		"dppx": 2
 	},
 	{
 		"name": "Apple iPad 1, 2",
@@ -78,10 +79,18 @@
 		"dppx": 2
 	},
 	{
-		"name": "Apple iPad Air",
+		"name": "Apple iPad Air 1, 2",
 		"w": 2048,
 		"h": 1536,
 		"d": 9.7,
+		"dppx": 2
+	},
+	{
+		"name": "Apple iPad Pro",
+		"w": 2732,
+		"h": 2048,
+		"d": 12.9,
+		"ppi": 264,
 		"dppx": 2
 	},
 	{
@@ -451,7 +460,7 @@
 		"w": 2160,
 		"h": 1440,
 		"d": 12
-	},	
+	},
 	{
 		"name": "Motorola Moto G",
 		"w": 720,
@@ -670,5 +679,5 @@
 		"d": 5.5,
 		"ppi": 538
 	}
-	
+
 ]
