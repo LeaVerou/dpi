@@ -27,7 +27,7 @@ function update() {
 	// Size the output to have the same aspect ratio as the screen
 	var ratio = w/h;
 
-	output.style.minWidth = result.parentNode.offsetWidth;
+	output.style.minWidth = result.parentNode.offsetWidth + 'px';
 
 	if (ratio > 1) {
 		output.style.width = '';
