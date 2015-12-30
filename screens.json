@@ -139,6 +139,13 @@
 		"d": 15.4
 	},
 	{
+		"name": "Apple MacBook Pro",
+		"w": 1920,
+		"h": 1200,
+		"d": 17,
+		"ppi": 133
+	},
+	{
 		"name": "Apple iMac",
 		"w": 1920,
 		"h": 1080,
