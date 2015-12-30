@@ -635,7 +635,8 @@
 		"w": 1440,
 		"h": 2560,
 		"d": 5.1,
-		"ppi": 577
+		"ppi": 577,
+		"dppx": 4
 	},
 	{
 		"name": "Samsung Galaxy S3",
