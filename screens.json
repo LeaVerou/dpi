@@ -94,6 +94,13 @@
 		"dppx": 2
 	},
 	{
+		"name": "Apple MacBook",
+		"w": 2304,
+		"h": 1440,
+		"d": 12,
+		"dppx": 2
+	},
+	{
 		"name": "Apple MacBook Air",
 		"w": 1366,
 		"h": 768,
