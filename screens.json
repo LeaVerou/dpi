@@ -506,6 +506,13 @@
 		"d": 12
 	},
 	{
+		"name": "Motorola Moto E",
+		"w": 540,
+		"h": 960,
+		"d": 4.3,
+		"ppi": 256
+	},
+	{
 		"name": "Motorola Moto G",
 		"w": 720,
 		"h": 1280,
