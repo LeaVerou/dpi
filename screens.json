@@ -369,7 +369,8 @@
 		"name": "Google Nexus 9",
 		"w": 2048,
 		"h": 1536,
-		"d": 8.9
+		"d": 8.9,
+		"dppx": 2
 	},
 	{
 		"name": "Google Nexus 10",
