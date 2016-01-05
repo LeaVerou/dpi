@@ -506,6 +506,13 @@
 		"d": 12
 	},
 	{
+		"name": "Microsoft Surface Pro 4",
+		"w": 2736,
+		"h": 1824,
+		"d": 12.3,
+		"dppx": 2
+	},
+	{
 		"name": "Motorola Moto E",
 		"w": 540,
 		"h": 960,
