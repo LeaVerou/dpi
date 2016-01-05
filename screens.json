@@ -380,6 +380,12 @@
 		"dppx": 2
 	},
 	{
+		"name": "Google Pixel C",
+		"w": 2560,
+		"h": 1800,
+		"ppi": 308,
+	},
+	{
 		"name": "HTC Evo",
 		"w": 480,
 		"h": 800,
