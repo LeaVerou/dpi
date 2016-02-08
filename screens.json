@@ -285,6 +285,12 @@
 		"dppx": 2
 	},
 	{
+		"name": "Dell XPS 15 4k UltraHD",	
+		"w": 3840,
+		"h": 2160,
+		"d": 15.6
+	},
+	{
 		"name": "Dell UltraSharp P2415Q",
 		"w": 3840,
 		"h": 2160,
