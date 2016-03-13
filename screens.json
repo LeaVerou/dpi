@@ -285,6 +285,18 @@
 		"dppx": 2
 	},
 	{
+		"name": "Dell XPS 13 FHD",	
+		"w": 1920,
+		"h": 1080,
+		"d": 13.3
+	},
+	{
+		"name": "Dell XPS 13 QHD",	
+		"w": 3200,
+		"h": 1800,
+		"d": 13.3
+	},
+	{
 		"name": "Dell XPS 15 4k UltraHD",	
 		"w": 3840,
 		"h": 2160,
