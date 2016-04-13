@@ -821,6 +821,18 @@
 		"d": 8.3,
 		"ppi": 273,
 		"dppx": 2
+	},
+	{
+		"name": "Wileyfox SWIFT",
+		"w": 720,
+		"h": 1280,
+		"d": 5
+	},
+	{
+		"name": "Wileyfox STORM",
+		"w": 1080,
+		"h": 1920,
+		"d": 5.5
 	}
 
 ]
