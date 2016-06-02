@@ -21,7 +21,7 @@
 		"dppx": 2
 	},
 	{
-		"name": "Apple iPhone 5, 5S, 5C",
+		"name": "Apple iPhone 5, 5S, 5C, SE",
 		"w": 640,
 		"h": 1136,
 		"d": 4,
@@ -29,7 +29,7 @@
 		"dppx": 2
 	},
 	{
-		"name": "Apple iPhone 6",
+		"name": "Apple iPhone 6, 6S",
 		"w": 750,
 		"h": 1334,
 		"d": 4.7,
@@ -37,7 +37,7 @@
 		"dppx": 2
 	},
 	{
-		"name": "Apple iPhone 6 Plus",
+		"name": "Apple iPhone 6 Plus, 6S Plus",
 		"w": 1080,
 		"h": 1920,
 		"d": 5.5,
@@ -165,7 +165,13 @@
 		"d": 27
 	},
 	{
-		"name": "Apple iMac Retina",
+		"name": "Apple iMac Retina 4K",
+		"w": 4096,
+		"h": 2304,
+		"d": 21.5
+	},
+	{
+		"name": "Apple iMac Retina 5K",
 		"w": 5120,
 		"h": 2880,
 		"d": 27
