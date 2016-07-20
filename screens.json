@@ -398,6 +398,13 @@
 		"d": 23.8
 	},
 	{
+		"name": "Dell SP2309W",
+		"w": 2048,
+		"h": 1152,
+		"d": 23,
+		"ppi": 102
+	},
+	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
@@ -793,6 +800,13 @@
 		"h": 480,
 		"d": 3.5,
 		"ppi": 165
+	},
+	{
+		"name":"ZTE ZMax",
+		"w": 720,
+		"h": 1280,
+		"d": 5.7,
+		"ppi": 258
 	},
 	{
 		"name": "Apple PowerBook G4",
