@@ -706,6 +706,18 @@
 		"ppi": 432
 	},
 	{
+		"name": "Samsung Galaxy S7",
+		"w": 2560,
+		"h": 1440,
+		"d": 5.1
+	},
+		{
+		"name": "Samsung Galaxy S7 Edge",
+		"w": 2560,
+		"h": 1440,
+		"d": 5.5
+	},
+	{
 		"name":"Nokia Lumia 1020",
 		"w": 768,
 		"h": 1280,
