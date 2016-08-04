@@ -385,6 +385,12 @@
 		"h": 2160,
 		"d": 23.8
 	},
+		{
+		"name": "Dell UltraSharp UP2715K",
+		"w": 5120,
+		"h": 2880,
+		"d": 27.0
+	},
 	{
 		"name": "Dell UltraSharp U2412M",
 		"w": 1920,
