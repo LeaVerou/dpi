@@ -14,7 +14,7 @@
 <header>
 	<h1>
 		<img src="img/logo.svg" />
-		<strong>dpi</strong>love	
+		<strong>dpi</strong>love
 	</h1>
 </header>
 
@@ -23,8 +23,8 @@
 	<input id="width" inputmode="numeric" pattern="\d+" />
 	×
 	<input id="height" inputmode="numeric" pattern="\d+" />
-	
-	<p id="resolutions">Common: 
+
+	<p id="resolutions">Common:
 		<a href="#" tabindex="-1">3840×2160</a>
 		<a href="#" tabindex="-1">2560×1440</a>
 		<a href="#" tabindex="-1">1920×1080</a>
@@ -43,7 +43,7 @@
 		<option value="h">Height</option>
 	</select>:
 	<input id="physical" value="13.3" inputmode="numeric" pattern="\d*\.?\d+" />″
-	
+
 	<p id="diagonals">Common diagonals:
 		<a href="#" tabindex="-1">7″</a>
 		<a href="#" tabindex="-1">11.6″</a>
@@ -64,11 +64,17 @@
 	</div>
 </output>
 
+<aside>
+	<!-- Carbon Zone Code -->
+	<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&serve=CVYD42T&placement=dpilv" id="_carbonads_js"></script>
+	<!-- Carbon Zone Code -->
+</aside>
+
 <section id="devices">
 	<h1>Known screens</h1>
-	
+
 	<input type="search" placeholder="Search…" id="search" />
-	
+
 	<div id="screens">
 		<table>
 			<thead>
@@ -92,46 +98,46 @@
 
 <section id="faq">
 	<h1>FAQ</h1>
-	
+
 	<article>
 		<h1>“It’s actually PPI, not DPI!”</h1>
-		
-		<p>There are arguments for both terms. In general PPI is a bit more correct but DPI is more commonplace, hence its usage on this site (also ppi.lv wasn’t available :P). 
+
+		<p>There are arguments for both terms. In general PPI is a bit more correct but DPI is more commonplace, hence its usage on this site (also ppi.lv wasn’t available :P).
 		If you are interested, you can read more on this in the <a href="http://en.wikipedia.org/wiki/Pixel_density">Wikipedia article about Pixel Density</a>.</p>
-		
+
 		<p>In more recent terminology, DPI is often used for the actual device pixels and Dots Per Pixel (dppx) for the amount of device pixels per CSS pixel (e.g. in Retina displays this will be 2).</p>
 	</article>
-	
+
 	<article>
 		<h1>What does DPI/PPI mean?</h1>
-		
+
 		<p>In the context of screens, DPI (Dots Per Inch) or PPI (Pixels Per Inch) refer to the number of device pixels per inch, also called “pixel density”. The higher the number, the smaller the size of the pixels, so graphics
-		are perceived as more crisp and less pixelated. The concept of DPI is also used in printing, although the dots and their formation is 
-		<a href="https://en.wikipedia.org/wiki/Halftone">different</a> there. In general, good quality printing uses around 300dpi which is higher than most displays. 
+		are perceived as more crisp and less pixelated. The concept of DPI is also used in printing, although the dots and their formation is
+		<a href="https://en.wikipedia.org/wiki/Halftone">different</a> there. In general, good quality printing uses around 300dpi which is higher than most displays.
 		That’s why vector-based or high-res bitmap graphics usually look more crisp when printed.
 	</article>
-	
+
 	<article>
 		<h1>What’s the point of this site?</h1>
-		
+
 		<p>I got fed up with marketing speak and buzzwords often used to create the impression that a display is much better than it actually is,
 		so I wanted to help people decide what to get with the actual numbers at hand, through an easy to use web app. Also, it was kinda fun to make. :-)</p>
-		
+
 	</article>
-	
+
 	<article>
 		<h1>Higher DPI = Crisper graphics?</h1>
-		
+
 		<p>DPI/PPI is a crucial metric for getting an idea of how crisp a display really is, but it’s only one factor among many.
 		Besides the technical ones (which would need an entire book), there are also those that depend on human nature. </p>
-		
-		<p>Firstly, viewing distance can affect the perceived pixel size. Therefore, if a cell phone and a large screen have the same pixel density, 
+
+		<p>Firstly, viewing distance can affect the perceived pixel size. Therefore, if a cell phone and a large screen have the same pixel density,
 		the large screen will appear more crisp, as it’s typically viewed from a longer distance. This is why large screens can get away with considerably lower pixel densities.
 		In the print world, that’s why posters are printed at a much lower dpi than magazines.</p>
-		
+
 		<p>Secondly, our eyes cannot discern the difference between pixel densities above a certain threshold.
 		This threshold seems to vary depending on the source, but here are a few good articles if you’re interested:</p>
-		
+
 		<ul>
 			<li><a href="http://sebastien-gabriel.com/designers-guide-to-dpi/">Designer's Guide to DPI</a></li>
 			<li><a href="http://wolfcrow.com/blog/notes-by-dr-optoglass-the-resolution-of-the-human-eye/">Notes by Dr. Optoglass: The Resolution of the Human Eye</a></li>
@@ -146,12 +152,6 @@
 
 <script src="utopia.js"></script>
 <script src="dpi.js"></script>
-
-<section class="ad">
-	<!-- AdPacks.com Zone Code -->
-	<script src="http://cdn.adpacks.com/adpacks.js?legacyid=1261373&zoneid=1386&key=67e1f7efa5300630944c625f7975b9b3&serve=C6SI42Y&placement=leaveroume&circle=dev" id="_adpacks_js"></script>
-	<!-- End AdPacks.com Zone Code -->
-</section>
 
 <a href="http://github.com/LeaVerou/dpi"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a>
 
