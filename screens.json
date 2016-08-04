@@ -398,6 +398,12 @@
 		"d": 23.8
 	},
 	{
+		"name": "Eizo CG318-4K",
+		"w": 4096,
+		"h": 2160,
+		"d": 31.1
+	},
+	{
 		"name": "Google Chromebook Pixel",
 		"w": 2560,
 		"h": 1700,
