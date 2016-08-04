@@ -800,6 +800,12 @@
 		"d": 4.6
 	},
 	{
+		"name":"Sony Xperia Z5 Premium",
+		"w": 3840,
+		"h": 2160,
+		"d": 5.5
+	},
+	{
 		"name":"ZTE Open",
 		"w": 320,
 		"h": 480,
