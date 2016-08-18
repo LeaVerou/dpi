@@ -706,6 +706,14 @@
 		"ppi": 432
 	},
 	{
+		"name": "Samsung Galaxy S5 mini",
+		"w": 1280,
+		"h": 720,
+		"d": 4.5,
+		"dppx": 3.396,
+		"ppi": 326
+	},
+	{
 		"name": "Samsung Galaxy S7",
 		"w": 2560,
 		"h": 1440,
