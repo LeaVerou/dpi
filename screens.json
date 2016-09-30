@@ -602,6 +602,13 @@
 		"d": 10.6
 	},
 	{
+		"name": "Microsoft Surface Book",
+		"w": 3000,
+		"h": 1000,
+		"d": 13.5,
+		"dppx": 2
+	},
+	{
 		"name": "Microsoft Surface Pro",
 		"w": 1920,
 		"h": 1080,
