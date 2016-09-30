@@ -627,6 +627,13 @@
 		"dppx": 2
 	},
 	{
+		"name": "Microsoft Book",
+		"w": 3000,
+		"h": 1000,
+		"d": 13.5,
+		"dppx": 2
+	},
+	{
 		"name": "Motorola Moto E",
 		"w": 540,
 		"h": 960,
