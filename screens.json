@@ -833,6 +833,42 @@
 		"d": 4.6
 	},
 	{
+		"name":"Sony Xperia X",
+		"w": 1920,
+		"h": 1080,
+		"d": 5.0
+	},
+	{
+		"name":"Sony Xperia XA",
+		"w": 1280,
+		"h": 720,
+		"d": 5.0
+	},
+	{
+		"name":"Sony Xperia XA Ultra",
+		"w": 1920,
+		"h": 1080,
+		"d": 6.0
+	},
+	{
+		"name":"Sony Xperia X Compact",
+		"w": 1280,
+		"h": 720,
+		"d": 4.6
+	},
+	{
+		"name":"Sony Xperia X Performance",
+		"w": 1920,
+		"h": 1080,
+		"d": 5.0
+	},
+	{
+		"name":"Sony Xperia XZ",
+		"w": 1920,
+		"h": 1080,
+		"d": 5.2
+	},
+	{
 		"name":"Sony Xperia Z5 Premium",
 		"w": 3840,
 		"h": 2160,
