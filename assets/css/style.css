@@ -2,21 +2,27 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/open-sans-light.woff) format('woff');
+  src: local('Open Sans Light'),
+  	   local('OpenSans-Light'),
+  	   url('assets/fonts/open-sans-light.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(fonts/open-sans-regular.woff) format('woff');
+  src: local('Open Sans'),
+  	   local('OpenSans'),
+  	   url('assets/fonts/open-sans-regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(fonts/open-sans-bold.woff) format('woff');
+  src: local('Open Sans Bold'),
+  	   local('OpenSans-Bold'),
+  	   url('assets/fonts/open-sans-bold.woff') format('woff');
 }
 
 body {
@@ -103,7 +109,7 @@ input#search {
 	box-sizing: border-box;
 	border-radius: 999px;
 	font: inherit;
-	background: url(img/search.svg) no-repeat .3em 50% / 1em auto;
+	background: url('img/search.svg') no-repeat .3em 50% / 1em auto;
 }
 
 select {
@@ -125,7 +131,7 @@ output {
 	border-radius: 12px;
 	margin: 1em auto 0;
 	background: #333;
-	background: linear-gradient(to bottom right, gray, black), url(img/noise.png), linear-gradient(to bottom right, #eee, #ccc);
+	background: linear-gradient(to bottom right, gray, black), url('img/noise.png'), linear-gradient(to bottom right, #eee, #ccc);
 	background-origin: padding-box, border-box, border-box;
 	background-clip: padding-box, border-box, border-box;
 	box-shadow: 1px 1px 3px black inset, 0 -1px white, 0 -1px 0 1px #bbb, 0 2px 0 1px #aaa, 0 2px 10px 1px rgba(0,0,0,.2);
