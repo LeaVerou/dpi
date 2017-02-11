@@ -515,7 +515,8 @@
 		"name": "HTC One Max",
 		"w": 1080,
 		"h": 1920,
-		"d": 5.9
+		"d": 5.9,
+		"dppx": 2.5
 	},
 	{
 		"name": "HTC One Mini",
@@ -704,6 +705,12 @@
 		"h": 1824,
 		"d": 12.3,
 		"dppx": 2
+	},
+	{
+		"name": "Motorola Droid Turbo",
+		"w": 1440,
+		"h": 2560,
+		"d": 5.2
 	},
 	{
 		"name": "Motorola Moto E",
@@ -952,6 +959,12 @@
 		"w": 320,
 		"h": 480,
 		"d": 3.27
+	},
+	{
+		"name": "Samsung Nexus S",
+		"w": 480,
+		"h": 800,
+		"d": 4
 	},
 	{
 		"name": "Samsung Nexus 10",
