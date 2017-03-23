@@ -961,6 +961,18 @@
 		"d": 3.27
 	},
 	{
+		"name": "Samsung Galaxy Xcover 2",
+		"w": 480,
+		"h": 800,
+		"d": 4
+	},
+	{
+		"name": "Samsung Galaxy Xcover 3",
+		"w": 480,
+		"h": 800,
+		"d": 4.5
+	},
+	{
 		"name": "Samsung Nexus S",
 		"w": 480,
 		"h": 800,
