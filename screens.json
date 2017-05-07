@@ -420,6 +420,12 @@
 		"d": 27.0
 	},
 	{
+		"name": "Dell UltraSharp UP3216Q",
+		"w": 3840,
+		"h": 2160,
+		"d": 31.5
+	},
+	{
 		"name": "Dell XPS 13 FHD",
 		"w": 1920,
 		"h": 1080,
@@ -466,6 +472,12 @@
 		"w": 2560,
 		"h": 1440,
 		"d": 5.5
+	},
+	{
+		"name": "HP ZR30w",
+		"w": 2560,
+		"h": 1600,
+		"d": 29.7
 	},
 	{
 		"name": "HTC Desire C",
@@ -582,6 +594,12 @@
 		"name": "Lenovo ThinkPad T450s",
 		"w": 1920,
 		"h": 1080,
+		"d": 14
+	},
+	{
+		"name": "Lenovo ThinkPad X1 Carbon WQHD",
+		"w": 2560,
+		"h": 1440,
 		"d": 14
 	},
 	{
