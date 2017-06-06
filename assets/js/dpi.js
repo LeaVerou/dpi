@@ -11,11 +11,11 @@ var output = $('output');
 
 function calcDpi(w, h, d, opt) {
 	// Calculate PPI/DPI
-	w>0 || (w=1);
-	h>0 || (h=1);
-	opt || (opt='d');
-	var dpi = (opt=='d' ? Math.sqrt(w*w + h*h) : opt=='w' ? w : h) / d;
-	return dpi>0 ? Math.round(dpi) : 0;
+	w > 0 || (w = 1);
+	h > 0 || (h = 1);
+	opt   || (opt = 'd');
+	var dpi = (opt == 'd' ? Math.sqrt(w * w + h * h) : opt == 'w' ? w : h) / d;
+	return dp i >0 ? Math.round(dpi) : 0;
 }
 
 function update() {
@@ -25,18 +25,11 @@ function update() {
 	result.textContent = calcDpi(w, h, physical.value, dimension.value);
 
 	// Size the output to have the same aspect ratio as the screen
-	var ratio = w/h;
+	var ratio = w / h;
 
 	output.style.minWidth = result.parentNode.offsetWidth + 'px';
-
-	if (ratio > 1) {
-		output.style.width = '';
-	}
-	else {
-		output.style.width = '10em';
-	}
-
-	output.style.height = output.offsetWidth / ratio + 'px';
+	output.style.width    = ratio > 1 ? '' : '10em';
+	output.style.height   = output.offsetWidth / ratio + 'px';
 }
 
 dimension.onchange = update;
@@ -61,7 +54,7 @@ $u.xhr({
 		var fragment = document.createDocumentFragment();
 
 		Devices.forEach(function (device) {
-			device.ppi || ( device.ppi = calcDpi(device.w, device.h, device.d) );
+			device.ppi || (device.ppi = calcDpi(device.w, device.h, device.d));
 		});
 
 		window.Devices = Devices.sort(function (device1, device2) {
@@ -73,9 +66,7 @@ $u.xhr({
 		});
 
 		var tbody = $('table tbody', devices);
-
 		tbody.innerHTML = '';
-
 		tbody.appendChild(fragment);
 	}
 });
@@ -103,7 +94,7 @@ function deviceRow(device, fragment) {
 				contents: device.ppi
 			}, {
 				tag: 'td',
-				contents: device.dppx || 1
+				contents: device.dppx || '?'
 			}
 		],
 		inside: fragment
@@ -163,8 +154,6 @@ search.oninput = function() {
 	});
 
 	var tbody = $('table tbody', devices);
-
-	tbody.innerHTML = results? '' : '<tr><td colspan="4">No results</td></tr>';
-
+	tbody.innerHTML = results ? '' : '<tr><td colspan="4">No results</td></tr>';
 	tbody.appendChild(fragment);
 };
