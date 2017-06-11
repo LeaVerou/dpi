@@ -15,7 +15,7 @@ function calcDpi(w, h, d, opt) {
 	h > 0 || (h = 1);
 	opt   || (opt = 'd');
 	var dpi = (opt == 'd' ? Math.sqrt(w * w + h * h) : opt == 'w' ? w : h) / d;
-	return dp i >0 ? Math.round(dpi) : 0;
+	return dpi > 0 ? Math.round(dpi) : 0;
 }
 
 function update() {
