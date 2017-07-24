@@ -48,7 +48,7 @@
 		"d": 7,
 		"dppx": 1
 	},
-	{
+
 		"name": "Amazon Kindle Fire HD 7",
 		"w": 1280,
 		"h": 800,
@@ -570,8 +570,7 @@
 		"name": "Huawei Y5 II",
 		"w": 720,
 		"h": 1280,
-		"d": 5.0,
-		"ppi": 294
+		"d": 5.0
 	},
 	{
 		"name": "IBM T221",
