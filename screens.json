@@ -184,6 +184,14 @@
 		"dppx": 2.46
 	},
 	{
+		"name": "Apple iPhone X",
+		"w": 1125,
+		"h": 2436,
+		"d": 5.8,
+		"ppi": 458,
+		"dppx": 3
+	},
+	{
 		"name": "Apple iMac (21-inch)",
 		"w": 1920,
 		"h": 1080,
