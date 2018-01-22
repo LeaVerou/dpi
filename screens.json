@@ -998,6 +998,18 @@
 		"h": 1440,
 		"d": 5.5
 	},
+		{
+		"name": "Samsung Galaxy S8",
+		"w": 2960,
+		"h": 1440,
+		"d": 5.8
+	},
+		{
+		"name": "Samsung Galaxy S8+ Plus",
+		"w": 2960,
+		"h": 1440,
+		"d": 6.2
+	},
 	{
 		"name": "Samsung Galaxy Young",
 		"w": 320,
