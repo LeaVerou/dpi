@@ -919,6 +919,13 @@
 		"ppi": 169
 	},
 	{
+		"name": "Samsung Galaxy Tab Active 8.0",
+		"w": 800,
+		"h": 1280,
+		"d": 8,
+		"ppi": 189
+	},
+	{
 		"name": "Samsung Galaxy Tab 8.9",
 		"w": 800,
 		"h": 1280,
