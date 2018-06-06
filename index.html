@@ -67,7 +67,7 @@
 		<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&serve=CVYD42T&placement=dpilv" id="_carbonads_js"></script>
 		<!-- Carbon Zone Code -->
 	</aside>
-
+	
 	<section id="devices" mv-app mv-storage="https://github.com/efeichen/dpi/blob/feature/mavo-screens/screens.json">
 		<h1>Known screens</h1>
 		<input type="search" placeholder="Search…" id="search" />
@@ -83,7 +83,7 @@
 						<th>dppx</th>
 					</tr>
 				</thead>
-				<!--
+				<!-- Prob don't need this since Mavo has own loading animation
 				<tbody>
 					<tr>
 						<td colspan="4">Loading…</td>
@@ -92,11 +92,9 @@
 				-->
 				<tbody>
 					<tr property="screen" mv-multiple>
-						<td property="name"></td>
+						<th><a href="#"><span property="name"></span></a></th>
 						<td><span property="d"></span>"</td>
-						<td>
-							<span property="w"></span>×<span property="h"></span>
-						</td>
+						<td><span property="w"></span>×<span property="h"></span></td>
 						<td>[round((sqrt((w * w) + (h * h))/d), 0)]</td>
 						<td property="dppx" mv-default="?"></td>
 					</tr>
