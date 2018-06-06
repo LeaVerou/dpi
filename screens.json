@@ -325,7 +325,7 @@
 		"name": "Ben NanoNote",
 		"w": 320,
 		"h": 240,
-		"d": 3.0
+		"d": 3
 	},
 	{
 		"name": "BlackBerry Passport",
@@ -367,7 +367,7 @@
 		"name": "BlackBerry Z30",
 		"w": 720,
 		"h": 1280,
-		"d": 5.0,
+		"d": 5,
 		"ppi": 295,
 		"dppx": 2
 	},
@@ -407,7 +407,7 @@
 		"name": "Dell Ultra HD 4k P2715Q",
 		"w": 3840,
 		"h": 2160,
-		"d": 27.0
+		"d": 27
 	},
 	{
 		"name": "Dell UltraSharp P2415Q",
@@ -437,7 +437,7 @@
 		"name": "Dell UltraSharp UP2715K",
 		"w": 5120,
 		"h": 2880,
-		"d": 27.0
+		"d": 27
 	},
 	{
 		"name": "Dell UltraSharp UP3216Q",
@@ -479,7 +479,7 @@
 		"name": "Google Pixel",
 		"w": 1920,
 		"h": 1080,
-		"d": 5.0
+		"d": 5
 	},
 	{
 		"name": "Google Pixel C",
@@ -590,7 +590,7 @@
 		"name": "Huawei Y5 II",
 		"w": 720,
 		"h": 1280,
-		"d": 5.0
+		"d": 5
 	},
 	{
 		"name": "IBM T221",
@@ -871,7 +871,7 @@
 		"name": "Nokia N950",
 		"w": 480,
 		"h": 854,
-		"d": 4.0
+		"d": 4
 	},
 	{
 		"name": "OnePlus 5T",
@@ -949,7 +949,7 @@
 		"name": "Samsung Galaxy S",
 		"w": 480,
 		"h": 800,
-		"d": 4.0,
+		"d": 4,
 		"ppi": 233
 	},
 	{
@@ -1017,13 +1017,13 @@
 		"h": 1440,
 		"d": 5.5
 	},
-		{
+	{
 		"name": "Samsung Galaxy S8",
 		"w": 2960,
 		"h": 1440,
 		"d": 5.8
 	},
-		{
+	{
 		"name": "Samsung Galaxy S8+ Plus",
 		"w": 2960,
 		"h": 1440,
@@ -1076,19 +1076,19 @@
 		"name": "Sony Xperia X",
 		"w": 1920,
 		"h": 1080,
-		"d": 5.0
+		"d": 5
 	},
 	{
 		"name": "Sony Xperia XA",
 		"w": 1280,
 		"h": 720,
-		"d": 5.0
+		"d": 5
 	},
 	{
 		"name": "Sony Xperia XA Ultra",
 		"w": 1920,
 		"h": 1080,
-		"d": 6.0
+		"d": 6
 	},
 	{
 		"name": "Sony Xperia X Compact",
@@ -1100,7 +1100,7 @@
 		"name": "Sony Xperia X Performance",
 		"w": 1920,
 		"h": 1080,
-		"d": 5.0
+		"d": 5
 	},
 	{
 		"name": "Sony Xperia XZ",
@@ -1109,13 +1109,13 @@
 		"d": 5.2
 	},
 	{
-		"name":"Sony Xperia Z5 Compact",
+		"name": "Sony Xperia Z5 Compact",
 		"w": 1280,
 		"h": 720,
 		"d": 4.6
 	},
 	{
-    	"name": "Sony Xperia Z5 Premium",
+		"name": "Sony Xperia Z5 Premium",
 		"w": 3840,
 		"h": 2160,
 		"d": 5.5
