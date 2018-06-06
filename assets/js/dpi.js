@@ -46,6 +46,7 @@ $$('#resolutions a, #diagonals a').forEach(function(a) {
 	a.href = '#' + a.textContent;
 });
 
+/*
 $u.xhr({
 	url: 'screens.json',
 	callback: function (xhr) {
@@ -70,6 +71,7 @@ $u.xhr({
 		tbody.appendChild(fragment);
 	}
 });
+*/
 
 function deviceRow(device, fragment) {
 	return $u.element.create('tr', {
