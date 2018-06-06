@@ -5,6 +5,7 @@
 	<title>DPI love ♥ Easily find the DPI/PPI of any screen</title>
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/mavo.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -67,12 +68,11 @@
 		<!-- Carbon Zone Code -->
 	</aside>
 
-	<section id="devices">
+	<section id="devices" mv-app mv-storage="https://github.com/efeichen/dpi/blob/feature/mavo-screens/screens.json">
 		<h1>Known screens</h1>
-
 		<input type="search" placeholder="Search…" id="search" />
-
 		<div id="screens">
+			<div class="mv-bar mv-ui"></div>
 			<table>
 				<thead>
 					<tr>
@@ -83,9 +83,22 @@
 						<th>dppx</th>
 					</tr>
 				</thead>
+				<!--
 				<tbody>
 					<tr>
 						<td colspan="4">Loading…</td>
+					</tr>
+				</tbody>
+				-->
+				<tbody>
+					<tr property="screen" mv-multiple>
+						<td property="name"></td>
+						<td><span property="d"></span>"</td>
+						<td>
+							<span property="w"></span>×<span property="h"></span>
+						</td>
+						<td>[round((sqrt((w * w) + (h * h))/d), 0)]</td>
+						<td property="dppx" mv-default="?"></td>
 					</tr>
 				</tbody>
 			</table>
@@ -150,6 +163,7 @@
 
 	<script src="assets/js/prefixfree.min.js"></script>
 	<script src="assets/js/utopia.js"></script>
+	<script src="assets/js/mavo.js"></script>
 	<script src="assets/js/dpi.js"></script>
 
 	<a href="https://twitter.com/share" data-url="http://dpi.lv" class="twitter-share-button" data-via="LeaVerou" data-count="vertical">Tweet</a>
