@@ -83,11 +83,18 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr property="screen" mv-multiple mv-if="!search or search(lowercase(name), lowercase(search))>=0 or search(d, search)>=0 or search(w, search)>=0 or search(h, search)>=0 or search(dpi, search)>=0 or search(dppx, search)>=0">
+					<tr property="screen" mv-multiple mv-if="!search 
+															or search(lowercase(name), lowercase(search))>=0 
+															or search(d, search)>=0 
+															or search(w, search)>=0 
+															or search(h, search)>=0 
+															or search(dpi, search)>=0 
+															or search(dppx, search)>=0">
+						
 						<th><a href="#[w]×[h]@[d]″"><span property="name"></span></a></th>
 						<td><span property="d"></span>"</td>
 						<td><span property="w"></span>×<span property="h"></span></td>
-						<td property="dpi">[round((sqrt((w * w) + (h * h))/d), 0)]</td>
+						<td property="dpi">[round((sqrt(w * w + h * h)/d))]</td>
 						<td property="dppx" mv-default="?"></td>
 					</tr>
 				</tbody>
