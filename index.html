@@ -83,15 +83,21 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr property="screen" mv-multiple mv-if="!search 
-															or search(lowercase(name), lowercase(search))>=0 
-															or search(d, search)>=0 
-															or search(w, search)>=0 
-															or search(h, search)>=0 
-															or search(dpi, search)>=0 
-															or search(dppx, search)>=0">
-						
-						<th><a href="#[w]×[h]@[d]″"><span property="name"></span></a></th>
+					<tr mv-if="count(isVisible)=0">
+						<td colspan="5">No Results</td>
+					</tr>
+					<tr property="device" mv-multiple style="display:[if(!isVisible, none)]">
+						<th>
+							<meta property="isVisible" content="[
+								!search 
+								or search(lowercase(name), lowercase(search))>=0
+								or search(d, search)>=0
+								or search(w, search)>=0
+								or search(h, search)>=0
+								or search(dpi, search)>=0
+								or search(dppx, search)>=0
+							]"><a href="#[w]×[h]@[d]″"><span property="name"></span></a>
+						</th>
 						<td><span property="d"></span>"</td>
 						<td><span property="w"></span>×<span property="h"></span></td>
 						<td property="dpi">[round((sqrt(w * w + h * h)/d))]</td>
