@@ -5,6 +5,7 @@
 	<title>DPI love ♥ Easily find the DPI/PPI of any screen</title>
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -66,13 +67,11 @@
 		<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&serve=CVYD42T&placement=dpilv" id="_carbonads_js"></script>
 		<!-- Carbon Zone Code -->
 	</aside>
-
-	<section id="devices">
+	<section id="devices" mv-app mv-storage="https://github.com/LeaVerou/dpi/blob/gh-pages/screens.json" class="mv-autoedit">
 		<h1>Known screens</h1>
-
-		<input type="search" placeholder="Search…" id="search" />
-
+		<input type="search" placeholder="Search…" id="search" property mv-storage="none"/>
 		<div id="screens">
+			<div class="mv-bar mv-ui" mv-bar="no-login"></div>
 			<table>
 				<thead>
 					<tr>
@@ -84,13 +83,30 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td colspan="4">Loading…</td>
+					<tr mv-if="count(isVisible)=0">
+						<td colspan="5">No Results</td>
+					</tr>
+					<tr property="device" mv-multiple style="display:[if(!isVisible, none)]">
+						<th>
+							<meta property="isVisible" content="[
+								!search 
+								or search(lowercase(name), lowercase(search))>=0
+								or search(d, search)>=0
+								or search(w, search)>=0
+								or search(h, search)>=0
+								or search(dpi, search)>=0
+								or search(dppx, search)>=0
+							]"><a href="#[w]×[h]@[d]″"><span property="name"></span></a>
+						</th>
+						<td><span property="d"></span>"</td>
+						<td><span property="w"></span>×<span property="h"></span></td>
+						<td property="dpi">[round((sqrt(w * w + h * h)/d))]</td>
+						<td property="dppx" mv-default="?"></td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
-		<footer><p>Help this list expand: <a href="https://github.com/LeaVerou/dpi">Send pull requests or file Github issues</a></p></footer>
+		<footer class="mv-logged-out"><p>Help this list expand: <a href="" class="mv-login">Click here to edit and send edit suggestions</a></p></footer>
 	</section>
 
 	<section id="faq">
@@ -150,6 +166,7 @@
 
 	<script src="assets/js/prefixfree.min.js"></script>
 	<script src="assets/js/utopia.js"></script>
+	<script src="https://dev.mavo.io/dist/mavo.js"></script>
 	<script src="assets/js/dpi.js"></script>
 
 	<a href="https://twitter.com/share" data-url="http://dpi.lv" class="twitter-share-button" data-via="LeaVerou" data-count="vertical">Tweet</a>
