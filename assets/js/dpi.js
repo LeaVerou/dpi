@@ -20,10 +20,10 @@ function calcDpi(w, h, d, opt) {
 
 function update() {
 	var w = width.value,
-	    h = height.value;
+		h = height.value;
 
-	result.textContent = calcDpi(w, h, physical.value, dimension.value);
-
+	result.textContent = calcDpi(w, h, physical.value, dimension.value);	
+		
 	// Size the output to have the same aspect ratio as the screen
 	var ratio = w / h;
 
@@ -36,14 +36,8 @@ dimension.onchange = update;
 
 $$('fieldset input').forEach(function(element) {
 	(element.oninput = function () {
-		this.style.width = this.value.length * .7 + 'em';
-		this.style.width = this.value.length + 'ch';
 		update();
 	}).call(element);
-});
-
-$$('#resolutions a, #diagonals a').forEach(function(a) {
-	a.href = '#' + a.textContent;
 });
 
 (window.onhashchange = function() {
