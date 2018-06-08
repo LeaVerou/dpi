@@ -22,21 +22,21 @@
 			<input id="width" property inputmode="numeric" pattern="\d+" class="mv-autosize"/>
 			×
 			<input id="height" property inputmode="numeric" pattern="\d+" class="mv-autosize"/>
-	
+			<meta property="ratio" content="[width/height]">
 			<p id="resolutions">Common:
-				<a href="#" tabindex="-1">3840×2160</a>
-				<a href="#" tabindex="-1">2560×1440</a>
-				<a href="#" tabindex="-1">1920×1080</a>
-				<a href="#" tabindex="-1">1680×1050</a>
-				<a href="#" tabindex="-1">1440×900</a>
-				<a href="#" tabindex="-1">1366×768</a>
-				<a href="#" tabindex="-1">1280×800</a>
-				<a href="#" tabindex="-1">1024×768</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 3840) set(height, 2160)">3840×2160</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 2560) set(height, 1440)">2560×1440</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 1920) set(height, 1080)">1920×1080</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 1680) set(height, 1050)">1680×1050</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 1440) set(height, 900)">1440×900</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 1366) set(height, 768)">1366×768</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 1280) set(height, 800)">1280×800</a>
+				<a href="#" tabindex="-1" mv-action="set(width, 1024) set(height, 768)">1024×768</a>
 			</p>
 		</fieldset>
 		
 		<fieldset>
-			<select id="dimension" title="Physical dimension (in inches)">
+			<select id="dimension" property title="Physical dimension (in inches)">
 				<option selected value="d">Diagonal</option>
 				<option value="w">Width</option>
 				<option value="h">Height</option>
@@ -44,21 +44,26 @@
 			<input id="physical" property value="13.3" inputmode="numeric" pattern="\d*\.?\d+" class="mv-autosize"/>″
 	
 			<p id="diagonals">Common diagonals:
-				<a href="#" tabindex="-1">7″</a>
-				<a href="#" tabindex="-1">11.6″</a>
-				<a href="#" tabindex="-1">13.3″</a>
-				<a href="#" tabindex="-1">14″</a>
-				<a href="#" tabindex="-1">15.6″</a>
-				<a href="#" tabindex="-1">17.3″</a>
-				<a href="#" tabindex="-1">21″</a>
-				<a href="#" tabindex="-1">24″</a>
-				<a href="#" tabindex="-1">27″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 7)">7″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 11.6)">11.6″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 13.3)">13.3″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 14)">14″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 15.6)">15.6″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 17.3)">17.3″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 21)">21″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 24)">24″</a>
+				<a href="#" tabindex="-1" mv-action="set(physical, 27)">27″</a>
 			</p>
 		</fieldset>
 	
 		<output>
 			<div>
-				<strong id="result"></strong>
+				<strong id="result" mv-value="round(
+					if(dimension=d, sqrt(width * width + height * height)/physical,
+					if(dimension=w, width/phyiscal,
+					if(dimension=h, height/physical)))
+				)">
+				</strong>
 				pixels per inch
 			</div>
 		</output>
