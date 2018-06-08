@@ -46,62 +46,6 @@ $$('#resolutions a, #diagonals a').forEach(function(a) {
 	a.href = '#' + a.textContent;
 });
 
-$u.xhr({
-	url: 'screens.json',
-	callback: function (xhr) {
-		window.Devices = JSON.parse(xhr.responseText);
-
-		var fragment = document.createDocumentFragment();
-
-		Devices.forEach(function (device) {
-			device.ppi || (device.ppi = calcDpi(device.w, device.h, device.d));
-		});
-
-		window.Devices = Devices.sort(function (device1, device2) {
-			return (device2.ppi - device1.ppi);
-		});
-
-		Devices.forEach(function (device) {
-			deviceRow(device, fragment);
-		});
-
-		var tbody = $('table tbody', devices);
-		tbody.innerHTML = '';
-		tbody.appendChild(fragment);
-	}
-});
-
-function deviceRow(device, fragment) {
-	return $u.element.create('tr', {
-		contents: [
-			{
-				tag: 'th',
-				contents: {
-					tag: 'a',
-					properties: {
-						href: '#' + device.w + '×' + device.h + '@' + device.d + '″'
-					},
-					contents: device.name
-				}
-			}, {
-				tag: 'td',
-				contents: device.d + '″'
-			}, {
-				tag: 'td',
-				contents: device.w + '×' + device.h
-			}, {
-				tag: 'td',
-				contents: device.ppi
-			}, {
-				tag: 'td',
-				contents: device.dppx || '?'
-			}
-		],
-		inside: fragment
-	});
-}
-
-
 (window.onhashchange = function() {
 	var hash = decodeURIComponent(location.hash);
 
@@ -132,28 +76,3 @@ function deviceRow(device, fragment) {
 		}
 	}
 })();
-
-search.oninput = function() {
-	if (!window.Devices) {
-		return;
-	}
-
-	var term = this.value;
-
-	var fragment = document.createDocumentFragment(),
-	    results = 0;
-
-	Devices.forEach(function (device) {
-		for (var i in device) {
-			if ((device[i] + '').toLowerCase().indexOf(term.toLowerCase()) > -1) {
-				deviceRow(device, fragment);
-				results++;
-				return;
-			}
-		}
-	});
-
-	var tbody = $('table tbody', devices);
-	tbody.innerHTML = results ? '' : '<tr><td colspan="4">No results</td></tr>';
-	tbody.appendChild(fragment);
-};
