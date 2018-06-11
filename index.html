@@ -19,7 +19,7 @@
 	<section id="dpi-calc" class="mv-autoedit" mv-app mv-storage="https://github.com/LeaVerou/dpi/blob/gh-pages/devices.json" mv-bar="no-login">
 		<fieldset>
 			Resolution:
-			<input id="" property inputmode="numeric" pattern="\d+" class="mv-autosize"/ mv-storage="none">
+			<input id="width" property inputmode="numeric" pattern="\d+" class="mv-autosize" mv-storage="none">
 			×
 			<input id="height" property inputmode="numeric" pattern="\d+" class="mv-autosize" mv-storage="none">
 			<meta property="ratio" content="[width/height]">
@@ -27,9 +27,8 @@
 				<a mv-multiple="resolution" href="#[w]×[h]" tabindex="-1" mv-action="set(width, w) set(height, h)" mv-attribute="none">
 					<span property="w"></span>×<span property="h"></span>
 				</a>
-				<a href=""><strong class="mv-login">Add</strong></a>
+				<a href="" class="mv-logged-out"><strong class="mv-login">Add</strong></a>
 			</p>
-			<a property="width"></a>
 		</fieldset>
 		
 		<fieldset>
@@ -43,7 +42,7 @@
 				<a mv-multiple="diagonal" href="#[diag]″" tabindex="-1" mv-action="set(physical, diag)" mv-attribute="none">
 					<span property="diag"></span>″
 				</a>
-				<a href=""><strong class="mv-login">Add</strong></a>
+				<a href="" class="mv-logged-out"><strong class="mv-login">Add</strong></a>
 			</p>
 		</fieldset>
 	
