@@ -49,9 +49,10 @@
 		<output>
 			<div>
 				<strong id="result" mv-value="round(
-					if(dimension=d, sqrt(width * width + height * height)/physical, 
-						if(dimension=w, width/physical,
-							if(dimension=h, height/physical)))
+					if(dimension=d,
+						sqrt(width * width + height * height)/physical, if(dimension=w, 
+							width/physical, if(dimension=h, 
+								height/physical)))
 				)">
 				</strong>
 				pixels per inch
