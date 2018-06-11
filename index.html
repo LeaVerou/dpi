@@ -34,8 +34,8 @@
 		<fieldset>
 			<select id="dimension" property title="Physical dimension (in inches)">
 				<option selected value="d">Diagonal</option>
-				<option value="w">Width</option>
-				<option value="h">Height</option>
+				<option value="wide">Width</option>
+				<option value="high">Height</option>
 			</select>:
 			<input id="physical" property value="13.3" inputmode="numeric" pattern="\d*\.?\d+" class="mv-autosize" mv-storage>″
 			<p id="diagonals">Common diagonals:
@@ -50,8 +50,8 @@
 			<div>
 				<strong id="result" mv-value="round(
 					if(dimension=d,
-						sqrt(width * width + height * height)/physical, if(dimension=w, 
-							width/physical, if(dimension=h, 
+						sqrt(width * width + height * height)/physical, if(dimension=wide, 
+							width/physical, if(dimension=high, 
 								height/physical)))
 				)">
 				</strong>
