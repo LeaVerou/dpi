@@ -70,8 +70,16 @@ input#height {
 	width: 3em;
 }
 
+[mv-multiple="resolution"] {
+	margin: 0 2px 0 2px;
+}
+
 input#physical {
 	width: 4em;
+}
+
+[mv-multiple="diagonal"] {
+	margin: 0 2px 0 2px;
 }
 
 input#search {
