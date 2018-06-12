@@ -33,8 +33,8 @@
 		<fieldset>
 			<select id="dimension" property title="Physical dimension (in inches)">
 				<option selected value="d">Diagonal</option>
-				<option value="wide">Width</option>
-				<option value="high">Height</option>
+				<option value="w">Width</option>
+				<option value="h">Height</option>
 			</select>:
 			<input id="physical" property value="13.3" inputmode="numeric" pattern="\d*\.?\d+" class="mv-autosize" mv-storage="none">″
 			<p id="diagonals">Common diagonals:
@@ -45,9 +45,9 @@
 		<output>
 			<div>
 				<strong id="result" mv-value="round(
-					if(dimension=d,
-						sqrt(width * width + height * height)/physical, if(dimension=wide, 
-							width/physical, if(dimension=high, 
+					if(dimension='d',
+						sqrt(width * width + height * height)/physical, if(dimension='w', 
+							width/physical, if(dimension='h', 
 								height/physical)))
 				)">
 				</strong>
@@ -85,16 +85,16 @@
 							<meta property="isVisible" content="[
 								!search 
 								or search(lowercase(name), lowercase(search))>=0
-								or search(diag, search)>=0
+								or search(d, search)>=0
 								or search(w, search)>=0
 								or search(h, search)>=0
 								or search(dpi, search)>=0
 								or search(dppx, search)>=0
-							]"><a href="#[w]×[h]@[diag]″"><span property="name"></span></a>
+							]"><a href="#[w]×[h]@[d]″"><span property="name"></span></a>
 						</th>
-						<td><span property="diag"></span>"</td>
+						<td><span property="d"></span>"</td>
 						<td><span property="w"></span>×<span property="h"></span></td>
-						<td property="dpi">[round((sqrt(w * w + h * h)/diag))]</td>
+						<td property="dpi">[round((sqrt(w * w + h * h)/d))]</td>
 						<td property="dppx" mv-default="?"></td>
 					</tr>
 				</tbody>
