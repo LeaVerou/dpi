@@ -71,7 +71,7 @@ input#height {
 }
 
 [mv-multiple="resolution"] {
-	margin: 0 .2em 0 .2em;
+	margin: 0 .2em;
 }
 
 input#physical {
@@ -79,7 +79,7 @@ input#physical {
 }
 
 [mv-multiple="diagonal"] {
-	margin: 0 .2em 0 .2em;
+	margin: 0 .2em;
 }
 
 input#search {
