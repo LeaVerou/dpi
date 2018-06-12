@@ -170,7 +170,7 @@ fieldset + fieldset {
 		opacity: 1;
 	}
 
-#screens {
+#devices {
 	max-height: 19.8em;
 	margin-top: 1em;
 	overflow: auto;
