@@ -25,7 +25,7 @@
 			<meta property="ratio" content="[width/height]">
 			<p id="resolutions">Common:
 				<a mv-multiple="resolution" href="#[w]×[h]" tabindex="-1" mv-action="set(width, w) set(height, h)" mv-attribute="none">
-					<span property="w"></span>×<span property="h"></span>
+					<span property="w" mv-edit-type="number" mv-edit-min="0"></span>×<span property="h" mv-edit-type="number" mv-edit-min="0"></span>
 				</a>
 			</p>
 		</fieldset>
@@ -38,7 +38,7 @@
 			</select>:
 			<input id="physical" property value="13.3" inputmode="numeric" pattern="\d*\.?\d+" class="mv-autosize" mv-storage="none">″
 			<p id="diagonals">Common diagonals:
-				<a mv-multiple="diagonal" href="#[diagonal]″" tabindex="-1" mv-action="set(physical, diagonal)" mv-attribute="none"></a>
+				<a mv-multiple="diagonal" href="#[diagonal]″" tabindex="-1" mv-action="set(physical, diagonal)" mv-attribute="none" mv-edit-type="number" mv-edit-min="0"></a>
 			</p>
 		</fieldset>
 	
@@ -92,10 +92,10 @@
 								or search(dppx, search)>=0
 							]"><a href="#[w]×[h]@[d]″"><span property="name"></span></a>
 						</th>
-						<td><span property="d"></span>"</td>
-						<td><span property="w"></span>×<span property="h"></span></td>
+						<td><span property="d" mv-edit-type="number" mv-edit-min="0"></span>"</td>
+						<td><span property="w" mv-edit-type="number" mv-edit-min="0"></span>×<span property="h" mv-edit-type="number" mv-edit-min="0"></span></td>
 						<td property="dpi">[round((sqrt(w * w + h * h)/d))]</td>
-						<td property="dppx" mv-default="?"></td>
+						<td property="dppx" mv-default="?" mv-edit-type="number" mv-edit-min="0"></td>
 					</tr>
 				</tbody>
 			</table>
