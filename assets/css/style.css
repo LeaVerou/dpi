@@ -70,16 +70,8 @@ input#height {
 	width: 3em;
 }
 
-[mv-multiple="resolution"] {
-	margin: 0 .2em;
-}
-
 input#physical {
 	width: 4em;
-}
-
-[mv-multiple="diagonal"] {
-	margin: 0 .2em;
 }
 
 input#search {
@@ -91,6 +83,11 @@ input#search {
 	border-radius: 999px;
 	font: inherit;
 	background: url('../img/search.svg') no-repeat .3em 50% / 1em auto;
+}
+
+[mv-multiple="resolution"],
+[mv-multiple="diagonal"] {
+	margin: 0 .2em;
 }
 
 select {
