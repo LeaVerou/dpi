@@ -8,15 +8,15 @@
 	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body mv-app="dpi" class="mv-autoedit" mv-storage="https://github.com/efeichen/dpi/blob/mavo-autosize/devices.json" mv-bar="no-login">
 	<header>
 		<h1>
 			<img src="assets/img/logo.svg" />
 			<strong>dpi</strong>love
 		</h1>
 	</header>
-
-	<section id="dpi-calc" class="mv-autoedit" mv-app mv-storage="https://github.com/LeaVerou/dpi/blob/gh-pages/devices.json" mv-bar="no-login">
+	<div class="mv-bar mv-ui" mv-bar="no-login"></div>
+	<section>
 		<fieldset>
 			Resolution:
 			<input id="width" property inputmode="numeric" pattern="\d+" class="mv-autosize" mv-storage="none">
@@ -27,7 +27,6 @@
 				<a mv-multiple="resolution" href="#[w]×[h]" tabindex="-1" mv-action="set(width, w) set(height, h)" mv-attribute="none">
 					<span property="w"></span>×<span property="h"></span>
 				</a>
-				<a href="" class="mv-logged-out"><strong class="mv-login">Add</strong></a>
 			</p>
 		</fieldset>
 		
@@ -39,10 +38,7 @@
 			</select>:
 			<input id="physical" property value="13.3" inputmode="numeric" pattern="\d*\.?\d+" class="mv-autosize" mv-storage="none">″
 			<p id="diagonals">Common diagonals:
-				<a mv-multiple="diagonal" href="#[diag]″" tabindex="-1" mv-action="set(physical, diag)" mv-attribute="none">
-					<span property="diag"></span>″
-				</a>
-				<a href="" class="mv-logged-out"><strong class="mv-login">Add</strong></a>
+				<a mv-multiple="diagonal" href="#[diagonal]″" tabindex="-1" mv-action="set(physical, diagonal)" mv-attribute="none"></a>
 			</p>
 		</fieldset>
 	
@@ -66,11 +62,10 @@
 		<!-- Carbon Zone Code -->
 	</aside>
 
-	<section id="devices" mv-app mv-storage="https://github.com/LeaVerou/dpi/blob/gh-pages/devices.json" class="mv-autoedit">
+	<section>
 		<h1>Known screens</h1>
 		<input type="search" placeholder="Search…" id="search" property mv-storage="none"/>
-		<div id="screens">
-			<div class="mv-bar mv-ui" mv-bar="no-login"></div>
+		<div id="devices">
 			<table>
 				<thead>
 					<tr>
@@ -90,16 +85,16 @@
 							<meta property="isVisible" content="[
 								!search 
 								or search(lowercase(name), lowercase(search))>=0
-								or search(d, search)>=0
+								or search(diag, search)>=0
 								or search(w, search)>=0
 								or search(h, search)>=0
 								or search(dpi, search)>=0
 								or search(dppx, search)>=0
-							]"><a href="#[w]×[h]@[d]″"><span property="name"></span></a>
+							]"><a href="#[w]×[h]@[diag]″"><span property="name"></span></a>
 						</th>
-						<td><span property="d"></span>"</td>
+						<td><span property="diag"></span>"</td>
 						<td><span property="w"></span>×<span property="h"></span></td>
-						<td property="dpi">[round((sqrt(w * w + h * h)/d))]</td>
+						<td property="dpi">[round((sqrt(w * w + h * h)/diag))]</td>
 						<td property="dppx" mv-default="?"></td>
 					</tr>
 				</tbody>
