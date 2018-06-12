@@ -70,8 +70,16 @@ input#height {
 	width: 3em;
 }
 
+[mv-multiple="resolution"] {
+	margin: 0 .2em;
+}
+
 input#physical {
 	width: 4em;
+}
+
+[mv-multiple="diagonal"] {
+	margin: 0 .2em;
 }
 
 input#search {
@@ -162,7 +170,7 @@ fieldset + fieldset {
 		opacity: 1;
 	}
 
-#screens {
+#devices {
 	max-height: 19.8em;
 	margin-top: 1em;
 	overflow: auto;

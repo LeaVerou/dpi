@@ -8,70 +8,64 @@
 	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body mv-app="dpi" class="mv-autoedit" mv-storage="https://github.com/LeaVerou/dpi/blob/gh-pages/devices.json" mv-bar="no-login">
 	<header>
 		<h1>
 			<img src="assets/img/logo.svg" />
 			<strong>dpi</strong>love
 		</h1>
 	</header>
-
-	<fieldset>
-		Resolution:
-		<input id="width" inputmode="numeric" pattern="\d+" />
-		×
-		<input id="height" inputmode="numeric" pattern="\d+" />
-
-		<p id="resolutions">Common:
-			<a href="#" tabindex="-1">3840×2160</a>
-			<a href="#" tabindex="-1">2560×1440</a>
-			<a href="#" tabindex="-1">1920×1080</a>
-			<a href="#" tabindex="-1">1680×1050</a>
-			<a href="#" tabindex="-1">1440×900</a>
-			<a href="#" tabindex="-1">1366×768</a>
-			<a href="#" tabindex="-1">1280×800</a>
-			<a href="#" tabindex="-1">1024×768</a>
-		</p>
-	</fieldset>
-
-	<fieldset>
-		<select id="dimension" title="Physical dimension (in inches)">
-			<option selected value="d">Diagonal</option>
-			<option value="w">Width</option>
-			<option value="h">Height</option>
-		</select>:
-		<input id="physical" value="13.3" inputmode="numeric" pattern="\d*\.?\d+" />″
-
-		<p id="diagonals">Common diagonals:
-			<a href="#" tabindex="-1">7″</a>
-			<a href="#" tabindex="-1">11.6″</a>
-			<a href="#" tabindex="-1">13.3″</a>
-			<a href="#" tabindex="-1">14″</a>
-			<a href="#" tabindex="-1">15.6″</a>
-			<a href="#" tabindex="-1">17.3″</a>
-			<a href="#" tabindex="-1">21″</a>
-			<a href="#" tabindex="-1">24″</a>
-			<a href="#" tabindex="-1">27″</a>
-		</p>
-	</fieldset>
-
-	<output>
-		<div>
-			<strong id="result"></strong>
-			pixels per inch
-		</div>
-	</output>
+	<div class="mv-bar mv-ui" mv-bar="no-login"></div>
+	<section>
+		<fieldset>
+			Resolution:
+			<input id="width" property inputmode="numeric" pattern="\d+" class="mv-autosize" mv-storage="none">
+			×
+			<input id="height" property inputmode="numeric" pattern="\d+" class="mv-autosize" mv-storage="none">
+			<meta property="ratio" content="[width/height]">
+			<p id="resolutions">Common:
+				<a mv-multiple="resolution" href="#[w]×[h]" tabindex="-1" mv-action="set(width, w) set(height, h)" mv-attribute="none">
+					<span property="w"></span>×<span property="h"></span>
+				</a>
+			</p>
+		</fieldset>
+		
+		<fieldset>
+			<select id="dimension" property title="Physical dimension (in inches)">
+				<option selected value="d">Diagonal</option>
+				<option value="w">Width</option>
+				<option value="h">Height</option>
+			</select>:
+			<input id="physical" property value="13.3" inputmode="numeric" pattern="\d*\.?\d+" class="mv-autosize" mv-storage="none">″
+			<p id="diagonals">Common diagonals:
+				<a mv-multiple="diagonal" href="#[diagonal]″" tabindex="-1" mv-action="set(physical, diagonal)" mv-attribute="none"></a>
+			</p>
+		</fieldset>
+	
+		<output>
+			<div>
+				<strong id="result" mv-value="round(
+					if(dimension='d',
+						sqrt(width * width + height * height)/physical, if(dimension='w', 
+							width/physical, if(dimension='h', 
+								height/physical)))
+				)">
+				</strong>
+				pixels per inch
+			</div>
+		</output>
+	</section>
 
 	<aside>
 		<!-- Carbon Zone Code -->
 		<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1696&serve=CVYD42T&placement=dpilv" id="_carbonads_js"></script>
 		<!-- Carbon Zone Code -->
 	</aside>
-	<section id="devices" mv-app mv-storage="https://github.com/LeaVerou/dpi/blob/gh-pages/devices.json" class="mv-autoedit">
+
+	<section>
 		<h1>Known screens</h1>
 		<input type="search" placeholder="Search…" id="search" property mv-storage="none"/>
-		<div id="screens">
-			<div class="mv-bar mv-ui" mv-bar="no-login"></div>
+		<div id="devices">
 			<table>
 				<thead>
 					<tr>

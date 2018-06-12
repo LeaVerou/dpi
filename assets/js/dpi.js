@@ -36,14 +36,8 @@ dimension.onchange = update;
 
 $$('fieldset input').forEach(function(element) {
 	(element.oninput = function () {
-		this.style.width = this.value.length * .7 + 'em';
-		this.style.width = this.value.length + 'ch';
 		update();
 	}).call(element);
-});
-
-$$('#resolutions a, #diagonals a').forEach(function(a) {
-	a.href = '#' + a.textContent;
 });
 
 (window.onhashchange = function() {
