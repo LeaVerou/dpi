@@ -222,10 +222,26 @@
 			"dppx": 2.46
 		},
 		{
-			"name": "Apple iPhone X",
+			"name": "Apple iPhone X, XS",
 			"w": 1125,
 			"h": 2436,
 			"d": 5.8,
+			"ppi": 458,
+			"dppx": 3
+		},
+		{
+			"name": "Apple iPhone XR",
+			"w": 828,
+			"h": 1792,
+			"d": 6.1,
+			"ppi": 326,
+			"dppx": 2
+		},
+		{
+			"name": "Apple iPhone XS Max",
+			"w": 1242,
+			"h": 2688,
+			"d": 6.5,
 			"ppi": 458,
 			"dppx": 3
 		},
