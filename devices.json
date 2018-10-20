@@ -280,25 +280,29 @@
 			"name": "Apple MacBook Air (11-inch)",
 			"w": 1366,
 			"h": 768,
-			"d": 11.6
+			"d": 11.6,
+			"ddpx": 1
 		},
 		{
 			"name": "Apple MacBook Air (13-inch)",
 			"w": 1440,
 			"h": 900,
-			"d": 13.3
+			"d": 13.3,
+			"ddpx": 1
 		},
 		{
 			"name": "Apple MacBook Pro (13-inch)",
 			"w": 1280,
 			"h": 800,
-			"d": 13.3
+			"d": 13.3,
+			"ddpx": 1
 		},
 		{
 			"name": "Apple MacBook Pro (15-inch)",
 			"w": 1440,
 			"h": 900,
-			"d": 15.4
+			"d": 15.4,
+			"ddpx": 1
 		},
 		{
 			"name": "Apple MacBook Pro",
@@ -359,7 +363,8 @@
 			"name": "Asus Zenfone 5 A501CG",
 			"w": 720,
 			"h": 1280,
-			"d": 5
+			"d": 5,
+			"ddpx": 2
 		},
 		{
 			"name": "Barnes & Noble Nook HD",
@@ -527,13 +532,29 @@
 			"name": "Google Chromebook Pixel",
 			"w": 2560,
 			"h": 1700,
-			"d": 12.85
+			"d": 12.85,
+			"ddpx": 2
 		},
 		{
 			"name": "Google Pixel",
 			"w": 1920,
 			"h": 1080,
-			"d": 5.0
+			"d": 5.0,
+			"ddpx": 2.62774
+		},
+		{
+			"name": "Google Pixel 2",
+			"w": 1920,
+			"h": 1080,
+			"d": 5,
+			"ddpx": 2.62774
+		},
+		{
+			"name": "Google Pixel 3",
+			"w": 2160,
+			"h": 1080,
+			"d": 5.5,
+			"ddpx": 2.62774
 		},
 		{
 			"name": "Google Pixel C",
@@ -545,7 +566,22 @@
 			"name": "Google Pixel XL",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.5
+			"d": 5.5,
+			"ddpx": 3.50365
+		},
+		{
+			"name": "Google Pixel 2 XL",
+			"w": 2880,
+			"h": 1440,
+			"d": 6,
+			"ddpx": 3.50365
+		},
+		{
+			"name": "Google Pixel 3 XL",
+			"w": 2960,
+			"h": 1440,
+			"d": 6.3,
+			"ddpx": 3.50365
 		},
 		{
 			"name": "HP ZR30w",
@@ -595,7 +631,8 @@
 			"name": "HTC One M9",
 			"w": 1080,
 			"h": 1920,
-			"d": 5
+			"d": 5,
+			"ddpx": 3
 		},
 		{
 			"name": "HTC One Max",
@@ -638,7 +675,8 @@
 			"name": "Huawei Nexus 6P",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.7
+			"d": 5.7,
+			"ddpx": 3.50365
 		},
 		{
 			"name": "Huawei Y5 II",
@@ -718,6 +756,7 @@
 			"w": 1440,
 			"h": 2560,
 			"d": 5.5,
+			"ddpx": 3,
 			"ppi": 538
 		},
 		{
@@ -844,7 +883,8 @@
 			"name": "Motorola Nexus 6",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.96
+			"d": 5.96,
+			"ddpx": 3.50365
 		},
 		{
 			"name": "Nokia Lumia 520",
