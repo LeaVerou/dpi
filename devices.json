@@ -371,8 +371,7 @@
 			"name": "Apple Thunderbolt Display",
 			"w": 2560,
 			"h": 1440,
-			"d": 27,
-			"dppx": "?"
+			"d": 27
 		},
 		{
 			"name": "Asus Nexus 7 (2012)",
@@ -482,71 +481,61 @@
 			"name": "Dell Precision 5510",
 			"w": 3840,
 			"h": 2160,
-			"d": 15.6,
-			"dppx": "?"
+			"d": 15.6
 		},
 		{
 			"name": "Dell SP2309W",
 			"w": 2048,
 			"h": 1152,
-			"d": 23,
-			"dppx": "?"
+			"d": 23
 		},
 		{
 			"name": "Dell Ultra HD 4k P2715Q",
 			"w": 3840,
 			"h": 2160,
-			"d": 27,
-			"dppx": "?"
+			"d": 27
 		},
 		{
 			"name": "Dell UltraSharp P2415Q",
 			"w": 3840,
 			"h": 2160,
-			"d": 23.8,
-			"dppx": "?"
+			"d": 23.8
 		},
 		{
 			"name": "Dell UltraSharp U2412M",
 			"w": 1920,
 			"h": 1200,
-			"d": 24,
-			"dppx": "?"
+			"d": 24
 		},
 		{
 			"name": "Dell UltraSharp U2414H",
 			"w": 1920,
 			"h": 1080,
-			"d": 23.8,
-			"dppx": "?"
+			"d": 23.8
 		},
 		{
 			"name": "Dell UltraSharp UP2414Q",
 			"w": 3840,
 			"h": 2160,
-			"d": 23.8,
-			"dppx": "?"
+			"d": 23.8
 		},
 		{
 			"name": "Dell UltraSharp UP2715K",
 			"w": 5120,
 			"h": 2880,
-			"d": 27,
-			"dppx": "?"
+			"d": 27
 		},
 		{
 			"name": "Dell UltraSharp UP3216Q",
 			"w": 3840,
 			"h": 2160,
-			"d": 31.5,
-			"dppx": "?"
+			"d": 31.5
 		},
 		{
 			"name": "Dell XPS 13 FHD",
 			"w": 1920,
 			"h": 1080,
-			"d": 13.3,
-			"dppx": "?"
+			"d": 13.3
 		},
 		{
 			"name": "Dell XPS 13 QHD",
@@ -711,81 +700,70 @@
 			"name": "Lenovo ThinkPad Edge E531 N4IBPGE",
 			"w": 1920,
 			"h": 1080,
-			"d": 15.6,
-			"dppx": "?"
+			"d": 15.6
 		},
 		{
 			"name": "Lenovo ThinkPad T450s",
 			"w": 1920,
 			"h": 1080,
-			"d": 14,
-			"dppx": "?"
+			"d": 14
 		},
 		{
 			"name": "Lenovo ThinkPad X1 Carbon WQHD",
 			"w": 2560,
 			"h": 1440,
-			"d": 14,
-			"dppx": "?"
+			"d": 14
 		},
 		{
 			"name": "Lenovo Yoga 2 Pro",
 			"w": 3200,
 			"h": 1800,
-			"d": 13.3,
-			"dppx": "?"
+			"d": 13.3
 		},
 		{
 			"name": "Lenovo Yoga 3 Pro",
 			"w": 3200,
 			"h": 1800,
-			"d": 13.3,
-			"dppx": "?"
+			"d": 13.3
 		},
 		{
 			"name": "Lenovo Y50 UHD",
 			"w": 3840,
 			"h": 2160,
-			"d": 15.6,
-			"dppx": "?"
+			"d": 15.6
 		},
 		{
 			"name": "LG 31MU97",
 			"w": 4096,
 			"h": 2160,
-			"d": 31,
-			"dppx": "?"
+			"d": 31
 		},
 		{
 			"name": "LG G2",
 			"w": 1080,
 			"h": 1920,
 			"d": 5.2,
-			"ppi": 424,
-			"dppx": "?"
+			"ppi": 424
 		},
 		{
 			"name": "LG G3",
 			"w": 1440,
 			"h": 2560,
 			"d": 5.5,
-			"ppi": 538,
-			"dppx": "?"
+			"ppi": 538
 		},
 		{
 			"name": "LG G4",
 			"w": 1440,
 			"h": 2560,
 			"d": 5.5,
-			"ppi": 538,
-			"dppx": "?"
+			"ppi": 538
 		},
 		{
 			"name": "LG G5",
 			"w": 1440,
 			"h": 2560,
-			"d": 5.3,
-			"dppx": "?"
+			"d": 5.3
 		},
 		{
 			"name": "LG G6",
@@ -799,8 +777,7 @@
 			"name": "LG Nexus 4",
 			"w": 1280,
 			"h": 768,
-			"d": 4.7,
-			"dppx": "?"
+			"d": 4.7
 		},
 		{
 			"name": "LG Nexus 5",
@@ -813,38 +790,33 @@
 			"name": "LG Nexus 5X",
 			"w": 1920,
 			"h": 1080,
-			"d": 5.2,
-			"dppx": "?"
+			"d": 5.2
 		},
 		{
 			"name": "Micromax A110",
 			"w": 480,
 			"h": 856,
 			"d": 4.9,
-			"ppi": 200,
-			"dppx": "?"
+			"ppi": 200
 		},
 		{
 			"name": "Micromax Canvas A1",
 			"w": 480,
 			"h": 854,
 			"d": 4.5,
-			"ppi": 240,
-			"dppx": "?"
+			"ppi": 240
 		},
 		{
 			"name": "Microsoft Surface",
 			"w": 1366,
 			"h": 768,
-			"d": 10.6,
-			"dppx": "?"
+			"d": 10.6
 		},
 		{
 			"name": "Microsoft Surface 2",
 			"w": 1920,
 			"h": 1080,
-			"d": 10.6,
-			"dppx": "?"
+			"d": 10.6
 		},
 		{
 			"name": "Microsoft Surface Book",
@@ -857,22 +829,19 @@
 			"name": "Microsoft Surface Pro",
 			"w": 1920,
 			"h": 1080,
-			"d": 10.6,
-			"dppx": "?"
+			"d": 10.6
 		},
 		{
 			"name": "Microsoft Surface Pro 2",
 			"w": 1920,
 			"h": 1080,
-			"d": 10.6,
-			"dppx": "?"
+			"d": 10.6
 		},
 		{
 			"name": "Microsoft Surface Pro 3",
 			"w": 2160,
 			"h": 1440,
-			"d": 12,
-			"dppx": "?"
+			"d": 12
 		},
 		{
 			"name": "Microsoft Surface Pro 4",
@@ -885,16 +854,14 @@
 			"name": "Motorola Droid Turbo",
 			"w": 1440,
 			"h": 2560,
-			"d": 5.2,
-			"dppx": "?"
+			"d": 5.2
 		},
 		{
 			"name": "Motorola Moto E",
 			"w": 540,
 			"h": 960,
 			"d": 4.3,
-			"ppi": 256,
-			"dppx": "?"
+			"ppi": 256
 		},
 		{
 			"name": "Motorola Moto G",
@@ -916,57 +883,49 @@
 			"name": "Motorola Nexus 6",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.96,
-			"dppx": "?"
+			"d": 5.96
 		},
 		{
 			"name": "Nokia Lumia 520",
 			"w": 480,
 			"h": 800,
-			"d": 4,
-			"dppx": "?"
+			"d": 4
 		},
 		{
 			"name": "Nokia Lumia 521",
 			"w": 480,
 			"h": 800,
-			"d": 4,
-			"dppx": "?"
+			"d": 4
 		},
 		{
 			"name": "Nokia Lumia 620",
 			"w": 480,
 			"h": 800,
-			"d": 3.8,
-			"dppx": "?"
+			"d": 3.8
 		},
 		{
 			"name": "Nokia Lumia 625",
 			"w": 480,
 			"h": 800,
-			"d": 4.7,
-			"dppx": "?"
+			"d": 4.7
 		},
 		{
 			"name": "Nokia Lumia 720",
 			"w": 480,
 			"h": 800,
-			"d": 4.3,
-			"dppx": "?"
+			"d": 4.3
 		},
 		{
 			"name": "Nokia Lumia 820",
 			"w": 480,
 			"h": 800,
-			"d": 4.3,
-			"dppx": "?"
+			"d": 4.3
 		},
 		{
 			"name": "Nokia Lumia 822",
 			"w": 480,
 			"h": 800,
-			"d": 4.3,
-			"dppx": "?"
+			"d": 4.3
 		},
 		{
 			"name": "Nokia Lumia 920",
@@ -1297,36 +1256,31 @@
 			"name": "Xiaomi Redmi Note 5",
 			"d": 5.99,
 			"w": 1080,
-			"h": 2160,
-			"dppx": "?"
+			"h": 2160
 		},
 		{
 			"name": "LG 23MP68VQ-P",
 			"d": 23,
 			"w": 1920,
-			"h": 1080,
-			"dppx": "?"
+			"h": 1080
 		},
 		{
 			"name": "LG 23MP68VQ",
 			"d": 23,
 			"w": 1920,
-			"h": 1080,
-			"dppx": "?"
+			"h": 1080
 		},
 		{
 			"name": "Dell S2415H",
 			"d": 23.8,
 			"w": 1920,
-			"h": 1080,
-			"dppx": "?"
+			"h": 1080
 		},
 		{
 			"name": "LG V30",
 			"d": 6,
 			"w": 1440,
-			"h": 2880,
-			"dppx": "?"
+			"h": 2880
 		},
 		{
 			"name": "Google Pixel 3a",
@@ -1334,7 +1288,8 @@
 			"w": 1080,
 			"h": 2220,
 			"dppx": 2.75
-		}
+		},
+		{}
 	],
 	"dimension": "d"
 }
