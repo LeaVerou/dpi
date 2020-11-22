@@ -140,22 +140,19 @@
 			"name": "AOC i2352Vh",
 			"w": 1920,
 			"h": 1080,
-			"d": 23,
-			"dppx": "?"
+			"d": 23
 		},
 		{
 			"name": "Apple Cinema Display",
 			"w": 1680,
 			"h": 1050,
-			"d": 20.1,
-			"dppx": "?"
+			"d": 20.1
 		},
 		{
 			"name": "Apple iPad 1, 2",
 			"w": 1024,
 			"h": 768,
-			"d": 9.7,
-			"dppx": "?"
+			"d": 9.7
 		},
 		{
 			"name": "Apple iPad 3, 4",
@@ -176,8 +173,7 @@
 			"w": 1024,
 			"h": 768,
 			"d": 7.9,
-			"ppi": 163,
-			"dppx": "?"
+			"ppi": 163
 		},
 		{
 			"name": "Apple iPad mini Retina",
@@ -223,8 +219,7 @@
 			"w": 320,
 			"h": 480,
 			"d": 3.5,
-			"ppi": 163,
-			"dppx": "?"
+			"ppi": 163
 		},
 		{
 			"name": "Apple iPhone 4, 4S",
@@ -286,29 +281,25 @@
 			"name": "Apple iMac (21-inch)",
 			"w": 1920,
 			"h": 1080,
-			"d": 21.5,
-			"dppx": "?"
+			"d": 21.5
 		},
 		{
 			"name": "Apple iMac (27-inch)",
 			"w": 2560,
 			"h": 1440,
-			"d": 27,
-			"dppx": "?"
+			"d": 27
 		},
 		{
 			"name": "Apple iMac Retina 4K",
 			"w": 4096,
 			"h": 2304,
-			"d": 21.5,
-			"dppx": "?"
+			"d": 21.5
 		},
 		{
 			"name": "Apple iMac Retina 5K",
 			"w": 5120,
 			"h": 2880,
-			"d": 27,
-			"dppx": "?"
+			"d": 27
 		},
 		{
 			"name": "Apple MacBook",
@@ -321,44 +312,38 @@
 			"name": "Apple MacBook Air (11-inch)",
 			"w": 1366,
 			"h": 768,
-			"d": 11.6,
-			"dppx": "?"
+			"d": 11.6
 		},
 		{
 			"name": "Apple MacBook Air (13-inch)",
 			"w": 1440,
 			"h": 900,
-			"d": 13.3,
-			"dppx": "?"
+			"d": 13.3
 		},
 		{
 			"name": "Apple MacBook Pro (13-inch)",
 			"w": 1280,
 			"h": 800,
-			"d": 13.3,
-			"dppx": "?"
+			"d": 13.3
 		},
 		{
 			"name": "Apple MacBook Pro (15-inch)",
 			"w": 1440,
 			"h": 900,
-			"d": 15.4,
-			"dppx": "?"
+			"d": 15.4
 		},
 		{
 			"name": "Apple MacBook Pro",
 			"w": 1680,
 			"h": 1050,
-			"d": 15.4,
-			"dppx": "?"
+			"d": 15.4
 		},
 		{
 			"name": "Apple MacBook Pro",
 			"w": 1920,
 			"h": 1200,
 			"d": 17,
-			"ppi": 133,
-			"dppx": "?"
+			"ppi": 133
 		},
 		{
 			"name": "Apple MacBook Pro with Retina Display (13-inch)",
@@ -380,8 +365,7 @@
 			"w": 1024,
 			"h": 768,
 			"d": 12.1,
-			"ppi": 106,
-			"dppx": "?"
+			"ppi": 106
 		},
 		{
 			"name": "Apple Thunderbolt Display",
@@ -408,45 +392,39 @@
 			"name": "Asus Zenfone 5 A501CG",
 			"w": 720,
 			"h": 1280,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "Barnes & Noble Nook HD",
 			"w": 1440,
 			"h": 900,
 			"d": 7,
-			"ppi": 243,
-			"dppx": "?"
+			"ppi": 243
 		},
 		{
 			"name": "Barnes & Noble Nook HD+",
 			"w": 1920,
 			"h": 1280,
 			"d": 9,
-			"ppi": 256,
-			"dppx": "?"
+			"ppi": 256
 		},
 		{
 			"name": "Ben NanoNote",
 			"w": 320,
 			"h": 240,
-			"d": 3,
-			"dppx": "?"
+			"d": 3
 		},
 		{
 			"name": "BlackBerry Passport",
 			"w": 1440,
 			"h": 1440,
-			"d": 4.5,
-			"dppx": "?"
+			"d": 4.5
 		},
 		{
 			"name": "BlackBerry PlayBook",
 			"w": 600,
 			"h": 1024,
-			"d": 7,
-			"dppx": "?"
+			"d": 7
 		},
 		{
 			"name": "BlackBerry Q5",
@@ -485,15 +463,13 @@
 			"w": 800,
 			"h": 1200,
 			"d": 10.1,
-			"ppi": 149,
-			"dppx": "?"
+			"ppi": 149
 		},
 		{
 			"name": "CREO Mark 1",
 			"w": 1440,
 			"h": 2560,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
 			"name": "Dell Latitude 10",
@@ -576,85 +552,73 @@
 			"name": "Dell XPS 13 QHD",
 			"w": 3200,
 			"h": 1800,
-			"d": 13.3,
-			"dppx": "?"
+			"d": 13.3
 		},
 		{
 			"name": "Dell XPS 15 4k UltraHD",
 			"w": 3840,
 			"h": 2160,
-			"d": 15.6,
-			"dppx": "?"
+			"d": 15.6
 		},
 		{
 			"name": "Eizo CG318-4K",
 			"w": 4096,
 			"h": 2160,
-			"d": 31.1,
-			"dppx": "?"
+			"d": 31.1
 		},
 		{
 			"name": "Google Chromebook Pixel",
 			"w": 2560,
 			"h": 1700,
-			"d": 12.85,
-			"dppx": "?"
+			"d": 12.85
 		},
 		{
 			"name": "Google Pixel",
 			"w": 1920,
 			"h": 1080,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "Google Pixel C",
 			"w": 2560,
 			"h": 1800,
-			"d": 10.2,
-			"dppx": "?"
+			"d": 10.2
 		},
 		{
 			"name": "Google Pixel XL",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
 			"name": "HP ZR30w",
 			"w": 2560,
 			"h": 1600,
-			"d": 29.7,
-			"dppx": "?"
+			"d": 29.7
 		},
 		{
 			"name": "HTC Desire C",
 			"w": 320,
 			"h": 480,
-			"d": 3.5,
-			"dppx": "?"
+			"d": 3.5
 		},
 		{
 			"name": "HTC Desire Z / T-Mobile G2",
 			"w": 480,
 			"h": 800,
-			"d": 3.7,
-			"dppx": "?"
+			"d": 3.7
 		},
 		{
 			"name": "HTC Evo",
 			"w": 480,
 			"h": 800,
-			"d": 4.3,
-			"dppx": "?"
+			"d": 4.3
 		},
 		{
 			"name": "HTC Imagio",
 			"w": 480,
 			"h": 800,
-			"d": 3.6,
-			"dppx": "?"
+			"d": 3.6
 		},
 		{
 			"name": "HTC Nexus 9",
@@ -674,8 +638,7 @@
 			"name": "HTC One M9",
 			"w": 1080,
 			"h": 1920,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "HTC One Max",
@@ -688,71 +651,61 @@
 			"name": "HTC One Mini",
 			"w": 720,
 			"h": 1280,
-			"d": 4.3,
-			"dppx": "?"
+			"d": 4.3
 		},
 		{
 			"name": "HTC One V",
 			"w": 480,
 			"h": 800,
-			"d": 3.7,
-			"dppx": "?"
+			"d": 3.7
 		},
 		{
 			"name": "HTC One X",
 			"w": 720,
 			"h": 1280,
-			"d": 4.7,
-			"dppx": "?"
+			"d": 4.7
 		},
 		{
 			"name": "HTC Pure",
 			"w": 480,
 			"h": 800,
-			"d": 3.2,
-			"dppx": "?"
+			"d": 3.2
 		},
 		{
 			"name": "HTC Sensation",
 			"w": 540,
 			"h": 960,
-			"d": 4.3,
-			"dppx": "?"
+			"d": 4.3
 		},
 		{
 			"name": "Huawei Nexus 6P",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.7,
-			"dppx": "?"
+			"d": 5.7
 		},
 		{
 			"name": "Huawei Y5 II",
 			"w": 720,
 			"h": 1280,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "IBM T221",
 			"w": 3840,
 			"h": 2400,
-			"d": 22,
-			"dppx": "?"
+			"d": 22
 		},
 		{
 			"name": "Jiayu G4S",
 			"w": 720,
 			"h": 1280,
-			"d": 4.7,
-			"dppx": "?"
+			"d": 4.7
 		},
 		{
 			"name": "Lenovo ideapad U310",
 			"w": 1366,
 			"h": 768,
-			"d": 13.3,
-			"dppx": "?"
+			"d": 13.3
 		},
 		{
 			"name": "Lenovo ThinkPad Edge E531 N4IBPGE",
@@ -1040,29 +993,25 @@
 			"name": "Nokia N9",
 			"w": 480,
 			"h": 854,
-			"d": 3.9,
-			"dppx": "?"
+			"d": 3.9
 		},
 		{
 			"name": "Nokia N900",
 			"w": 800,
 			"h": 480,
-			"d": 3.5,
-			"dppx": "?"
+			"d": 3.5
 		},
 		{
 			"name": "Nokia N950",
 			"w": 480,
 			"h": 854,
-			"d": 4,
-			"dppx": "?"
+			"d": 4
 		},
 		{
 			"name": "OnePlus 5T",
 			"w": 1080,
 			"h": 2160,
-			"d": 6.01,
-			"dppx": "?"
+			"d": 6.01
 		},
 		{
 			"name": "OnePlus One",
@@ -1075,29 +1024,25 @@
 			"name": "Openmoko Neo1973, Neo FreeRunner",
 			"w": 480,
 			"h": 640,
-			"d": 2.84,
-			"dppx": "?"
+			"d": 2.84
 		},
 		{
 			"name": "OpenPhoenux GTA04",
 			"w": 480,
 			"h": 640,
-			"d": 2.84,
-			"dppx": "?"
+			"d": 2.84
 		},
 		{
 			"name": "Samsung Galaxy Mini 2",
 			"w": 320,
 			"h": 480,
-			"d": 3.27,
-			"dppx": "?"
+			"d": 3.27
 		},
 		{
 			"name": "Samsung Galaxy Nexus",
 			"w": 1280,
 			"h": 720,
-			"d": 4.65,
-			"dppx": "?"
+			"d": 4.65
 		},
 		{
 			"name": "Samsung Galaxy Note 3",
@@ -1111,40 +1056,35 @@
 			"w": 600,
 			"h": 1024,
 			"d": 7,
-			"ppi": 169,
-			"dppx": "?"
+			"ppi": 169
 		},
 		{
 			"name": "Samsung Galaxy Tab Active 8.0",
 			"w": 800,
 			"h": 1280,
 			"d": 8,
-			"ppi": 189,
-			"dppx": "?"
+			"ppi": 189
 		},
 		{
 			"name": "Samsung Galaxy Tab 8.9",
 			"w": 800,
 			"h": 1280,
 			"d": 8.9,
-			"ppi": 169,
-			"dppx": "?"
+			"ppi": 169
 		},
 		{
 			"name": "Samsung Galaxy Tab 10.1",
 			"w": 800,
 			"h": 1280,
 			"d": 10.1,
-			"ppi": 149.45,
-			"dppx": "?"
+			"ppi": 149.45
 		},
 		{
 			"name": "Samsung Galaxy S",
 			"w": 480,
 			"h": 800,
 			"d": 4,
-			"ppi": 233,
-			"dppx": "?"
+			"ppi": 233
 		},
 		{
 			"name": "Samsung Galaxy S2",
@@ -1159,8 +1099,7 @@
 			"w": 480,
 			"h": 800,
 			"d": 4.5,
-			"ppi": 207,
-			"dppx": "?"
+			"ppi": 207
 		},
 		{
 			"name": "Samsung Galaxy S3",
@@ -1204,57 +1143,49 @@
 			"name": "Samsung Galaxy S7",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.1,
-			"dppx": "?"
+			"d": 5.1
 		},
 		{
 			"name": "Samsung Galaxy S7 Edge",
 			"w": 2560,
 			"h": 1440,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
 			"name": "Samsung Galaxy S8",
 			"w": 2960,
 			"h": 1440,
-			"d": 5.8,
-			"dppx": "?"
+			"d": 5.8
 		},
 		{
 			"name": "Samsung Galaxy S8+ Plus",
 			"w": 2960,
 			"h": 1440,
-			"d": 6.2,
-			"dppx": "?"
+			"d": 6.2
 		},
 		{
 			"name": "Samsung Galaxy Young",
 			"w": 320,
 			"h": 480,
-			"d": 3.27,
-			"dppx": "?"
+			"d": 3.27
 		},
 		{
 			"name": "Samsung Galaxy Xcover 2",
 			"w": 480,
 			"h": 800,
-			"d": 4,
-			"dppx": "?"
+			"d": 4
 		},
 		{
 			"name": "Samsung Galaxy Xcover 3",
 			"w": 480,
 			"h": 800,
-			"d": 4.5,
-			"dppx": "?"
+			"d": 4.5
 		},
 		{
 			"name": "Samsung Nexus S",
 			"w": 480,
 			"h": 800,
-			"d": 4,
-			"dppx": "?"
+			"d": 4
 		},
 		{
 			"name": "Samsung Nexus 10",
@@ -1267,71 +1198,61 @@
 			"name": "Sony Xperia Miro",
 			"w": 320,
 			"h": 480,
-			"d": 3.5,
-			"dppx": "?"
+			"d": 3.5
 		},
 		{
 			"name": "Sony Xperia SP",
 			"w": 720,
 			"h": 1080,
-			"d": 4.6,
-			"dppx": "?"
+			"d": 4.6
 		},
 		{
 			"name": "Sony Xperia X",
 			"w": 1920,
 			"h": 1080,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "Sony Xperia XA",
 			"w": 1280,
 			"h": 720,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "Sony Xperia XA Ultra",
 			"w": 1920,
 			"h": 1080,
-			"d": 6,
-			"dppx": "?"
+			"d": 6
 		},
 		{
 			"name": "Sony Xperia X Compact",
 			"w": 1280,
 			"h": 720,
-			"d": 4.6,
-			"dppx": "?"
+			"d": 4.6
 		},
 		{
 			"name": "Sony Xperia X Performance",
 			"w": 1920,
 			"h": 1080,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "Sony Xperia XZ",
 			"w": 1920,
 			"h": 1080,
-			"d": 5.2,
-			"dppx": "?"
+			"d": 5.2
 		},
 		{
 			"name": "Sony Xperia Z5 Compact",
 			"w": 1280,
 			"h": 720,
-			"d": 4.6,
-			"dppx": "?"
+			"d": 4.6
 		},
 		{
 			"name": "Sony Xperia Z5 Premium",
 			"w": 3840,
 			"h": 2160,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
 			"name": "Tesco Hudl 2",
@@ -1345,37 +1266,32 @@
 			"name": "Wileyfox SWIFT",
 			"w": 720,
 			"h": 1280,
-			"d": 5,
-			"dppx": "?"
+			"d": 5
 		},
 		{
 			"name": "Wileyfox STORM",
 			"w": 1080,
 			"h": 1920,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
 			"name": "ZTE Open",
 			"w": 320,
 			"h": 480,
 			"d": 3.5,
-			"ppi": 165,
-			"dppx": "?"
+			"ppi": 165
 		},
 		{
 			"name": "ZTE ZMax",
 			"w": 720,
 			"h": 1280,
-			"d": 5.7,
-			"dppx": "?"
+			"d": 5.7
 		},
 		{
 			"name": "Xiaomi Redmi Note 4",
 			"w": 1080,
 			"h": 1920,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
 			"name": "Xiaomi Redmi Note 5",
