@@ -428,6 +428,13 @@
 		"d": 23.8
 	},
 	{
+		"name": "Dell UltraSharp U3421WE",
+		"w": 3440,
+		"h": 1440,
+		"d": 34,
+		"dppx": 1,
+	},
+	{
 		"name": "Dell UltraSharp UP2414Q",
 		"w": 3840,
 		"h": 2160,
