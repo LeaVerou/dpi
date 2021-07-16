@@ -1425,6 +1425,10 @@
 			"w": 1080,
 			"h": 2400,
 			"dppx": 2.61
+		},
+		{
+			"name": "KingPad SA10",
+			"dppx": "?"
 		}
 	],
 	"dimension": "d"
