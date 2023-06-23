@@ -8,6 +8,7 @@
 			"w": 2560,
 			"h": 1440
 		},
+		{},
 		{
 			"w": 1920,
 			"h": 1080
@@ -109,35 +110,30 @@
 			"dppx": 1.5
 		},
 		{
-			"name": "Amazon Kindle Fire HDX 7",
 			"w": 1920,
 			"h": 1200,
 			"d": 7,
 			"dppx": 2
 		},
 		{
-			"name": "Amazon Kindle Fire HDX 8.9",
 			"w": 2560,
 			"h": 1600,
 			"d": 8.9,
 			"dppx": 2
 		},
 		{
-			"name": "Amazon Kindle Paperwhite (1st, 2nd)",
 			"w": 758,
 			"h": 1024,
 			"d": 6,
 			"dppx": 1.33
 		},
 		{
-			"name": "Amazon Kindle Paperwhite (3rd)",
 			"w": 1080,
 			"h": 1440,
 			"d": 6,
 			"dppx": 2
 		},
 		{
-			"name": "AOC i2352Vh",
 			"w": 1920,
 			"h": 1080,
 			"d": 23,
@@ -1349,78 +1345,58 @@
 			"dppx": "?"
 		},
 		{
-			"name": "Wileyfox STORM",
 			"w": 1080,
 			"h": 1920,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
-			"name": "ZTE Open",
 			"w": 320,
 			"h": 480,
 			"d": 3.5,
-			"ppi": 165,
-			"dppx": "?"
+			"ppi": 165
 		},
 		{
-			"name": "ZTE ZMax",
 			"w": 720,
 			"h": 1280,
-			"d": 5.7,
-			"dppx": "?"
+			"d": 5.7
 		},
 		{
-			"name": "Xiaomi Redmi Note 4",
 			"w": 1080,
 			"h": 1920,
-			"d": 5.5,
-			"dppx": "?"
+			"d": 5.5
 		},
 		{
-			"name": "Xiaomi Redmi Note 5",
 			"d": 5.99,
 			"w": 1080,
-			"h": 2160,
-			"dppx": "?"
+			"h": 2160
 		},
 		{
-			"name": "LG 23MP68VQ-P",
 			"d": 23,
 			"w": 1920,
-			"h": 1080,
-			"dppx": "?"
+			"h": 1080
 		},
 		{
-			"name": "LG 23MP68VQ",
 			"d": 23,
 			"w": 1920,
-			"h": 1080,
-			"dppx": "?"
+			"h": 1080
 		},
 		{
-			"name": "Dell S2415H",
 			"d": 23.8,
 			"w": 1920,
-			"h": 1080,
-			"dppx": "?"
+			"h": 1080
 		},
 		{
-			"name": "LG V30",
 			"d": 6,
 			"w": 1440,
-			"h": 2880,
-			"dppx": "?"
+			"h": 2880
 		},
 		{
-			"name": "Google Pixel 3a",
 			"d": 5.6,
 			"w": 1080,
 			"h": 2220,
 			"dppx": 2.75
 		},
 		{
-			"name": "OnePlus 8",
 			"d": 6.55,
 			"w": 1080,
 			"h": 2400,
