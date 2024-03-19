@@ -283,12 +283,12 @@
 			"dppx": 3
 		},
 		{
-			"name": "Apple iPhone 13",
+			"name": "Apple iPhone 12, 12 Pro, 13, 13 Pro",
 			"w": 1170,
 			"h": 2532,
-			"d": 13.3,
-			"ppi": 210,
-			"dppx": "?"
+			"d": 6.1,
+			"ppi": 460,
+			"dppx": "3"
 		},
 		{
 			"name": "Apple iMac (21-inch)",
@@ -316,14 +316,6 @@
 			"w": 5120,
 			"h": 2880,
 			"d": 27,
-			"dppx": "?"
-		},
-		{
-			"name": "Apple iPod touch (7th generation)",
-			"w": 640,
-			"h": 1136,
-			"d": 13.3,
-			"ppi": 98,
 			"dppx": "?"
 		},
 		{
