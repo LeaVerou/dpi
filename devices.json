@@ -320,6 +320,10 @@
 		},
 		{
 			"name": "Apple iPod touch (7th generation)",
+			"w": 640,
+			"h": 1136,
+			"d": 13.3,
+			"ppi": 98,
 			"dppx": "?"
 		},
 		{
