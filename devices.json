@@ -283,6 +283,14 @@
 			"dppx": 3
 		},
 		{
+			"name": "Apple iPhone 13",
+			"w": 1170,
+			"h": 2532,
+			"d": 13.3,
+			"ppi": 210,
+			"dppx": "?"
+		},
+		{
 			"name": "Apple iMac (21-inch)",
 			"w": 1920,
 			"h": 1080,
