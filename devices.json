@@ -346,6 +346,9 @@
 			"dppx": "?"
 		},
 		{
+			"dppx": "?"
+		},
+		{
 			"name": "Apple MacBook Pro",
 			"w": 1680,
 			"h": 1050,
@@ -1440,6 +1443,10 @@
 			"d": 6.67,
 			"ppi": 515,
 			"dppx": 3.5
+		},
+		{
+			"name": "Apple MacBook Pro M4 14\"",
+			"dppx": "?"
 		}
 	],
 	"dimension": "d"
